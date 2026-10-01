@@ -1,4 +1,4 @@
-# Struktur File Proyek (Aktual & Lengkap)
+# Struktur File Proyek
 
 Dokumen ini menjelaskan struktur file dan folder proyek Godot **berdasarkan implementasi aktual** game battle berbasis membentuk kata bahasa Indonesia. Struktur ini **sudah dioptimalkan untuk MVP** dengan fokus pada gameplay inti.
 
