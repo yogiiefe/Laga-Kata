@@ -8,10 +8,18 @@
 
 config_version=5
 
+[accessibility]
+
+general/updates_per_second=100
+
 [application]
 
-config/name="Box of Language!"
+config/name="Laga Kata!"
+config/version="alpha 0.0"
+run/main_scene="uid://m6uhlvb318nj"
 config/features=PackedStringArray("4.6", "GL Compatibility")
+boot_splash/show_image=false
+boot_splash/use_filter=false
 config/icon="res://icon.svg"
 
 [physics]
