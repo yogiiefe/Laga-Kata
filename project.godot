@@ -22,6 +22,12 @@ boot_splash/show_image=false
 boot_splash/use_filter=false
 config/icon="res://icon.svg"
 
+[autoload]
+
+SaveManager="*uid://dx2xp4t2bfhtf"
+AudioManager="*uid://b7neoivbud4b"
+GameManager="*uid://cqcnfw76iyd4"
+
 [display]
 
 window/size/viewport_width=1280

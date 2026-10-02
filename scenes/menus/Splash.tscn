@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://m6uhlvb318nj"]
 
-[node name="Splash" type="Node2D" unique_id=142489361]
+[node name="Splash" type="Control" unique_id=580621217]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

@@ -1,0 +1,144 @@
+{
+  "words": [
+	{
+	  "id": "word_001",
+	  "word": "API",
+	  "clue": "Sesuatu yang menghasilkan panas dan cahaya",
+	  "difficulty": 1,
+	  "category": "alam"
+	},
+	{
+	  "id": "word_002",
+	  "word": "MATA",
+	  "clue": "Organ untuk melihat",
+	  "difficulty": 1,
+	  "category": "tubuh"
+	},
+	{
+	  "id": "word_003",
+	  "word": "IKAN",
+	  "clue": "Hewan yang hidup di air",
+	  "difficulty": 1,
+	  "category": "hewan"
+	},
+	{
+	  "id": "word_004",
+	  "word": "KUCING",
+	  "clue": "Hewan peliharaan yang suka mengeong",
+	  "difficulty": 1,
+	  "category": "hewan"
+	},
+	{
+	  "id": "word_005",
+	  "word": "BUKU",
+	  "clue": "Benda yang biasanya digunakan untuk membaca",
+	  "difficulty": 1,
+	  "category": "benda"
+	},
+	{
+	  "id": "word_006",
+	  "word": "MEJA",
+	  "clue": "Perabot dengan permukaan datar untuk meletakkan barang",
+	  "difficulty": 1,
+	  "category": "benda"
+	},
+	{
+	  "id": "word_007",
+	  "word": "RUMAH",
+	  "clue": "Tempat seseorang tinggal",
+	  "difficulty": 1,
+	  "category": "tempat"
+	},
+	{
+	  "id": "word_008",
+	  "word": "SEKOLAH",
+	  "clue": "Tempat siswa belajar",
+	  "difficulty": 2,
+	  "category": "tempat"
+	},
+	{
+	  "id": "word_009",
+	  "word": "HUJAN",
+	  "clue": "Air yang jatuh dari langit",
+	  "difficulty": 1,
+	  "category": "alam"
+	},
+	{
+	  "id": "word_010",
+	  "word": "PETIR",
+	  "clue": "Cahaya terang yang muncul saat badai",
+	  "difficulty": 2,
+	  "category": "alam"
+	},
+	{
+	  "id": "word_011",
+	  "word": "MATAHARI",
+	  "clue": "Bintang yang menjadi pusat tata surya",
+	  "difficulty": 2,
+	  "category": "alam"
+	},
+	{
+	  "id": "word_012",
+	  "word": "KOMPUTER",
+	  "clue": "Perangkat elektronik yang digunakan untuk mengolah data",
+	  "difficulty": 2,
+	  "category": "teknologi"
+	},
+	{
+	  "id": "word_013",
+	  "word": "KEYBOARD",
+	  "clue": "Perangkat yang digunakan untuk mengetik",
+	  "difficulty": 2,
+	  "category": "teknologi"
+	},
+	{
+	  "id": "word_014",
+	  "word": "INTERNET",
+	  "clue": "Jaringan global yang menghubungkan banyak komputer",
+	  "difficulty": 2,
+	  "category": "teknologi"
+	},
+	{
+	  "id": "word_015",
+	  "word": "PROGRAM",
+	  "clue": "Kumpulan instruksi yang dijalankan komputer",
+	  "difficulty": 2,
+	  "category": "teknologi"
+	},
+	{
+	  "id": "word_016",
+	  "word": "PERMAINAN",
+	  "clue": "Kegiatan yang dilakukan untuk bersenang-senang",
+	  "difficulty": 2,
+	  "category": "umum"
+	},
+	{
+	  "id": "word_017",
+	  "word": "PETUALANGAN",
+	  "clue": "Perjalanan untuk mengalami sesuatu yang menarik",
+	  "difficulty": 3,
+	  "category": "umum"
+	},
+	{
+	  "id": "word_018",
+	  "word": "KEBERANIAN",
+	  "clue": "Sikap tidak takut menghadapi sesuatu yang sulit",
+	  "difficulty": 3,
+	  "category": "sifat"
+	},
+	{
+	  "id": "word_019",
+	  "word": "PERSAHABATAN",
+	  "clue": "Hubungan dekat antara dua orang atau lebih",
+	  "difficulty": 3,
+	  "category": "sosial"
+	},
+	{
+	  "id": "word_020",
+	  "word": "KEKUATAN",
+	  "clue": "Kemampuan untuk melakukan sesuatu dengan tenaga",
+	  "difficulty": 2,
+	  "category": "sifat"
+	}
+  ]
+}

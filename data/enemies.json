@@ -1,0 +1,40 @@
+{
+  "enemies": [
+	{
+	  "id": "enemy_01",
+	  "name": "Si Coret",
+	  "hp": 50,
+	  "word_speed": 8.0,
+	  "damage": 5,
+	  "difficulty": 1,
+	  "special": "none"
+	},
+	{
+	  "id": "enemy_02",
+	  "name": "Typo",
+	  "hp": 80,
+	  "word_speed": 6.5,
+	  "damage": 7,
+	  "difficulty": 2,
+	  "special": "none"
+	},
+	{
+	  "id": "enemy_03",
+	  "name": "Glitch",
+	  "hp": 120,
+	  "word_speed": 5.0,
+	  "damage": 10,
+	  "difficulty": 3,
+	  "special": "fast_attack"
+	},
+	{
+	  "id": "enemy_04",
+	  "name": "Raja Keyboard",
+	  "hp": 200,
+	  "word_speed": 4.0,
+	  "damage": 15,
+	  "difficulty": 4,
+	  "special": "boss"
+	}
+  ]
+}

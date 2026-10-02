@@ -1,0 +1,40 @@
+{
+  "stages": [
+	{
+	  "id": 1,
+	  "name": "Awal Perjalanan",
+	  "enemy_id": "enemy_01",
+	  "background": "battle_bg",
+	  "difficulty": 1,
+	  "word_difficulty": 1,
+	  "is_boss": false
+	},
+	{
+	  "id": 2,
+	  "name": "Gangguan Typo",
+	  "enemy_id": "enemy_02",
+	  "background": "battle_bg",
+	  "difficulty": 2,
+	  "word_difficulty": 1,
+	  "is_boss": false
+	},
+	{
+	  "id": 3,
+	  "name": "Dunia Glitch",
+	  "enemy_id": "enemy_03",
+	  "background": "battle_bg",
+	  "difficulty": 3,
+	  "word_difficulty": 2,
+	  "is_boss": false
+	},
+	{
+	  "id": 4,
+	  "name": "Pertempuran Terakhir",
+	  "enemy_id": "enemy_04",
+	  "background": "battle_bg_boss",
+	  "difficulty": 4,
+	  "word_difficulty": 3,
+	  "is_boss": true
+	}
+  ]
+}

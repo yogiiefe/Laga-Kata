@@ -1,0 +1,20 @@
+{
+  "powerups": [
+	{
+	  "id": "attack",
+	  "name": "Attack Boost",
+	  "description": "Meningkatkan damage serangan berikutnya",
+	  "effect": "increase_damage",
+	  "value": 2,
+	  "duration": 1
+	},
+	{
+	  "id": "shield",
+	  "name": "Shield",
+	  "description": "Memblokir satu serangan musuh",
+	  "effect": "block_damage",
+	  "value": 1,
+	  "duration": 1
+	}
+  ]
+}
