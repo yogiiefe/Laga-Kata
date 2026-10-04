@@ -29,9 +29,9 @@ func update_progress(player_words: int, enemy_words: int) -> void:
 	_resolve_nodes()
 
 	if player_count_label:
-		player_count_label.text = "PLAYER: %d words" % player_words
+		player_count_label.text = "KATA: %d" % player_words
 	if enemy_count_label:
-		enemy_count_label.text = "ENEMY: %d words" % enemy_words
+		enemy_count_label.text = "KATA: %d" % enemy_words
 
 	if player_bar:
 		player_bar.value = player_words

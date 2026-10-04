@@ -18,14 +18,53 @@ signal battle_lost()
 @onready var battle_ui: BattleUI = $Battle_UI_Layer/BattleUI if has_node("Battle_UI_Layer/BattleUI") else null
 @onready var word_input: Control = $Battle_UI_Layer/WordInput if has_node("Battle_UI_Layer/WordInput") else null
 
+const PAUSE_SCENE := preload("res://scenes/menus/PauseMenu.tscn")
+
 var _battle_active: bool = false
 var _round_active: bool = false
 
 
 func _ready() -> void:
 	_ensure_components()
+	_update_layout()
+	get_viewport().size_changed.connect(_update_layout)
 	# Gunakan call_deferred agar semua @onready sudah selesai init
 	call_deferred("_setup_battle")
+
+
+## Pemain selalu di kiri, musuh di kanan (mengikuti lebar viewport)
+func _update_layout() -> void:
+	var width := get_viewport_rect().size.x
+	if player:
+		player.position.x = 190.0
+	if enemy:
+		enemy.position.x = width - 210.0
+
+
+func _open_pause(open_settings: bool = false) -> void:
+	if not _battle_active or get_tree().paused:
+		return
+	var pause_menu := PAUSE_SCENE.instantiate()
+	$Battle_UI_Layer.add_child(pause_menu)
+	pause_menu.resumed.connect(func():
+		battle_ui.apply_label_setting()
+		if word_input:
+			word_input.grab_focus_input()
+	)
+	if open_settings:
+		pause_menu.call("_on_settings_pressed")
+
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("ui_cancel"):
+		_open_pause()
+
+
+func _on_enemy_word_typed() -> void:
+	# Musuh "mengetik" satu kata: tampilkan kata KBBI acak di balon musuh
+	var sample := word_manager.sample_word(max_word_difficulty)
+	if battle_ui:
+		battle_ui.set_enemy_word(str(sample.get("word", "...")))
 
 
 func _ensure_components() -> void:
@@ -72,8 +111,14 @@ func _setup_battle() -> void:
 	if enemy:
 		if not enemy.word_count_changed.is_connected(_on_word_count_changed):
 			enemy.word_count_changed.connect(_on_word_count_changed)
+		if not enemy.word_typed.is_connected(_on_enemy_word_typed):
+			enemy.word_typed.connect(_on_enemy_word_typed)
 		if not enemy.enemy_defeated.is_connected(_on_enemy_defeated):
 			enemy.enemy_defeated.connect(_on_enemy_defeated)
+
+	if battle_ui:
+		battle_ui.pause_pressed.connect(_open_pause)
+		battle_ui.settings_pressed.connect(_open_pause.bind(true))
 
 	# Connect Timer signals
 	if battle_timer:
@@ -104,6 +149,8 @@ func start_new_round() -> void:
 
 	if battle_ui:
 		battle_ui.update_word_progress(0, 0)
+		battle_ui.set_user_word("")
+		battle_ui.set_enemy_word("")
 		battle_ui.set_clue("Memuat petunjuk...")
 
 	# Ambil kata acak — sinyal word_selected akan memanggil _on_word_selected
@@ -129,20 +176,24 @@ func _on_word_selected(word_data: Dictionary) -> void:
 		battle_ui.set_clue(clue_text + "\n[%d huruf]" % word_len)
 
 
-func _on_player_word_completed(_word_data: Dictionary) -> void:
+func _on_player_word_completed(word_data: Dictionary) -> void:
 	if not _battle_active or not _round_active:
 		return
 	if player:
 		player.add_word(1)
 	if AudioManager:
 		AudioManager.play_sfx("word_correct")
+	if battle_ui:
+		battle_ui.set_user_word(str(word_data.get("word", "")), true)
 
 	# Ambil kata baru setelah jawaban benar
 	if word_manager:
 		word_manager.get_random_word(max_word_difficulty)
 
 
-func _on_word_failed(_submitted: String) -> void:
+func _on_word_failed(submitted: String) -> void:
+	if battle_ui:
+		battle_ui.set_user_word(submitted.to_upper(), false)
 	# Feedback salah sudah ditangani di WordInput._show_feedback
 	if AudioManager:
 		AudioManager.play_sfx("word_wrong")
@@ -187,7 +238,7 @@ func _on_round_ended() -> void:
 			return  # Salah satu sudah defeated, tunggu signal defeated
 
 	# Lanjut ronde baru setelah jeda singkat
-	get_tree().create_timer(2.0).timeout.connect(start_new_round)
+	get_tree().create_timer(2.0, false).timeout.connect(start_new_round)
 
 
 func _show_round_result(winner: String, damage: int) -> void:
@@ -223,7 +274,7 @@ func _on_player_defeated() -> void:
 
 	print("Battle: Player Kalah!")
 	# Beri jeda sebelum pindah scene
-	get_tree().create_timer(1.5).timeout.connect(func(): battle_lost.emit())
+	get_tree().create_timer(1.5, false).timeout.connect(func(): battle_lost.emit())
 
 
 func _on_enemy_defeated() -> void:
@@ -244,4 +295,4 @@ func _on_enemy_defeated() -> void:
 	AudioManager.play_bgm("win", false)
 
 	print("Battle: Player Menang!")
-	get_tree().create_timer(1.5).timeout.connect(func(): battle_won.emit())
+	get_tree().create_timer(1.5, false).timeout.connect(func(): battle_won.emit())

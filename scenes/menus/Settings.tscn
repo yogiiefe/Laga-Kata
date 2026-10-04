@@ -70,6 +70,12 @@ max_value = 1.0
 step = 0.05
 value = 1.0
 
+[node name="LabelsCheck" type="CheckButton" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+button_pressed = true
+text = "Tampilkan label (HP & jumlah kata)"
+
 [node name="BackButton" type="Button" parent="VBoxContainer"]
 custom_minimum_size = Vector2(300, 60)
 layout_mode = 2
@@ -79,4 +85,5 @@ text = "KEMBALI"
 
 [connection signal="value_changed" from="VBoxContainer/BgmSlider" to="." method="_on_bgm_changed"]
 [connection signal="value_changed" from="VBoxContainer/SfxSlider" to="." method="_on_sfx_changed"]
+[connection signal="toggled" from="VBoxContainer/LabelsCheck" to="." method="_on_labels_toggled"]
 [connection signal="pressed" from="VBoxContainer/BackButton" to="." method="_on_back_pressed"]

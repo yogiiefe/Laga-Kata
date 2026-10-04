@@ -46,6 +46,12 @@ func apply_saved_settings() -> void:
 	set_sfx_volume(float(settings.get("sfx_volume", 1.0)))
 
 
+func toggle_mute() -> bool:
+	var muted := not AudioServer.is_bus_mute(0)
+	AudioServer.set_bus_mute(0, muted)
+	return muted
+
+
 func set_bgm_volume(value: float) -> void:
 	bgm_volume = clampf(value, 0.0, 1.0)
 	if bgm_player:

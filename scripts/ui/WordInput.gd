@@ -61,7 +61,6 @@ func _show_feedback(correct: bool) -> void:
 	if not input_field:
 		return
 	# Flash warna hijau (benar) atau merah (salah)
-	var original_color: Color = input_field.get_theme_color("font_color") if input_field.has_theme_color("font_color", "") else Color.WHITE
 	var flash_color: Color = Color.GREEN if correct else Color.RED
 
 	input_field.add_theme_color_override("font_color", flash_color)

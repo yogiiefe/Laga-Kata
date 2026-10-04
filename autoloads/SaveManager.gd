@@ -8,7 +8,8 @@ var save_data: Dictionary = {
 	"high_scores": {},
 	"settings": {
 		"bgm_volume": 1.0,
-		"sfx_volume": 1.0
+		"sfx_volume": 1.0,
+		"show_labels": true
 	}
 }
 

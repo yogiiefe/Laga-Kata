@@ -7,4 +7,4 @@ script = ExtResource("1_enemy")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, 0)
-scale = Vector2(0.17, 0.17)
+scale = Vector2(0.2, 0.2)

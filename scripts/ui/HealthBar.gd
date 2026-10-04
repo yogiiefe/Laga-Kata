@@ -3,6 +3,7 @@ class_name HealthBar
 
 @export var progress_bar_path: NodePath
 @export var hp_label_path: NodePath
+@export var fill_color: Color = Color(0.1, 0.8, 0.9)
 @export var animate_smooth: bool = true
 @export var tween_duration: float = 0.35
 
@@ -13,6 +14,28 @@ var current_tween: Tween
 
 func _ready() -> void:
 	_resolve_node_references()
+	_apply_style()
+
+
+## Gaya coret-coret: isi berwarna (cyan = pemain, pink = musuh) dengan garis tepi tebal
+func _apply_style() -> void:
+	if progress_bar == null:
+		return
+	var back := StyleBoxFlat.new()
+	back.bg_color = Color(0.97, 0.97, 0.97)
+	var fill := StyleBoxFlat.new()
+	fill.bg_color = fill_color
+	for box: StyleBoxFlat in [back, fill]:
+		box.set_corner_radius_all(8)
+		box.set_border_width_all(3)
+		box.border_color = Color(0.1, 0.1, 0.1)
+	progress_bar.add_theme_stylebox_override("background", back)
+	progress_bar.add_theme_stylebox_override("fill", fill)
+
+
+func set_label_visible(shown: bool) -> void:
+	if hp_label:
+		hp_label.visible = shown
 
 
 func _resolve_node_references() -> void:

@@ -33,7 +33,7 @@ GameManager="*uid://cqcnfw76iyd4"
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
-window/stretch/aspect="keep"
+window/stretch/aspect="expand"
 mouse_cursor/updates_per_second=100
 
 [physics]
