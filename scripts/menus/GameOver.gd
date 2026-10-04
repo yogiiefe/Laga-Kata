@@ -6,7 +6,7 @@ const MAIN_GAME_PATH := "res://scenes/game/MainGame.tscn"
 
 func _ready() -> void:
 	# Tombol disambungkan lewat scene
-	pass
+	$VBoxContainer/RetryButton.grab_focus()
 
 
 func _on_retry_pressed() -> void:

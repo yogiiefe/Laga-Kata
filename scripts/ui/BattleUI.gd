@@ -21,6 +21,8 @@ func _ready() -> void:
 	settings_button.pressed.connect(func(): settings_pressed.emit())
 	mute_button.pressed.connect(_on_mute_pressed)
 	apply_label_setting()
+	if AudioServer.is_bus_mute(0):
+		mute_button.modulate = Color(1, 1, 1, 0.45)
 
 
 ## Pengaturan "Tampilkan Label": menyembunyikan angka HP dan jumlah kata bila dimatikan
@@ -55,9 +57,15 @@ func update_word_progress(player_words: int, enemy_words: int) -> void:
 
 
 ## Kata terakhir yang diketik pemain (hijau = benar, merah = salah)
-func set_user_word(text: String, correct: bool = true) -> void:
+## state: "typing" (sedang diketik), "ok" (benar, hijau), "bad" (salah, merah)
+func set_user_word(text: String, state: String = "typing") -> void:
 	user_word_label.text = text
-	user_word_label.add_theme_color_override("font_color", Color(0.0, 0.5, 0.2) if correct else Color(0.85, 0.1, 0.1))
+	var colors := {
+		"typing": Color(0.05, 0.1, 0.15),
+		"ok": Color(0.0, 0.5, 0.2),
+		"bad": Color(0.85, 0.1, 0.1),
+	}
+	user_word_label.add_theme_color_override("font_color", colors.get(state, colors["typing"]))
 
 
 func set_enemy_word(text: String) -> void:

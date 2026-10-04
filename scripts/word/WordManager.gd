@@ -32,10 +32,10 @@ func _ready() -> void:
 	_regex_lead_number.compile("^\\d+\\.\\s*")
 	_regex_spaces.compile("\\s+")
 
+	load_words() # cadangan bila CSV tidak bisa dibaca / tidak ada kata yang cocok
 	_kbbi_file = FileAccess.open(KBBI_PATH, FileAccess.READ)
 	if _kbbi_file == null:
-		push_warning("WordManager: KBBI CSV tidak bisa dibuka, memakai words.json")
-		load_words()
+		push_warning("WordManager: KBBI CSV tidak bisa dibuka (%s), memakai words.json" % KBBI_PATH)
 
 
 func load_words() -> void:
@@ -93,6 +93,7 @@ func sample_word(max_difficulty: int = 3) -> Dictionary:
 			"category": str(row[3]),
 		}
 
+	push_warning("WordManager: tidak menemukan kata KBBI yang cocok, memakai words.json")
 	return _sample_fallback(level)
 
 
@@ -122,6 +123,7 @@ func get_random_word(max_difficulty: int = 3) -> Dictionary:
 		return {}
 
 	current_word = selected
+	print("WordManager: kata=%s | clue=%s" % [current_word.get("word"), current_word.get("clue")])
 	word_selected.emit(current_word)
 	return current_word
 

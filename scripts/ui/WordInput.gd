@@ -1,6 +1,8 @@
 extends Control
 
 signal word_submitted(text: String)
+## Dipancarkan setiap pemain mengubah teks (untuk balon kata pemain)
+signal text_edited(text: String)
 
 # Path ke LineEdit menyesuaikan struktur WordInput.tscn
 @onready var input_field: LineEdit = _find_line_edit()
@@ -11,6 +13,7 @@ signal word_submitted(text: String)
 func _ready() -> void:
 	if input_field:
 		input_field.text_submitted.connect(_on_text_submitted)
+		input_field.text_changed.connect(func(t: String): text_edited.emit(t))
 		input_field.grab_focus()
 	else:
 		push_error("WordInput: Tidak bisa menemukan LineEdit!")
@@ -78,6 +81,7 @@ func set_enabled(enabled: bool) -> void:
 		input_field.grab_focus()
 	else:
 		input_field.clear()
+		input_field.release_focus()
 
 
 func grab_focus_input() -> void:

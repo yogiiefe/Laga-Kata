@@ -8,7 +8,7 @@ var is_final: bool = false
 
 func _ready() -> void:
 	# Tombol disambungkan lewat scene
-	pass
+	$VBoxContainer/NextButton.grab_focus()
 
 
 ## Dipanggil MainGame setelah overlay di-instantiate

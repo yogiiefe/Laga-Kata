@@ -99,6 +99,7 @@ func _setup_battle() -> void:
 	# Assign WordManager ke WordInput
 	if word_input:
 		word_input.word_manager = word_manager
+		word_input.text_edited.connect(func(t: String): battle_ui.set_user_word(t.to_upper(), "typing"))
 
 	# Connect Player signals
 	if player:
@@ -184,7 +185,7 @@ func _on_player_word_completed(word_data: Dictionary) -> void:
 	if AudioManager:
 		AudioManager.play_sfx("word_correct")
 	if battle_ui:
-		battle_ui.set_user_word(str(word_data.get("word", "")), true)
+		battle_ui.set_user_word(str(word_data.get("word", "")), "ok")
 
 	# Ambil kata baru setelah jawaban benar
 	if word_manager:
@@ -193,7 +194,7 @@ func _on_player_word_completed(word_data: Dictionary) -> void:
 
 func _on_word_failed(submitted: String) -> void:
 	if battle_ui:
-		battle_ui.set_user_word(submitted.to_upper(), false)
+		battle_ui.set_user_word(submitted.to_upper(), "bad")
 	# Feedback salah sudah ditangani di WordInput._show_feedback
 	if AudioManager:
 		AudioManager.play_sfx("word_wrong")

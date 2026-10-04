@@ -12,3 +12,4 @@ script = ExtResource("2_stage_manager")
 [node name="BattleManager" type="Node" parent="." unique_id=1309507636]
 
 [node name="OverlayMenuLayer" type="CanvasLayer" parent="." unique_id=1946465195]
+layer = 10
