@@ -27,10 +27,10 @@ var _regex_spaces := RegEx.new()
 
 func _ready() -> void:
 	_regex_word.compile("^[a-z]+$")
-	_regex_next_sense.compile("\s\d+\.\s*\[.*$")
-	_regex_tag.compile("\[[^\]]*\]")
-	_regex_lead_number.compile("^\d+\.\s*")
-	_regex_spaces.compile("\s+")
+	_regex_next_sense.compile("\\s\\d+\\.\\s*\\[.*$")
+	_regex_tag.compile("\\[[^\\]]*\\]")
+	_regex_lead_number.compile("^\\d+\\.\\s*")
+	_regex_spaces.compile("\\s+")
 
 	_kbbi_file = FileAccess.open(KBBI_PATH, FileAccess.READ)
 	if _kbbi_file == null:
