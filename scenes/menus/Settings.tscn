@@ -1,8 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://bv1ilja2njm2u"]
+[gd_scene load_steps=8 format=3 uid="uid://bv1ilja2njm2u"]
 
 [ext_resource type="Script" path="res://scripts/menus/SettingsMenu.gd" id="1_settings"]
 [ext_resource type="Texture2D" path="res://assets/graphics/backgrounds/MainMenuBg.png" id="2_bg"]
 [ext_resource type="FontFile" path="res://assets/fonts/handmade-alphabet/Handmade Alphabet.otf" id="3_font"]
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/settings.audio.button.svg" id="4_audio"]
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/settings.gameplay.button.svg" id="5_game"]
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/muteunmute.button.svg" id="6_speaker"]
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/settings.button.svg" id="7_gear"]
 
 [node name="Settings" type="Control"]
 layout_mode = 3
@@ -20,9 +24,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 texture = ExtResource("2_bg")
 expand_mode = 1
-stretch_mode = 6
+stretch_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -31,59 +36,186 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -220.0
-offset_right = 300.0
-offset_bottom = 220.0
+offset_left = -330.0
+offset_top = -335.0
+offset_right = 330.0
+offset_bottom = 335.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 24
+theme_override_constants/separation = 10
 alignment = 1
 
 [node name="Title" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.96862745, 0.31764707, 0.5568628, 1)
 theme_override_fonts/font = ExtResource("3_font")
-theme_override_font_sizes/font_size = 90
+theme_override_font_sizes/font_size = 72
 text = "PENGATURAN"
 horizontal_alignment = 1
 
-[node name="BgmLabel" type="Label" parent="VBoxContainer"]
+[node name="AudioBanner" type="TextureRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
 layout_mode = 2
-theme_override_font_sizes/font_size = 26
+size_flags_horizontal = 0
+texture = ExtResource("4_audio")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="MusicRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Icon" type="TextureRect" parent="VBoxContainer/MusicRow"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("6_speaker")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="VBoxContainer/MusicRow"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
 text = "Musik"
+vertical_alignment = 1
 
-[node name="BgmSlider" type="HSlider" parent="VBoxContainer"]
+[node name="Slider" type="HSlider" parent="VBoxContainer/MusicRow"]
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
 max_value = 1.0
 step = 0.05
 value = 1.0
 
-[node name="SfxLabel" type="Label" parent="VBoxContainer"]
+[node name="Value" type="Label" parent="VBoxContainer/MusicRow"]
+custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 26
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "100%"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="SfxRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Icon" type="TextureRect" parent="VBoxContainer/SfxRow"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("6_speaker")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="VBoxContainer/SfxRow"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
 text = "Efek Suara"
+vertical_alignment = 1
 
-[node name="SfxSlider" type="HSlider" parent="VBoxContainer"]
+[node name="Slider" type="HSlider" parent="VBoxContainer/SfxRow"]
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
 max_value = 1.0
 step = 0.05
 value = 1.0
 
-[node name="LabelsCheck" type="CheckButton" parent="VBoxContainer"]
+[node name="Value" type="Label" parent="VBoxContainer/SfxRow"]
+custom_minimum_size = Vector2(70, 0)
 layout_mode = 2
-theme_override_font_sizes/font_size = 26
-button_pressed = true
-text = "Tampilkan label (HP & jumlah kata)"
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "100%"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="MuteRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Icon" type="TextureRect" parent="VBoxContainer/MuteRow"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("6_speaker")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="VBoxContainer/MuteRow"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Bisukan semua suara"
+vertical_alignment = 1
+
+[node name="Toggle" type="CheckButton" parent="VBoxContainer/MuteRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="State" type="Label" parent="VBoxContainer/MuteRow"]
+custom_minimum_size = Vector2(90, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "MATI"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="GameBanner" type="TextureRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+size_flags_horizontal = 0
+texture = ExtResource("5_game")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LabelRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Icon" type="TextureRect" parent="VBoxContainer/LabelRow"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+texture = ExtResource("7_gear")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Name" type="Label" parent="VBoxContainer/LabelRow"]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Label HUD (angka HP & kata)"
+vertical_alignment = 1
+
+[node name="Toggle" type="CheckButton" parent="VBoxContainer/LabelRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="State" type="Label" parent="VBoxContainer/LabelRow"]
+custom_minimum_size = Vector2(90, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.1, 0.1, 0.1, 1)
+theme_override_font_sizes/font_size = 24
+text = "MATI"
+horizontal_alignment = 2
+vertical_alignment = 1
 
 [node name="BackButton" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(300, 60)
+custom_minimum_size = Vector2(300, 56)
 layout_mode = 2
 size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 28
 text = "KEMBALI"
 
-[connection signal="value_changed" from="VBoxContainer/BgmSlider" to="." method="_on_bgm_changed"]
-[connection signal="value_changed" from="VBoxContainer/SfxSlider" to="." method="_on_sfx_changed"]
-[connection signal="toggled" from="VBoxContainer/LabelsCheck" to="." method="_on_labels_toggled"]
+[connection signal="value_changed" from="VBoxContainer/MusicRow/Slider" to="." method="_on_bgm_changed"]
+[connection signal="value_changed" from="VBoxContainer/SfxRow/Slider" to="." method="_on_sfx_changed"]
+[connection signal="toggled" from="VBoxContainer/MuteRow/Toggle" to="." method="_on_mute_toggled"]
+[connection signal="toggled" from="VBoxContainer/LabelRow/Toggle" to="." method="_on_labels_toggled"]
 [connection signal="pressed" from="VBoxContainer/BackButton" to="." method="_on_back_pressed"]

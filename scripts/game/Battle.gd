@@ -140,6 +140,7 @@ func start_new_round() -> void:
 		return
 
 	_round_active = true
+	word_manager.accepting = true
 	if word_input:
 		word_input.set_enabled(true)
 
@@ -215,6 +216,7 @@ func _on_round_ended() -> void:
 		return
 
 	_round_active = false
+	word_manager.accepting = false
 	if word_input:
 		word_input.set_enabled(false)
 
@@ -261,6 +263,7 @@ func _on_player_defeated() -> void:
 		return
 	_battle_active = false
 	_round_active = false
+	word_manager.accepting = false
 	if word_input:
 		word_input.set_enabled(false)
 
@@ -283,6 +286,7 @@ func _on_enemy_defeated() -> void:
 		return
 	_battle_active = false
 	_round_active = false
+	word_manager.accepting = false
 	if word_input:
 		word_input.set_enabled(false)
 

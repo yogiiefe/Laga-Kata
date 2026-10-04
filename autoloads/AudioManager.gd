@@ -44,12 +44,21 @@ func apply_saved_settings() -> void:
 	var settings: Dictionary = SaveManager.save_data.get("settings", {})
 	set_bgm_volume(float(settings.get("bgm_volume", 1.0)))
 	set_sfx_volume(float(settings.get("sfx_volume", 1.0)))
+	AudioServer.set_bus_mute(0, bool(settings.get("muted", false)))
+
+
+func is_muted() -> bool:
+	return AudioServer.is_bus_mute(0)
+
+
+func set_muted(muted: bool) -> void:
+	AudioServer.set_bus_mute(0, muted)
+	SaveManager.save_data["settings"]["muted"] = muted
 
 
 func toggle_mute() -> bool:
-	var muted := not AudioServer.is_bus_mute(0)
-	AudioServer.set_bus_mute(0, muted)
-	return muted
+	set_muted(not is_muted())
+	return is_muted()
 
 
 func set_bgm_volume(value: float) -> void:

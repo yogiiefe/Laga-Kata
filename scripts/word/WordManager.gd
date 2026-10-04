@@ -15,7 +15,10 @@ const MAX_CLUE_LENGTH := 110
 const MAX_LENGTH_BY_DIFFICULTY := {1: 5, 2: 8, 3: 11}
 
 var words: Array = [] # cadangan dari words.json bila CSV tidak bisa dibuka
+## Satu-satunya sumber kebenaran: {id, word (=kata), clue (=makna), ...}
 var current_word: Dictionary = {}
+## Hanya true selama ronde aktif; di luar itu jawaban diabaikan (tidak dihitung)
+var accepting: bool = false
 
 var _kbbi_file: FileAccess
 var _regex_word := RegEx.new()
@@ -74,6 +77,8 @@ func sample_word(max_difficulty: int = 3) -> Dictionary:
 			continue
 
 		var kata := row[0]
+		if kata == str(current_word.get("id", "")):
+			continue # jangan ulang kata yang sama berturut-turut
 		if kata.length() < 3 or kata.length() > max_len:
 			continue
 		if _regex_word.search(kata) == null:
@@ -155,23 +160,23 @@ func get_random_word_by_category(category: String) -> Dictionary:
 
 
 func submit_word(player_input: String) -> bool:
+	if not accepting:
+		return false
+	if WordValidator.is_empty(player_input):
+		return false # input kosong diabaikan
 	if current_word.is_empty():
 		push_warning("WordManager: Belum ada current word.")
 		return false
 
-	var correct_word: String = str(current_word.get("word", ""))
+	# Bandingkan dengan `kata` (jawaban), BUKAN dengan `makna` (clue)
+	var solved: Dictionary = current_word
+	if WordValidator.validate(player_input, str(solved.get("word", ""))):
+		current_word = {} # satu kata hanya boleh dihitung sekali
+		word_completed.emit(solved)
+		return true
 
-	var is_correct: bool = WordValidator.validate(
-		player_input,
-		correct_word
-	)
-
-	if is_correct:
-		word_completed.emit(current_word)
-	else:
-		word_failed.emit(player_input)
-
-	return is_correct
+	word_failed.emit(player_input)
+	return false
 
 
 func get_current_word() -> Dictionary:

@@ -9,7 +9,8 @@ var save_data: Dictionary = {
 	"settings": {
 		"bgm_volume": 1.0,
 		"sfx_volume": 1.0,
-		"show_labels": true
+		"show_labels": true,
+		"muted": false
 	}
 }
 
