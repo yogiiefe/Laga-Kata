@@ -87,7 +87,7 @@ func _on_battle_won() -> void:
 
 	var overlay := _show_overlay(STAGE_CLEAR_SCENE)
 	if overlay and overlay.has_method("setup"):
-		overlay.setup(is_final)
+		overlay.call("setup", is_final)
 
 
 func _on_battle_lost() -> void:

@@ -23,8 +23,6 @@ func _resolve_node_references() -> void:
 			progress_bar = get_node("TextureProgressBar") as Range
 		elif has_node("ProgressBar"):
 			progress_bar = get_node("ProgressBar") as Range
-		elif self is Range:
-			progress_bar = self
 
 	if hp_label == null:
 		if not hp_label_path.is_empty():
