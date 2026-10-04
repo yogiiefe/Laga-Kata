@@ -40,9 +40,9 @@ func update_progress(player_words: int, enemy_words: int) -> void:
 
 	if status_label:
 		if player_words > enemy_words:
-			status_label.text = "Kamu Unggul! 🔥"
+			status_label.text = "Kamu Unggul!"
 		elif enemy_words > player_words:
-			status_label.text = "Musuh Unggul! ⚠️"
+			status_label.text = "Musuh Unggul!"
 		else:
 			status_label.text = "SERI!"
 

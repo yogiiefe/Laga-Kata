@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://2oauugkwyuyu"]
+[gd_scene load_steps=6 format=3 uid="uid://2oauugkwyuyu"]
 
 [ext_resource type="Script" path="res://scripts/ui/BattleUI.gd" id="1_battle_ui_script"]
 [ext_resource type="PackedScene" uid="uid://btk3e7i275oiq" path="res://scenes/ui/HealthBar.tscn" id="2_healthbar"]
 [ext_resource type="PackedScene" uid="uid://c5wq643wmth1v" path="res://scenes/ui/WordProgress.tscn" id="3_word_progress"]
+
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/clue.block.svg" id="4_clue"]
+[ext_resource type="Texture2D" path="res://assets/graphics/ui/timer.block.svg" id="5_timer"]
 
 [node name="BattleUI" type="Control" unique_id=761287857]
 layout_mode = 3
@@ -31,6 +34,21 @@ offset_right = -20.0
 offset_bottom = 55.0
 grow_horizontal = 0
 
+[node name="TimerBlock" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -70.0
+offset_top = 5.0
+offset_right = 70.0
+offset_bottom = 65.0
+grow_horizontal = 2
+mouse_filter = 2
+texture = ExtResource("5_timer")
+expand_mode = 1
+stretch_mode = 5
+
 [node name="TimerLabel" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 5
@@ -46,22 +64,30 @@ text = "15"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="CluePanel" type="Panel" parent="."]
+[node name="CluePanel" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -320.0
+offset_left = -200.0
 offset_top = 70.0
-offset_right = 320.0
-offset_bottom = 180.0
+offset_right = 200.0
+offset_bottom = 278.0
 grow_horizontal = 2
+mouse_filter = 2
+texture = ExtResource("4_clue")
+expand_mode = 1
+stretch_mode = 5
 
 [node name="ClueLabel" type="Label" parent="CluePanel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 30.0
+offset_right = -40.0
+offset_bottom = -30.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 20
@@ -72,14 +98,11 @@ autowrap_mode = 3
 
 [node name="WordProgress" parent="." instance=ExtResource("3_word_progress")]
 layout_mode = 1
-anchors_preset = 7
+anchors_preset = 5
 anchor_left = 0.5
-anchor_top = 1.0
 anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -250.0
-offset_top = -110.0
-offset_right = 250.0
-offset_bottom = -10.0
+offset_left = -205.0
+offset_top = 290.0
+offset_right = 205.0
+offset_bottom = 340.0
 grow_horizontal = 2
-grow_vertical = 0

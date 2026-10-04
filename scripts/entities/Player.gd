@@ -9,6 +9,8 @@ signal word_count_changed(new_count: int)
 signal player_defeated()
 
 @export var max_hp: int = 100
+## Damage dasar saat pemain memenangkan ronde
+@export var damage: int = 12
 
 var current_hp: int = 100
 var word_count: int = 0

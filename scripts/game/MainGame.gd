@@ -56,9 +56,9 @@ func load_battle_scene(stage_data: Dictionary) -> void:
 	if enemy_node:
 		enemy_node.load_enemy_data(enemy_id)
 
-	# Set round_duration sesuai stage (opsional, default 15 detik)
-	if "round_duration" in current_battle_node:
-		current_battle_node.round_duration = 15.0
+	# Kesulitan kata mengikuti stage
+	if "max_word_difficulty" in current_battle_node:
+		current_battle_node.max_word_difficulty = word_diff
 
 	# Simpan stage info ke GameManager
 	if GameManager and "current_stage_index" in GameManager:
@@ -75,30 +75,33 @@ func _on_battle_won() -> void:
 	if AudioManager:
 		AudioManager.play_sfx("stage_clear")
 
-	var next_stage_data: Dictionary = stage_manager.next_stage()
+	var is_final: bool = current_stage_index + 1 >= stage_manager.stages.size()
 
-	if not next_stage_data.is_empty():
-		# Ada stage berikutnya — tampilkan StageClear overlay, lalu lanjut
+	if not is_final:
+		# Simpan progres supaya MainGame berikutnya memuat stage selanjutnya
 		current_stage_index += 1
-		_show_overlay(STAGE_CLEAR_SCENE)
+		GameManager.current_stage_index = current_stage_index
 	else:
-		# Semua stage selesai
 		print("MainGame: Semua stage selesai! TAMAT!")
-		_show_overlay(STAGE_CLEAR_SCENE)
+		GameManager.current_stage_index = 0
+
+	var overlay := _show_overlay(STAGE_CLEAR_SCENE)
+	if overlay and overlay.has_method("setup"):
+		overlay.setup(is_final)
 
 
 func _on_battle_lost() -> void:
 	if AudioManager:
 		AudioManager.play_sfx("game_over")
-	_change_scene(GAME_OVER_SCENE)
+	_show_overlay(GAME_OVER_SCENE)
 
 
 ## Tampilkan scene sebagai overlay di CanvasLayer (tidak menghapus battle di bawah)
-func _show_overlay(scene_path: String) -> void:
+func _show_overlay(scene_path: String) -> Node:
 	if overlay_layer == null:
 		# Fallback: ganti scene langsung
 		_change_scene(scene_path)
-		return
+		return null
 
 	# Bersihkan overlay lama
 	for child in overlay_layer.get_children():
@@ -108,10 +111,11 @@ func _show_overlay(scene_path: String) -> void:
 	if packed == null:
 		push_error("MainGame: Gagal load overlay scene: " + scene_path)
 		_change_scene(scene_path)
-		return
+		return null
 
 	var overlay := packed.instantiate()
 	overlay_layer.add_child(overlay)
+	return overlay
 
 
 func _change_scene(scene_path: String) -> void:

@@ -61,14 +61,14 @@ layout_mode = 2
 size_flags_horizontal = 4
 custom_minimum_size = Vector2(300, 60)
 theme_override_font_sizes/font_size = 28
-text = "▶  STAGE BERIKUTNYA"
+text = "STAGE BERIKUTNYA"
 
 [node name="MenuButton" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
 custom_minimum_size = Vector2(300, 60)
 theme_override_font_sizes/font_size = 28
-text = "🏠  MENU UTAMA"
+text = "MENU UTAMA"
 
 [connection signal="pressed" from="VBoxContainer/NextButton" to="." method="_on_next_pressed"]
 [connection signal="pressed" from="VBoxContainer/MenuButton" to="." method="_on_menu_pressed"]

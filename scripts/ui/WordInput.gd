@@ -71,6 +71,16 @@ func _show_feedback(correct: bool) -> void:
 	)
 
 
+func set_enabled(enabled: bool) -> void:
+	if input_field == null:
+		return
+	input_field.editable = enabled
+	if enabled:
+		input_field.grab_focus()
+	else:
+		input_field.clear()
+
+
 func grab_focus_input() -> void:
 	if input_field:
 		input_field.grab_focus()

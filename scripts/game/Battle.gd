@@ -4,6 +4,8 @@ signal battle_won()
 signal battle_lost()
 
 @export var round_duration: float = 15.0
+## Kesulitan kata maksimum untuk stage ini (diset oleh MainGame dari stages.json)
+@export var max_word_difficulty: int = 3
 
 @onready var word_manager: WordManager = $WordManager
 @onready var player: Player = $Player
@@ -17,6 +19,7 @@ signal battle_lost()
 @onready var word_input: Control = $Battle_UI_Layer/WordInput if has_node("Battle_UI_Layer/WordInput") else null
 
 var _battle_active: bool = false
+var _round_active: bool = false
 
 
 func _ready() -> void:
@@ -81,6 +84,7 @@ func _setup_battle() -> void:
 			if not battle_timer.round_ended.is_connected(_on_round_ended):
 				battle_timer.round_ended.connect(_on_round_ended)
 
+	AudioManager.play_bgm("battle")
 	_battle_active = true
 	start_new_round()
 
@@ -88,6 +92,10 @@ func _setup_battle() -> void:
 func start_new_round() -> void:
 	if not _battle_active:
 		return
+
+	_round_active = true
+	if word_input:
+		word_input.set_enabled(true)
 
 	if player:
 		player.reset_round()
@@ -100,7 +108,7 @@ func start_new_round() -> void:
 
 	# Ambil kata acak — sinyal word_selected akan memanggil _on_word_selected
 	if word_manager:
-		word_manager.get_random_word(3)
+		word_manager.get_random_word(max_word_difficulty)
 
 	# Mulai timer ronde
 	if battle_timer and battle_timer.has_method("start_round"):
@@ -122,7 +130,7 @@ func _on_word_selected(word_data: Dictionary) -> void:
 
 
 func _on_player_word_completed(_word_data: Dictionary) -> void:
-	if not _battle_active:
+	if not _battle_active or not _round_active:
 		return
 	if player:
 		player.add_word(1)
@@ -131,7 +139,7 @@ func _on_player_word_completed(_word_data: Dictionary) -> void:
 
 	# Ambil kata baru setelah jawaban benar
 	if word_manager:
-		word_manager.get_random_word(3)
+		word_manager.get_random_word(max_word_difficulty)
 
 
 func _on_word_failed(_submitted: String) -> void:
@@ -153,6 +161,10 @@ func _on_timer_second_ticked(seconds_left: int) -> void:
 func _on_round_ended() -> void:
 	if not _battle_active:
 		return
+
+	_round_active = false
+	if word_input:
+		word_input.set_enabled(false)
 
 	if enemy:
 		enemy.stop_typing()
@@ -184,11 +196,11 @@ func _show_round_result(winner: String, damage: int) -> void:
 	var msg: String
 	match winner:
 		"player":
-			msg = "✅ Kamu menang ronde ini!\n-%d HP musuh" % damage
+			msg = "Kamu menang ronde ini!\n-%d HP musuh" % damage
 		"enemy":
-			msg = "❌ Musuh menang ronde ini!\n-%d HP kamu" % damage
+			msg = "Musuh menang ronde ini!\n-%d HP kamu" % damage
 		_:
-			msg = "⚔️ SERI! Tidak ada damage."
+			msg = "SERI! Tidak ada damage."
 	battle_ui.set_clue(msg)
 
 
@@ -196,11 +208,18 @@ func _on_player_defeated() -> void:
 	if not _battle_active:
 		return
 	_battle_active = false
+	_round_active = false
+	if word_input:
+		word_input.set_enabled(false)
 
 	if enemy:
 		enemy.stop_typing()
 	if battle_timer and battle_timer.has_method("stop_round"):
 		battle_timer.stop_round()
+
+	if battle_ui:
+		battle_ui.set_clue("Kamu kalah...")
+	AudioManager.play_bgm("defeat", false)
 
 	print("Battle: Player Kalah!")
 	# Beri jeda sebelum pindah scene
@@ -211,9 +230,18 @@ func _on_enemy_defeated() -> void:
 	if not _battle_active:
 		return
 	_battle_active = false
+	_round_active = false
+	if word_input:
+		word_input.set_enabled(false)
 
 	if battle_timer and battle_timer.has_method("stop_round"):
 		battle_timer.stop_round()
+
+	if player:
+		player.play_win()
+	if battle_ui:
+		battle_ui.set_clue("Musuh dikalahkan!")
+	AudioManager.play_bgm("win", false)
 
 	print("Battle: Player Menang!")
 	get_tree().create_timer(1.5).timeout.connect(func(): battle_won.emit())

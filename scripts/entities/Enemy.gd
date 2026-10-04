@@ -108,6 +108,10 @@ func apply_enemy_data(data: Dictionary) -> void:
 	damage = int(data.get("damage", 5))
 	special_ability = str(data.get("special", "none"))
 
+	var sprite_path := str(data.get("sprite", ""))
+	if sprite and not sprite_path.is_empty() and ResourceLoader.exists(sprite_path):
+		sprite.texture = load(sprite_path)
+
 	# word_speed dari JSON menyatakan jeda detik per kata (contoh: 8.0, 6.5, 5.0)
 	# Support typing_cooldown atau word_speed
 	typing_cooldown = float(data.get("typing_cooldown", data.get("word_speed", 5.0)))

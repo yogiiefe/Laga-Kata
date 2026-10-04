@@ -6,7 +6,6 @@ signal word_completed(word_data: Dictionary)
 signal word_failed(submitted_word: String)
 
 const WORDS_PATH := "res://data/words.json"
-const WordValidator = preload("res://scripts/word/WordValidator.gd")
 
 var words: Array = []
 var current_word: Dictionary = {}
