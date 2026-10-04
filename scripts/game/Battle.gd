@@ -16,7 +16,7 @@ signal battle_lost()
 @onready var clue_manager: ClueManager = $ClueManager if has_node("ClueManager") else null
 
 @onready var battle_ui: BattleUI = $Battle_UI_Layer/BattleUI if has_node("Battle_UI_Layer/BattleUI") else null
-@onready var word_input: Control = $Battle_UI_Layer/WordInput if has_node("Battle_UI_Layer/WordInput") else null
+@onready var word_input: WordInput = $Battle_UI_Layer/WordInput if has_node("Battle_UI_Layer/WordInput") else null
 
 const PAUSE_SCENE := preload("res://scenes/menus/PauseMenu.tscn")
 
@@ -44,7 +44,7 @@ func _update_layout() -> void:
 func _open_pause(open_settings: bool = false) -> void:
 	if not _battle_active or get_tree().paused:
 		return
-	var pause_menu := PAUSE_SCENE.instantiate()
+	var pause_menu := PAUSE_SCENE.instantiate() as PauseMenu
 	$Battle_UI_Layer.add_child(pause_menu)
 	pause_menu.resumed.connect(func():
 		battle_ui.apply_label_setting()
@@ -52,7 +52,7 @@ func _open_pause(open_settings: bool = false) -> void:
 			word_input.grab_focus_input()
 	)
 	if open_settings:
-		pause_menu.call("_on_settings_pressed")
+		pause_menu.open_settings()
 
 
 func _unhandled_input(event: InputEvent) -> void:

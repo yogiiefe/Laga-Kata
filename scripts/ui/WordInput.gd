@@ -1,4 +1,5 @@
 extends Control
+class_name WordInput
 
 signal word_submitted(text: String)
 ## Dipancarkan setiap pemain mengubah teks (untuk balon kata pemain)

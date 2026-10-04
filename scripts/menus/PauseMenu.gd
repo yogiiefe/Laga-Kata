@@ -1,4 +1,5 @@
 extends Control
+class_name PauseMenu
 
 signal resumed()
 
@@ -28,6 +29,10 @@ func _on_resume_pressed() -> void:
 
 func _on_settings_pressed() -> void:
 	AudioManager.play_sfx("button_click")
+	open_settings()
+
+
+func open_settings() -> void:
 	_settings = SETTINGS_SCENE.instantiate()
 	add_child(_settings)
 	$VBoxContainer.hide()
