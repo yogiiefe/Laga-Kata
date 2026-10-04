@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://3vpc2aw2b1ws"]
+[gd_scene load_steps=2 format=3 uid="uid://3vpc2aw2b1ws"]
+
+[ext_resource type="Script" path="res://scripts/entities/Enemy.gd" id="1_enemy"]
 
 [node name="Enemy" type="Node2D" unique_id=1915081609]
+script = ExtResource("1_enemy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 0)

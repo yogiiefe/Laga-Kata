@@ -1,3 +1,85 @@
-[gd_scene format=3 uid="uid://2oauugkwyuyu"]
+[gd_scene load_steps=4 format=3 uid="uid://2oauugkwyuyu"]
 
-[node name="BattleUi" type="Node2D" unique_id=2131378354]
+[ext_resource type="Script" path="res://scripts/ui/BattleUI.gd" id="1_battle_ui_script"]
+[ext_resource type="PackedScene" uid="uid://btk3e7i275oiq" path="res://scenes/ui/HealthBar.tscn" id="2_healthbar"]
+[ext_resource type="PackedScene" uid="uid://c5wq643wmth1v" path="res://scenes/ui/WordProgress.tscn" id="3_word_progress"]
+
+[node name="BattleUI" type="Control" unique_id=761287857]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_battle_ui_script")
+
+[node name="PlayerHealthBar" parent="." instance=ExtResource("2_healthbar")]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 320.0
+offset_bottom = 55.0
+
+[node name="EnemyHealthBar" parent="." instance=ExtResource("2_healthbar")]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -320.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 55.0
+grow_horizontal = 0
+
+[node name="TimerLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -60.0
+offset_top = 10.0
+offset_right = 60.0
+offset_bottom = 55.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "15"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CluePanel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -320.0
+offset_top = 70.0
+offset_right = 320.0
+offset_bottom = 180.0
+grow_horizontal = 2
+
+[node name="ClueLabel" type="Label" parent="CluePanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 20
+text = "Memuat petunjuk..."
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="WordProgress" parent="." instance=ExtResource("3_word_progress")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -110.0
+offset_right = 250.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0

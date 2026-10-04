@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dar702q63rnp7"
-path="res://.godot/imported/win.tga-82386c00fc7d3c4d50b319774df0e940.ctex"
+uid="uid://dxvy7mhqk25m1"
+path="res://.godot/imported/enemy.firewall.svg-cf393a879603e175bf9b7431028ff51b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/characters/player/win.tga"
-dest_files=["res://.godot/imported/win.tga-82386c00fc7d3c4d50b319774df0e940.ctex"]
+source_file="res://assets/graphics/characters/npc/enemy.firewall.svg"
+dest_files=["res://.godot/imported/enemy.firewall.svg-cf393a879603e175bf9b7431028ff51b.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

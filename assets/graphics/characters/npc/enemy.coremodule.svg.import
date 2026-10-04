@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1sdffsm3roci"
-path="res://.godot/imported/typing.png-eefa5effe3de8dcf282b7c302e1e145c.ctex"
+uid="uid://c276bhfy8af2v"
+path="res://.godot/imported/enemy.coremodule.svg-30524382237c2ddd4b892f2d4166996f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/characters/player/typing.png"
-dest_files=["res://.godot/imported/typing.png-eefa5effe3de8dcf282b7c302e1e145c.ctex"]
+source_file="res://assets/graphics/characters/npc/enemy.coremodule.svg"
+dest_files=["res://.godot/imported/enemy.coremodule.svg-30524382237c2ddd4b892f2d4166996f.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

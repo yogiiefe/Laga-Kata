@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(6.067579,0,0,6.067579,5033.542145,631.993009)">
+        <g transform="matrix(1,0,0,1,-768,-512)">
+            <g transform="matrix(1,0,0,1,103,457)">
+                <path d="M0,0L6,2L6,5L15,7L24,8L27,18L36,32L39,39L42,41L44,40L45,44L50,46L52,53L49,57L47,57L51,64L51,68L49,68L50,70L50,84L46,83L44,77L41,75L36,75L38,82L40,82L40,89L45,100L45,102L50,103L50,106L52,106L52,97L54,91L57,91L57,89L60,87L66,86L69,90L71,90L71,97L77,97L77,94L79,94L80,101L84,104L84,106L88,105L90,112L90,119L88,122L84,122L83,126L77,126L67,122L65,121L65,114L61,110L55,110L52,107L53,113L64,125L73,137L73,139L77,140L79,145L79,148L75,151L81,161L83,162L84,160L87,164L87,174L86,183L83,187L83,183L79,187L76,193L74,193L73,197L70,198L68,188L70,189L71,177L72,175L76,176L76,173L71,172L58,168L59,161L48,160L45,158L45,162L40,162L39,169L36,176L25,177L26,168L28,163L21,163L21,165L19,165L22,153L23,148L17,166L13,167L9,180L17,180L18,191L13,201L11,208L10,216L14,213L17,214L15,221L10,231L6,232L5,227L6,222L3,222L2,230L-2,238L-3,234L-5,234L-7,243L-7,255L-10,260L-14,262L-16,265L-20,263L-23,260L-22,255L-21,251L-21,239L-24,234L-23,230L-20,232L-19,235L-18,256L-16,256L-17,254L-18,232L-16,232L-15,235L-13,235L-13,243L-12,240L-12,211L-10,197L-9,176L-3,174L-3,156L-1,151L-8,152L-9,153L-14,153L-15,142L-18,143L-18,134L-15,127L-15,121L-18,131L-19,155L-30,158L-36,158L-41,156L-42,145L-42,132L-37,131L-36,132L-33,148L-31,148L-29,154L-26,154L-26,145L-30,145L-29,137L-29,136L-30,136L-29,129L-27,124L-32,134L-35,133L-35,130L-44,130L-43,133L-56,132L-55,137L-54,154L-47,154L-49,164L-47,164L-47,162L-45,162L-44,173L-43,177L-45,179L-48,179L-49,184L-51,184L-51,179L-55,179L-59,174L-60,165L-61,163L-61,156L-66,155L-66,153L-68,153L-67,146L-63,144L-59,136L-58,129L-53,128L-53,126L-51,126L-51,117L-49,117L-49,122L-44,117L-37,111L-35,107L-31,103L-29,93L-28,89L-26,89L-25,93L-21,79L-23,79L-28,74L-29,79L-31,77L-33,78L-40,78L-40,76L-43,76L-44,83L-47,85L-47,90L-42,91L-41,99L-43,102L-51,102L-52,99L-54,99L-55,104L-60,105L-65,105L-67,100L-68,89L-70,88L-70,85L-72,85L-70,80L-66,78L-66,80L-56,76L-54,72L-54,65L-52,63L-50,57L-48,57L-49,67L-41,63L-38,63L-38,61L-40,61L-40,56L-37,55L-29,37L-35,37L-35,35L-29,32L-25,21L-38,26L-41,34L-42,38L-37,37L-42,41L-45,41L-43,30L-41,23L-36,21L-29,20L-23,16L-19,15L-10,8L-7,6L-5,2L0,0Z" style="fill:rgb(48,21,28);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,475)">
+                <path d="M0,0L1,0L2,9L10,16L24,30L24,32L28,34L33,39L32,44L25,53L27,62L34,88L39,107L43,133L45,127L46,118L52,114L68,118L76,122L78,124L78,129L75,128L76,133L76,134L78,134L84,143L86,148L86,152L81,151L76,146L72,143L78,150L87,155L83,157L83,155L77,154L64,150L65,143L54,142L51,140L51,144L46,144L45,151L42,158L31,159L32,150L34,145L27,145L27,147L25,147L28,135L29,130L23,148L19,149L15,162L23,162L24,173L19,183L17,190L16,198L20,195L23,196L21,203L16,213L12,214L11,209L12,204L9,204L8,212L4,220L3,216L1,216L-1,225L-1,237L-4,242L-8,244L-10,247L-14,245L-17,242L-16,237L-15,233L-15,221L-18,216L-17,212L-14,214L-13,217L-12,238L-10,238L-11,236L-12,214L-10,214L-9,217L-7,217L-7,225L-6,222L-6,193L-4,179L-3,158L3,156L3,138L5,133L-2,134L-3,135L-8,135L-9,124L-12,125L-12,116L-9,109L-8,102L-6,100L-4,94L4,94L3,98L8,99L15,101L19,98L27,98L29,100L29,97L27,97L27,90L26,84L26,83L26,91L19,91L15,88L12,83L12,81L9,81L10,88L5,86L7,85L5,82L5,75L2,74L0,72L1,75L-1,79L-9,82L-12,81L-8,67L-5,58L-6,54L-15,48L-21,45L-18,35L-9,20L-1,8L-1,1L0,0Z" style="fill:rgb(23,5,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,580)">
+                <path d="M0,0L3,3L3,14L2,20L0,20L-3,30L-6,42L-11,44L-15,57L-7,57L-6,68L-11,78L-13,85L-14,93L-10,90L-7,91L-9,98L-14,108L-18,109L-19,104L-18,99L-21,99L-22,107L-26,115L-27,111L-29,111L-31,120L-31,132L-34,137L-38,139L-40,142L-44,140L-47,137L-46,132L-45,128L-45,116L-48,111L-47,107L-44,109L-43,112L-42,133L-40,133L-41,131L-42,109L-40,109L-39,112L-37,112L-37,120L-36,117L-36,88L-34,74L-33,53L-27,51L-27,33L-25,28L-30,28L-27,26L-25,14L-27,14L-29,8L-22,13L-15,14L-15,12L-8,7L-6,4L-4,4L-3,2L-1,2L0,6L0,0Z" style="fill:rgb(6,3,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,100,464)">
+                <path d="M0,0L2,0L1,3L-2,3L-4,10L0,9L8,13L10,19L14,18L18,22L20,28L21,34L24,42L32,47L32,54L25,62L24,64L26,65L24,69L25,70L26,66L31,60L44,59L42,63L35,68L33,68L36,73L37,77L35,75L33,79L32,78L34,87L36,91L36,97L40,98L42,99L44,105L46,109L51,110L53,114L57,115L58,113L66,122L67,125L61,124L65,129L52,127L49,126L44,129L43,138L40,147L39,147L36,124L32,106L24,76L21,67L22,62L29,54L28,48L21,43L14,35L1,22L-2,20L-3,12L-3,20L-5,20L-7,25L-17,41L-22,51L-24,56L-20,57L-12,62L-7,66L-9,76L-13,87L-14,92L-1,91L-1,102L-2,103L-9,104L-18,104L-16,95L-19,95L-19,103L-22,105L-22,108L-25,108L-25,106L-33,113L-39,116L-44,120L-42,116L-34,107L-29,106L-31,106L-30,103L-25,98L-21,95L-23,95L-23,93L-21,92L-17,82L-16,74L-17,67L-12,66L-10,70L-11,72L-9,72L-10,66L-23,59L-26,56L-26,51L-29,54L-32,52L-30,46L-22,30L-16,13L-7,5L0,0Z" style="fill:rgb(247,243,244);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,545)">
+                <path d="M0,0L6,5L6,7L8,8L6,8L8,15L7,16L10,16L10,11L13,11L17,17L18,20L26,20L26,13L28,8L29,11L28,18L29,22L28,27L30,27L31,33L28,30L28,28L20,29L15,32L9,30L4,28L4,25L-3,24L-4,32L-8,33L-11,43L-12,67L-23,70L-29,70L-34,68L-35,57L-35,44L-30,43L-29,44L-26,60L-24,60L-22,66L-19,66L-19,57L-23,57L-22,49L-22,48L-23,48L-22,41L-20,36L-25,46L-28,45L-28,42L-37,42L-36,45L-49,44L-48,49L-47,66L-40,66L-42,76L-40,76L-40,74L-38,74L-37,85L-36,89L-38,91L-41,91L-42,96L-44,96L-44,91L-48,91L-52,86L-53,77L-54,75L-54,68L-59,67L-59,65L-61,65L-60,58L-56,56L-52,48L-51,41L-46,40L-46,38L-44,38L-44,29L-42,29L-42,34L-37,29L-30,23L-28,19L-24,16L-21,18L-25,23L-25,26L-30,27L-37,35L-38,37L-32,32L-27,29L-23,25L-21,25L-21,27L-19,26L-17,22L-15,22L-15,14L-12,14L-13,21L-14,23L2,21L3,10L-4,11L-3,9L0,8L1,4L0,0Z" style="fill:rgb(13,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,577)">
+                <path d="M0,0L1,2L0,7L3,8L0,10L-2,14L-3,23L1,21L1,33L7,31L14,31L13,36L13,54L7,56L6,77L4,91L4,120L1,131L0,127L2,115L-1,116L-1,112L-3,112L-1,134L-1,136L-3,136L-4,134L-5,115L-6,112L-8,111L-6,119L-9,119L-12,113L-12,105L-9,97L-7,96L-8,89L-11,81L-11,67L-7,68L-7,58L-11,59L-11,64L-13,64L-13,60L-20,61L-20,63L-24,62L-24,59L-22,59L-21,41L-23,40L-21,38L-4,35L-4,11L-1,1L0,0Z" style="fill:rgb(250,39,99);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,475)">
+                <path d="M0,0L1,0L2,9L10,16L24,30L24,32L28,34L33,39L32,44L25,53L25,59L23,60L23,51L21,51L19,55L14,57L18,58L16,62L12,66L8,66L6,64L3,64L3,61L1,61L0,66L-1,66L-1,61L-5,62L-5,55L-13,49L-21,45L-18,35L-9,20L-1,8L-1,1L0,0Z" style="fill:rgb(22,5,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,103,457)">
+                <path d="M0,0L6,2L6,5L9,6L8,7L15,10L12,11L0,8L0,16L-5,17L-7,17L-5,10L-2,9L-1,7L-7,11L-18,20L-24,37L-35,59L-31,59L-28,57L-28,63L-23,67L-13,72L-12,73L-12,79L-14,79L-15,74L-20,74L-18,84L-20,93L-22,95L-24,100L-26,100L-26,102L-23,101L-24,104L-31,106L-30,95L-28,89L-26,89L-25,93L-21,79L-23,79L-28,74L-29,79L-31,77L-33,78L-40,78L-40,76L-43,76L-44,83L-47,85L-47,90L-42,91L-41,99L-43,102L-51,102L-52,99L-54,99L-55,104L-60,105L-65,105L-67,100L-68,89L-70,88L-70,85L-72,85L-70,80L-66,78L-66,80L-56,76L-54,72L-54,65L-52,63L-50,57L-48,57L-49,67L-41,63L-38,63L-38,61L-40,61L-40,56L-37,55L-29,37L-35,37L-35,35L-29,32L-25,21L-38,26L-41,34L-42,38L-37,37L-42,41L-45,41L-43,30L-41,23L-36,21L-29,20L-23,16L-19,15L-10,8L-7,6L-5,2L0,0Z" style="fill:rgb(23,22,23);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,531)">
+                <path d="M0,0L4,2L5,5L7,5L6,12L4,19L2,20L2,15L0,15L-1,21L-2,29L-7,34L-10,39L-17,45L-19,48L-21,48L-21,43L-23,43L-23,52L-25,52L-24,55L-29,55L-30,62L-32,67L-34,66L-53,73L-55,72L-52,58L-49,38L-40,35L-30,33L-30,31L-27,29L-26,25L-24,25L-23,27L-15,27L-14,23L-15,17L-19,16L-20,11L-17,9L-16,2L-14,1L-12,2L-12,4L-2,2L-1,3L0,0Z" style="fill:rgb(252,239,245);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,104,597)">
+                <path d="M0,0L5,0L5,11L4,23L2,32L0,42L-2,42L-2,53L-5,69L-2,55L-1,43L2,41L10,42L10,45L4,46L11,47L10,53L1,72L0,79L-2,80L-8,80L-9,78L-10,82L-4,81L-4,87L-3,81L0,81L0,87L-3,93L-9,92L-11,115L-14,120L-21,121L-23,119L-22,111L-22,99L-25,94L-24,90L-21,92L-20,95L-19,116L-17,116L-18,114L-19,92L-17,92L-16,95L-14,95L-14,103L-13,100L-13,71L-11,57L-10,36L-4,34L-4,16L-2,4L0,0Z" style="fill:rgb(17,3,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,463)">
+                <path d="M0,0L8,1L17,2L20,12L29,26L32,33L35,35L37,34L38,38L43,40L45,47L40,52L38,52L38,55L36,55L36,52L28,55L22,54L21,48L14,44L12,42L9,32L9,27L5,21L2,21L-1,20L-3,14L-8,12L-8,4L-7,2L2,3L3,3L0,0Z" style="fill:rgb(19,5,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,503)">
+                <path d="M0,0L7,6L11,8L11,15L4,23L3,25L5,26L3,30L4,31L5,27L10,21L23,20L21,24L14,29L12,29L15,34L16,38L14,36L12,40L11,39L13,48L15,52L15,58L19,59L21,60L23,66L25,70L30,71L32,75L36,76L37,74L45,83L46,86L40,85L44,90L31,88L28,87L23,90L22,99L19,108L18,108L15,85L11,67L3,37L0,28L1,23L8,15L7,9L0,4L0,0Z" style="fill:rgb(245,243,243);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,600)">
+                <path d="M0,0L1,4L-5,22L-3,22L-3,20L4,20L2,31L1,34L12,32L16,19L21,19L21,15L24,16L36,17L34,25L42,26L44,28L34,29L30,38L28,44L19,44L10,46L10,38L12,34L5,40L3,40L3,37L0,38L-2,42L-3,49L-4,50L-6,59L-7,61L-9,61L-8,50L-7,48L-7,37L-16,38L-13,26L-11,23L-7,22L-3,8L0,0Z" style="fill:rgb(244,19,94);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,93,569)">
+                <path d="M0,0L8,0L7,4L12,5L19,7L23,4L31,4L34,10L35,18L33,17L33,13L31,13L30,16L28,16L23,21L19,23L19,25L12,25L6,20L7,25L9,25L8,37L1,41L-4,41L-5,30L-8,31L-8,22L-5,15L-4,8L-2,6L0,0Z" style="fill:rgb(5,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,118,526)">
+                <path d="M0,0L2,0L3,8L5,8L11,29L11,35L9,35L8,42L6,39L5,33L5,32L5,40L-2,40L-6,37L-9,32L-9,30L-12,30L-11,37L-16,35L-14,34L-16,31L-16,24L-19,23L-21,21L-20,24L-22,28L-30,31L-33,30L-29,16L-27,11L-22,10L-21,14L-20,10L-18,10L-18,13L-14,12L-13,15L-9,15L-8,12L-3,7L-6,8L-8,6L-1,2L0,0Z" style="fill:rgb(5,3,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,543)">
+                <path d="M0,0L4,4L6,4L6,11L12,11L12,8L14,8L15,15L19,18L19,20L23,19L25,26L25,33L23,36L19,36L18,40L12,40L2,36L0,35L0,28L-4,24L-10,24L-11,22L-14,20L-13,11L-11,5L-8,5L-8,3L-5,1L0,0Z" style="fill:rgb(19,5,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,53,514)">
+                <path d="M0,0L2,0L2,11L0,11L0,15L6,14L6,26L3,28L3,33L8,34L9,42L7,45L-1,45L-2,42L-4,42L-5,47L-10,48L-15,48L-17,43L-18,32L-20,31L-20,28L-22,28L-20,23L-16,21L-16,23L-6,19L-4,15L-4,8L-2,6L0,0Z" style="fill:rgb(22,6,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129,559)">
+                <path d="M0,0L2,4L7,23L10,42L10,47L7,48L6,53L8,57L7,61L10,60L10,57L12,57L13,55L18,56L18,59L15,60L11,73L5,75L-1,75L0,66L2,61L-5,61L-5,63L-7,63L0,35L0,24L-3,19L-3,13L-5,13L-5,8L-2,2L0,2L0,0Z" style="fill:rgb(18,7,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,577)">
+                <path d="M0,0L1,2L0,7L3,8L0,10L-2,14L-3,23L1,21L1,33L11,32L11,44L10,53L-17,59L-20,59L-19,43L-14,42L7,37L9,35L7,34L6,37L-7,40L-13,40L-12,38L-6,37L-6,35L-4,35L-4,11L-1,1L0,0Z" style="fill:rgb(252,238,243);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,571)">
+                <path d="M0,0L9,0L8,6L5,13L4,17L3,41L-8,44L-14,44L-19,42L-20,31L-20,18L-15,17L-14,18L-11,34L-9,34L-7,40L-4,40L-4,31L-8,31L-7,23L-7,22L-8,22L-7,15L0,0Z" style="fill:rgb(11,3,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,531)">
+                <path d="M0,0L4,2L5,5L7,5L6,12L4,19L2,20L2,15L0,15L-1,21L-2,29L-7,34L-10,39L-13,39L-13,37L-15,37L-15,34L-18,34L-18,29L-14,25L-15,17L-19,16L-20,11L-17,9L-16,2L-14,1L-12,2L-12,4L-2,2L-1,3L0,0Z" style="fill:rgb(253,248,250);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,164,580)">
+                <path d="M0,0L5,5L12,14L12,16L16,17L18,22L18,25L14,28L20,38L22,39L23,37L26,41L26,51L25,60L22,64L22,60L18,64L15,70L13,70L12,74L9,75L7,65L9,66L10,54L11,52L15,53L16,50L17,49L10,45L4,38L5,36L11,42L11,44L16,46L19,47L15,37L11,31L11,29L7,30L8,24L8,21L10,23L9,18L1,14L1,12L-3,10L-3,8L2,8L-2,2L0,0Z" style="fill:rgb(49,13,20);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,495)">
+                <path d="M0,0L7,6L11,10L11,12L14,13L12,15L12,13L10,13L9,18L4,24L-1,27L-12,27L-12,29L-17,32L-21,31L-24,28L-27,26L-25,21L-21,23L-21,25L-14,25L-19,21L-20,15L-20,8L-15,8L-13,12L-11,12L-10,15L-5,11L-5,4L-1,5L0,0Z" style="fill:rgb(13,5,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,179,514)">
+                <path d="M0,0L1,0L1,25L-11,28L-12,26L-13,29L-20,31L-24,31L-24,10L-22,10L-22,8L-12,5L0,0Z" style="fill:rgb(248,225,233);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,77,507)">
+                <path d="M0,0L1,3L-1,13L3,14L11,19L16,23L14,33L10,44L9,49L22,48L22,59L21,60L14,61L5,61L7,52L4,52L4,60L1,62L1,65L-2,65L-2,63L-10,70L-16,73L-21,77L-19,73L-11,64L-6,63L-8,63L-7,60L-2,55L2,52L0,52L0,50L2,49L6,39L7,31L6,24L11,23L13,27L12,29L14,29L13,23L0,16L-3,13L-3,8L-6,11L-9,9L-7,3L-5,1L-5,3L-2,4L0,0Z" style="fill:rgb(212,152,173);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,115,642)">
+                <path d="M0,0L2,2L3,0L6,0L6,6L1,16L-1,23L-2,31L2,28L5,29L3,36L-2,46L-6,47L-7,42L-6,37L-9,37L-10,45L-14,53L-15,49L-17,49L-19,58L-19,70L-22,75L-26,77L-28,80L-32,78L-35,75L-34,71L-32,75L-25,75L-23,70L-22,56L-20,47L-14,48L-11,36L-14,36L-14,42L-16,44L-15,36L-19,38L-21,37L-20,32L-19,35L-11,34L-12,31L-8,21L-1,6L0,2L-2,1L0,0Z" style="fill:rgb(78,17,36);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,104,597)">
+                <path d="M0,0L5,0L5,11L4,23L2,32L0,42L-2,42L-2,53L-6,71L-9,76L-12,75L-12,65L-11,57L-10,36L-4,34L-4,16L-2,4L0,0Z" style="fill:rgb(15,1,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,463)">
+                <path d="M0,0L8,1L17,2L20,12L22,15L22,23L27,32L26,34L22,33L21,35L15,33L9,22L9,11L14,10L13,7L11,6L11,8L5,11L4,17L0,16L-8,12L-8,4L-7,2L2,3L3,3L0,0Z" style="fill:rgb(8,2,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,545)">
+                <path d="M0,0L6,5L6,7L8,8L6,8L8,15L7,16L10,16L10,11L13,11L17,17L18,20L26,20L26,13L28,8L29,11L28,18L29,22L28,27L30,27L31,33L28,30L28,28L20,29L15,32L9,30L4,28L4,25L-3,24L-4,32L-7,32L-6,26L-15,26L-16,30L-17,28L-20,27L-17,22L-15,22L-15,14L-12,14L-13,21L-14,23L2,21L3,10L-4,11L-3,9L0,8L1,4L0,0Z" style="fill:rgb(10,3,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,575)">
+                <path d="M0,0L1,3L-4,13L-4,16L-2,15L-4,26L0,27L-1,36L-5,37L-6,30L-8,30L-11,21L-12,14L-16,14L-16,38L-13,39L-16,39L-16,41L-21,41L-22,46L-24,46L-24,41L-22,36L-29,36L-30,34L-31,14L-19,14L-19,12L-10,12L-9,15L-7,15L-3,6L0,0Z" style="fill:rgb(249,234,240);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,633)">
+                <path d="M0,0L4,0L4,9L-1,14L-3,17L-7,14L-5,24L-5,45L-4,43L-3,23L-1,23L-1,21L1,21L1,18L3,18L1,24L2,25L2,33L1,42L0,48L-3,55L-7,54L-10,53L-9,46L-8,44L-8,35L-10,32L-12,25L-12,11L-8,12L-7,2L0,0Z" style="fill:rgb(93,4,22);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,503)">
+                <path d="M0,0L7,6L11,8L11,15L4,23L3,25L5,26L3,30L4,31L5,27L10,21L23,20L21,24L14,29L12,29L15,34L16,38L14,36L12,40L11,39L13,48L15,52L15,63L13,62L12,57L10,57L9,60L2,34L0,25L8,15L7,9L0,4L0,0Z" style="fill:rgb(237,226,227);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,139,543)">
+                <path d="M0,0L3,0L8,12L9,16L14,17L16,23L18,28L25,36L24,39L19,35L18,38L14,36L12,33L10,31L6,30L3,25L3,20L-3,18L-5,8L0,7L0,0Z" style="fill:rgb(22,5,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,71,561)">
+                <path d="M0,0L4,2L0,7L0,10L-5,11L-12,19L-13,21L-7,16L-2,13L2,9L4,9L5,11L8,12L6,18L0,30L-3,29L-3,26L-12,26L-11,29L-18,29L-18,19L-13,14L-5,7L-3,3L0,0Z" style="fill:rgb(12,8,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,583)">
+                <path d="M0,0L7,0L9,7L10,11L12,11L11,23L4,27L-1,27L-2,16L-5,17L-5,8L-3,2L0,0Z" style="fill:rgb(5,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,49,556)">
+                <path d="M0,0L2,0L3,2L9,3L6,13L5,13L5,7L-9,12L-14,13L-14,15L-2,12L3,10L3,12L-7,16L-16,19L-17,22L-19,22L-19,20L-21,20L-22,28L-23,39L-21,39L-21,42L-8,38L-6,38L-7,42L-11,42L-27,48L-29,47L-26,33L-23,13L-14,10L-4,8L-4,6L-1,4L0,0Z" style="fill:rgb(248,48,107);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,619)">
+                <path d="M0,0L11,0L10,10L6,22L-1,23L-9,23L-8,17L-4,5L0,0Z" style="fill:rgb(254,248,250);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,577)">
+                <path d="M0,0L1,2L0,7L3,8L0,10L-2,14L-3,23L1,21L1,33L11,32L11,44L10,53L9,49L6,51L3,51L3,49L-2,48L-3,44L1,43L-1,43L-1,41L-6,41L-6,40L7,37L9,35L7,34L6,37L-7,40L-13,40L-12,38L-6,37L-6,35L-4,35L-4,11L-1,1L0,0Z" style="fill:rgb(246,226,232);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106,638)">
+                <path d="M0,0L8,1L8,4L2,5L9,6L8,12L-1,31L-2,37L-8,37L-7,28L-4,14L-3,2L0,0Z" style="fill:rgb(7,0,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,571)">
+                <path d="M0,0L9,0L8,6L5,13L3,18L2,31L-8,31L-7,23L-7,22L-8,22L-7,15L0,0Z" style="fill:rgb(9,5,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,164,557)">
+                <path d="M0,0L3,1L2,6L9,4L11,3L14,5L14,7L21,7L23,9L23,7L25,7L25,17L21,18L17,12L15,11L18,15L18,18L20,18L20,20L15,18L12,13L11,8L10,12L14,18L14,22L11,22L11,24L6,22L4,21L4,14L-1,9L-1,6L1,6L0,0Z" style="fill:rgb(32,8,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,475)">
+                <path d="M0,0L8,1L10,3L11,8L15,7L19,11L21,17L22,23L23,28L21,30L2,11L2,3L0,3L0,0Z" style="fill:rgb(249,248,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,518)">
+                <path d="M0,0L2,1L4,7L9,10L9,8L11,8L12,5L23,11L24,12L24,18L22,18L21,13L16,13L18,23L16,32L14,34L12,39L10,39L10,41L13,40L12,43L5,45L6,34L8,28L10,28L11,32L15,18L13,18L8,13L7,18L6,14L7,11L3,9L1,7L-3,7L-2,4L0,4L0,0Z" style="fill:rgb(65,23,39);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,649)">
+                <path d="M0,0L2,0L2,13L1,19L1,48L-2,59L-3,55L-1,43L-4,44L-4,40L-6,40L-4,62L-4,64L-6,64L-7,62L-8,43L-9,40L-11,39L-9,47L-12,47L-15,41L-15,33L-12,25L-9,24L-10,30L-12,37L-8,38L-5,39L-4,33L-2,30L-2,22L-1,17L-1,10L-3,9L0,4L1,2L-1,1L0,0Z" style="fill:rgb(179,51,86);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,132,480)">
+                <path d="M0,0L4,5L7,9L10,16L13,18L15,17L16,21L21,23L23,30L18,35L16,35L16,38L14,38L14,35L6,38L0,37L-1,31L-4,29L-3,25L-1,25L4,31L4,36L16,31L15,25L13,25L13,23L9,21L4,20L3,17L5,17L-2,5L0,0Z" style="fill:rgb(81,32,46);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,531)">
+                <path d="M0,0L4,1L8,5L9,9L11,10L11,16L10,18L15,17L16,22L15,23L14,32L12,32L11,29L7,28L1,15L2,8L0,8L-2,4L-2,1L0,0Z" style="fill:rgb(247,231,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,488)">
+                <path d="M0,0L3,0L3,3L7,2L11,6L11,12L8,12L6,11L7,18L2,22L0,24L0,19L-2,19L-6,15L-8,14L-8,8L-5,4L-2,4L-2,2L0,2L0,0Z" style="fill:rgb(5,3,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,463)">
+                <path d="M0,0L8,1L17,2L20,13L16,14L13,7L11,6L11,8L5,11L4,17L0,16L-8,12L-8,4L-7,2L2,3L3,3L0,0Z" style="fill:rgb(5,4,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,186,617)">
+                <path d="M0,0L4,4L4,14L3,23L0,27L0,23L-4,27L-7,33L-9,33L-10,37L-13,38L-15,28L-13,29L-12,17L-11,15L-9,15L-8,17L-3,16L-3,21L-7,23L-8,30L-2,20L0,16L0,3L-2,2L0,2L0,0Z" style="fill:rgb(98,1,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,651)">
+                <path d="M0,0L2,0L0,6L1,7L1,15L0,24L-1,30L-4,37L-8,36L-11,35L-10,28L-9,26L-9,6L-7,4L-6,6L-6,27L-5,25L-4,5L-2,5L-2,3L0,3L0,0Z" style="fill:rgb(11,4,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,596)">
+                <path d="M0,0L1,4L-1,25L-1,33L-2,39L1,39L-1,35L1,33L2,27L6,28L2,41L10,41L10,46L8,46L6,50L5,47L-2,48L-4,46L4,46L4,43L-4,43L-7,44L-7,56L-10,70L-12,71L-9,54L-9,46L-8,43L-6,43L-4,26L-3,24L-1,2L0,0Z" style="fill:rgb(98,3,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,28,576)">
+                <path d="M0,0L2,0L4,8L6,4L7,11L16,11L17,17L7,21L-1,23L0,19L-3,20L-2,8L0,0Z" style="fill:rgb(253,242,247);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,172,556)">
+                <path d="M0,0L5,1L10,4L11,2L15,5L15,7L19,6L21,13L21,20L19,23L15,23L14,27L8,27L3,23L6,23L3,15L1,13L2,9L4,8L6,16L10,20L12,21L12,19L10,19L7,14L7,12L10,13L13,18L16,18L17,8L15,8L16,12L13,9L6,8L7,5L0,1L0,0Z" style="fill:rgb(109,17,38);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,508)">
+                <path d="M0,0L1,4L1,7L11,6L16,11L17,13L11,14L11,12L9,12L7,9L5,9L4,13L10,18L14,17L17,16L17,18L25,19L25,21L23,21L23,24L17,23L17,25L22,26L18,27L18,32L16,33L16,28L12,29L12,22L4,16L-4,12L-1,2L0,0Z" style="fill:rgb(27,6,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,600)">
+                <path d="M0,0L1,4L-5,22L1,21L0,29L-3,35L-16,38L-13,26L-11,23L-7,22L-3,8L0,0Z" style="fill:rgb(239,222,231);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,179,514)">
+                <path d="M0,0L1,0L1,25L-4,25L-1,24L-1,20L-6,18L-6,16L-11,19L-11,16L-16,17L-15,14L-9,12L-9,15L-7,15L-9,11L-13,9L-15,6L-1,1L0,0Z" style="fill:rgb(254,243,248);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,131,499)">
+                <path d="M0,0L9,0L14,4L14,6L16,6L18,9L17,13L8,17L5,17L4,10L0,8L0,6L-2,6L-1,1L0,0Z" style="fill:rgb(4,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,44,539)">
+                <path d="M0,0L6,0L10,9L9,13L4,14L1,19L-3,17L-4,16L-4,8L-3,6L-6,6L-6,17L-8,18L-8,9L-6,2L-2,3L1,4L-2,1L0,0Z" style="fill:rgb(7,1,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,116,651)">
+                <path d="M0,0L2,0L-1,10L-3,22L1,19L4,20L2,27L-3,37L-7,38L-8,33L-8,27L-7,25L-7,14L0,0Z" style="fill:rgb(241,9,85);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,614)">
+                <path d="M0,0L6,1L6,4L3,5L-1,18L-7,20L-13,20L-12,11L-10,6L-5,4L-5,6L-2,5L-2,2L0,2L0,0Z" style="fill:rgb(17,2,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,478)">
+                <path d="M0,0L3,0L1,9L-2,13L-7,14L-7,16L0,15L-2,18L-6,20L-6,17L-14,17L-13,10L-11,5L-3,1L0,0Z" style="fill:rgb(252,240,246);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,155,592)">
+                <path d="M0,0L7,0L18,5L20,7L20,12L17,11L18,16L14,19L10,17L5,9L7,3L1,2L0,0Z" style="fill:rgb(6,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,486)">
+                <path d="M0,0L1,3L-1,3L-3,7L-6,14L-4,13L-6,19L-12,31L-13,27L-13,25L-15,27L-15,24L-17,24L-16,18L-10,6L-8,4L-3,2L0,2L0,0Z" style="fill:rgb(244,231,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,575)">
+                <path d="M0,0L1,3L-4,13L-4,16L-2,15L-4,26L0,27L-1,36L-5,37L-6,30L-8,30L-11,21L-12,14L-16,14L-17,16L-21,15L-19,14L-19,12L-10,12L-9,15L-7,15L-3,6L0,0Z" style="fill:rgb(147,107,117);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,100,641)">
+                <path d="M0,0L2,3L1,13L-2,27L-5,32L-8,31L-8,21L-6,8L-1,8L-1,2L0,0Z" style="fill:rgb(10,1,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,49,556)">
+                <path d="M0,0L2,0L3,2L9,3L6,13L5,13L5,7L-9,12L-14,13L-14,15L-2,12L3,10L3,12L-7,16L-16,19L-17,22L-19,22L-19,20L-21,20L-20,15L-20,12L-7,8L-4,8L-4,6L-1,4L0,0Z" style="fill:rgb(248,40,106);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,620)">
+                <path d="M0,0L7,0L5,11L4,14L8,14L8,17L3,18L1,22L0,29L-1,30L-3,39L-4,41L-6,41L-5,30L-4,28L-4,17L-7,16L0,14L3,5L3,2L0,2L0,0Z" style="fill:rgb(229,10,77);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,139,543)">
+                <path d="M0,0L3,0L8,12L9,16L8,19L11,23L7,21L5,19L1,20L-3,18L-5,8L0,7L0,0Z" style="fill:rgb(30,7,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,155,564)">
+                <path d="M0,0L3,1L3,3L9,2L14,7L13,14L18,16L16,19L12,20L5,12L-1,4L0,0Z" style="fill:rgb(242,230,234);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,531)">
+                <path d="M0,0L4,2L5,5L7,5L6,12L4,19L2,20L0,14L0,10L-2,10L-3,8L-7,7L-8,15L-9,15L-9,8L-8,5L-15,5L-16,9L-16,2L-14,1L-12,2L-12,4L-2,2L-1,3L0,0Z" style="fill:rgb(249,236,241);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,553)">
+                <path d="M0,0L2,0L2,11L7,12L7,15L1,13L1,15L-6,16L-7,24L-10,24L-9,18L-18,18L-19,22L-20,20L-23,19L-20,14L-18,14L-18,6L-15,6L-16,13L-17,15L-1,13L0,2L-7,3L-6,1L0,0Z" style="fill:rgb(201,57,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,57,523)">
+                <path d="M0,0L4,1L4,2L11,1L17,6L16,10L13,12L6,12L6,10L2,10L2,5L-4,6L-4,2L0,0Z" style="fill:rgb(15,3,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,473)">
+                <path d="M0,0L3,1L-2,17L-5,20L-12,21L-12,19L-6,16L-2,5L-15,10L-18,18L-19,22L-14,21L-19,25L-22,25L-20,14L-18,7L-13,5L-6,4L0,0Z" style="fill:rgb(251,58,125);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,70,642)">
+                <path d="M0,0L2,0L4,5L7,5L7,15L5,12L2,25L0,21L-3,20L-3,7L0,0Z" style="fill:rgb(236,29,96);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,133,511)">
+                <path d="M0,0L1,0L2,6L8,5L13,4L10,13L-2,14L-7,20L-7,25L-10,22L-9,18L-9,15L-1,6L0,0Z" style="fill:rgb(15,8,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,137,530)">
+                <path d="M0,0L3,0L4,9L6,9L5,13L2,13L3,21L-4,21L-6,15L-6,10L-4,12L-2,8L-4,5L-4,2L0,0Z" style="fill:rgb(35,19,22);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,574)">
+                <path d="M0,0L2,0L3,6L1,6L1,15L-5,15L-4,26L-8,27L-11,33L-13,34L-15,38L-15,36L-17,36L-16,29L-12,27L-8,19L-7,12L-2,11L-2,9L0,9L0,0Z" style="fill:rgb(116,12,41);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,162,521)">
+                <path d="M0,0L6,1L10,5L10,8L8,8L7,6L4,6L3,8L2,12L3,15L-2,15L-3,12L-5,11L-6,19L-7,19L-7,3L-5,3L-5,1L0,0Z" style="fill:rgb(252,215,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,580)">
+                <path d="M0,0L4,2L6,8L4,8L3,12L1,13L0,22L-3,31L-4,31L-6,9L-4,9L-3,5L-2,8L0,0Z" style="fill:rgb(213,206,208);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,173,609)">
+                <path d="M0,0L2,0L8,9L10,14L10,18L5,17L-5,7L-5,3L0,0Z" style="fill:rgb(8,1,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,60,536)">
+                <path d="M0,0L7,0L7,11L5,11L5,16L2,22L1,18L0,12L-4,11L-5,6L0,4L0,0Z" style="fill:rgb(249,242,245);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,62,614)">
+                <path d="M0,0L5,0L5,14L3,11L1,16L-3,17L-4,16L-4,5L-6,5L-5,1L0,2L0,0Z" style="fill:rgb(248,230,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,103,457)">
+                <path d="M0,0L6,2L6,5L9,6L8,7L15,10L12,11L0,8L0,16L-5,17L-7,17L-5,10L-2,9L-1,7L-5,5L-5,2L0,0Z" style="fill:rgb(96,22,46);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,667)">
+                <path d="M0,0L1,2L0,8L6,8L4,10L-2,10L-3,8L-4,12L2,11L1,19L-1,21L-6,22L-7,14L-7,1L-5,5L-3,5L0,0Z" style="fill:rgb(19,2,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,621)">
+                <path d="M0,0L2,1L3,7L6,7L8,10L7,14L3,15L2,20L0,20L0,15L-4,15L-8,10L-8,2L-6,5L-5,8L0,10L0,0Z" style="fill:rgb(140,13,51);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,583)">
+                <path d="M0,0L7,0L8,4L3,5L1,12L0,25L5,25L4,27L-1,27L-2,16L-5,17L-5,8L-3,2L0,0Z" style="fill:rgb(43,5,15);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,55,546)">
+                <path d="M0,0L6,2L7,10L5,13L-3,13L-4,10L-6,10L-7,15L-12,16L-12,14L-8,11L-6,7L0,5L0,0Z" style="fill:rgb(37,11,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,559)">
+                <path d="M0,0L1,0L1,8L-2,10L-2,13L-5,13L-5,11L-13,18L-19,21L-24,25L-22,21L-14,12L-9,11L-11,11L-10,8L-5,3L0,0Z" style="fill:rgb(235,226,228);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,689)">
+                <path d="M0,0L8,0L6,6L5,2L3,2L1,11L1,23L-2,28L-6,30L-8,33L-12,31L-15,28L-14,24L-12,28L-5,28L-3,23L-2,9L0,0Z" style="fill:rgb(234,30,106);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,79,635)">
+                <path d="M0,0L2,0L2,10L-2,9L-3,14L-7,11L-7,7L-9,7L-10,11L-12,14L-14,5L-11,5L-11,3L-4,2L-4,6L-2,6L-2,1L0,0Z" style="fill:rgb(246,230,236);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,511)">
+                <path d="M0,0L3,3L2,8L-5,17L-5,23L-7,24L-7,15L-9,15L-11,19L-15,19L-15,17L-13,17L-12,12L-6,8L-2,5L0,5L0,0Z" style="fill:rgb(66,23,36);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,157,551)">
+                <path d="M0,0L1,3L0,8L2,7L3,4L8,3L12,7L11,12L9,12L10,7L8,7L8,12L6,12L5,16L1,16L0,14L-3,12L-2,3L0,0Z" style="fill:rgb(65,7,21);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,120,508)">
+                <path d="M0,0L6,2L8,6L4,10L-5,16L-8,15L-9,12L-3,7L0,0Z" style="fill:rgb(8,5,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,644)">
+                <path d="M0,0L2,0L2,5L0,10L-2,10L-2,12L-4,12L-4,32L-7,35L-7,13L-8,3L-4,5L-2,2L0,2L0,0Z" style="fill:rgb(230,213,216);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,77,507)">
+                <path d="M0,0L1,3L-1,13L3,14L11,19L16,23L14,33L10,31L10,28L14,29L13,23L0,16L-3,13L-3,8L-6,11L-9,9L-7,3L-5,1L-5,3L-2,4L0,0Z" style="fill:rgb(218,176,187);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,469)">
+                <path d="M0,0L3,1L5,6L-1,5L-1,16L2,21L1,23L-2,20L-6,15L-9,15L-12,14L-12,9L-7,11L-7,5L-2,2L0,2L0,0Z" style="fill:rgb(164,60,103);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,573)">
+                <path d="M0,0L4,0L2,6L-4,18L-7,17L-7,14L-11,13L-9,12L-8,8L-6,8L-6,3L-2,3L-2,1L0,0Z" style="fill:rgb(12,12,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,577)">
+                <path d="M0,0L1,2L0,7L3,8L0,10L-2,14L-3,23L1,21L1,33L5,34L-2,36L-6,35L-4,35L-4,11L-1,1L0,0Z" style="fill:rgb(240,239,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,182,564)">
+                <path d="M0,0L4,1L5,2L5,0L7,0L7,10L3,11L-1,5L-3,4L0,8L0,11L2,11L2,13L-3,11L-6,6L-6,1L0,0Z" style="fill:rgb(17,3,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,157,577)">
+                <path d="M0,0L5,4L10,11L8,12L4,11L8,16L-5,14L-1,13L-3,6L-4,1L0,2L0,0Z" style="fill:rgb(244,238,239);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,146,576)">
+                <path d="M0,0L4,1L7,3L10,8L10,14L3,14L-3,15L0,14L1,11L3,12L1,9L1,6L-2,5L-1,1L0,0Z" style="fill:rgb(247,243,244);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,108,661)">
+                <path d="M0,0L1,3L-1,7L-1,12L2,12L1,17L-2,18L-3,26L-7,29L-4,17L-7,17L-7,23L-9,25L-8,17L-12,19L-14,18L-13,13L-12,16L-4,15L-5,12L-1,2L0,0Z" style="fill:rgb(98,7,37);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,83,589)">
+                <path d="M0,0L1,0L1,23L-11,26L-11,18L-9,22L-6,22L-6,15L-3,12L-1,12L0,0Z" style="fill:rgb(32,24,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,608)">
+                <path d="M0,0L7,0L6,5L6,23L0,25L-1,46L-2,46L-4,35L-3,34L-2,25L-10,25L-4,22L3,22L3,2L0,0Z" style="fill:rgb(239,55,119);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,580)">
+                <path d="M0,0L3,3L3,14L2,20L0,20L0,8L-3,8L-6,17L-7,13L-6,11L-15,14L-15,12L-8,7L-6,4L-4,4L-3,2L-1,2L0,6L0,0Z" style="fill:rgb(107,25,54);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,616)">
+                <path d="M0,0L7,6L7,8L12,10L15,11L13,6L14,2L18,12L19,17L11,31L9,32L11,24L14,22L14,18L10,19L9,17L11,17L12,14L13,13L6,9L0,2L0,0Z" style="fill:rgb(88,33,46);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,557)">
+                <path d="M0,0L7,0L4,2L2,2L2,4L5,4L5,6L9,5L9,10L2,11L-7,11L-5,4L1,4L0,0Z" style="fill:rgb(251,250,251);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,50,539)">
+                <path d="M0,0L2,0L3,5L5,3L6,12L4,14L-1,15L-4,20L-10,23L-12,23L-13,17L-12,6L-9,6L-9,16L-5,18L-2,13L3,12L2,7L0,0Z" style="fill:rgb(141,36,64);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,460)">
+                <path d="M0,0L3,3L3,5L-11,16L-17,29L-18,29L-18,22L-13,12L-4,5L-1,3L0,0Z" style="fill:rgb(29,22,23);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,65,678)">
+                <path d="M0,0L3,0L4,5L7,5L7,10L5,10L4,20L2,20L0,15L-1,14L-1,5L0,0Z" style="fill:rgb(250,30,101);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,553)">
+                <path d="M0,0L1,3L0,10L1,14L0,19L2,19L3,25L0,22L0,20L-8,21L-13,24L-19,22L-17,21L-11,21L-5,16L-12,15L-12,13L-2,12L-2,5L0,0Z" style="fill:rgb(112,23,45);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,531)">
+                <path d="M0,0L4,1L8,5L8,9L3,10L6,18L6,24L4,22L1,15L2,8L0,8L-2,4L-2,1L0,0Z" style="fill:rgb(235,154,179);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,524)">
+                <path d="M0,0L1,2L9,3L9,5L7,5L7,8L1,7L1,9L6,10L2,11L2,16L0,17L0,12L-4,13L-4,6L-5,3L0,0Z" style="fill:rgb(52,14,24);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,619)">
+                <path d="M0,0L11,0L10,10L6,11L4,8L3,6L-1,7L-4,7L-2,2L0,0Z" style="fill:rgb(252,242,248);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,131,499)">
+                <path d="M0,0L7,1L7,11L12,12L15,14L8,17L5,17L4,10L0,8L0,6L-2,6L-1,1L0,0Z" style="fill:rgb(9,3,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,633)">
+                <path d="M0,0L4,0L4,9L0,13L-2,11L-1,10L-3,10L-4,8L-6,12L-7,2L0,0Z" style="fill:rgb(20,7,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,58,559)">
+                <path d="M0,0L4,1L6,0L6,2L12,2L12,0L15,1L10,6L7,11L4,11L4,9L2,9L2,6L-1,6L-1,1L0,0Z" style="fill:rgb(243,237,239);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,175,632)">
+                <path d="M0,0L2,0L3,2L8,1L8,6L4,8L3,14L-3,17L-4,13L-2,14L-1,2L0,0Z" style="fill:rgb(13,9,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,615)">
+                <path d="M0,0L3,1L15,2L13,10L21,11L23,13L13,14L9,18L10,8L11,4L0,4L0,0Z" style="fill:rgb(233,33,95);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,130,544)">
+                <path d="M0,0L2,1L6,11L6,22L4,21L3,16L1,16L0,19L-2,9L0,9L-2,4L-2,1L0,0Z" style="fill:rgb(187,150,159);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,649)">
+                <path d="M0,0L2,0L2,13L1,19L1,32L-1,41L-3,42L-4,33L-2,30L-2,22L-1,17L-1,10L-3,9L0,4L1,2L-1,1L0,0Z" style="fill:rgb(165,20,64);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,571)">
+                <path d="M0,0L9,0L8,6L6,10L1,11L-2,9L-2,4L0,0Z" style="fill:rgb(5,3,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,116,486)">
+                <path d="M0,0L2,0L4,6L5,12L6,17L4,19L-6,9L-3,8L1,8L1,6L-3,6L-3,4L-1,4L0,0Z" style="fill:rgb(242,235,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,153,566)">
+                <path d="M0,0L4,5L11,13L10,16L5,12L4,15L0,13L-2,10L-3,7L-1,7L-2,3L0,0Z" style="fill:rgb(24,10,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,515)">
+                <path d="M0,0L4,2L6,6L6,10L4,10L4,16L1,16L-1,13L-1,9L-3,9L0,0Z" style="fill:rgb(9,4,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,475)">
+                <path d="M0,0L1,0L2,9L8,14L7,16L5,16L3,14L0,15L0,17L-3,18L-6,21L-7,17L-1,8L-1,1L0,0Z" style="fill:rgb(17,9,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,170,547)">
+                <path d="M0,0L4,0L4,7L10,7L10,4L12,4L12,13L7,11L1,10L0,5L-6,6L-2,2L0,2L0,0Z" style="fill:rgb(103,13,36);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,542)">
+                <path d="M0,0L3,1L5,6L5,12L3,14L-4,15L-2,7L0,0Z" style="fill:rgb(42,6,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,621)">
+                <path d="M0,0L1,2L5,3L5,5L7,5L7,7L13,5L13,9L-2,11L-2,2L0,0Z" style="fill:rgb(253,251,252);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,53,514)">
+                <path d="M0,0L2,0L2,11L0,11L0,15L2,15L0,20L-2,21L-2,19L-6,20L-4,15L-4,8L-2,6L0,0Z" style="fill:rgb(237,58,120);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,503)">
+                <path d="M0,0L7,6L11,8L11,15L4,23L3,25L5,26L3,30L4,33L2,34L0,25L8,15L7,9L0,4L0,0Z" style="fill:rgb(218,210,209);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,116,623)">
+                <path d="M0,0L2,0L3,4L7,4L6,7L2,8L2,13L-5,15L-2,3L0,0Z" style="fill:rgb(248,196,215);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,154,532)">
+                <path d="M0,0L1,0L1,13L8,11L12,11L13,7L15,9L21,10L21,11L16,11L15,13L14,12L6,14L6,16L-3,17L-2,9L-1,9L0,0Z" style="fill:rgb(231,49,115);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,145,651)">
+                <path d="M0,0L5,0L6,3L2,11L0,13L-3,13L-2,3L0,0Z" style="fill:rgb(251,51,115);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,611)">
+                <path d="M0,0L3,1L0,4L-21,9L-24,10L-26,9L-25,5L-22,5L-22,3L-13,2L-15,4L-19,5L-9,4L-1,2L0,0Z" style="fill:rgb(244,97,144);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,156,631)">
+                <path d="M0,0L3,1L0,11L-1,13L-10,13L-19,15L-19,7L-17,11L-2,10L0,0Z" style="fill:rgb(251,34,106);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,543)">
+                <path d="M0,0L2,2L2,6L-5,9L-10,10L-11,5L-8,5L-8,3L-5,1L0,0Z" style="fill:rgb(47,3,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,506)">
+                <path d="M0,0L7,0L8,1L8,8L1,10L-2,7L0,0Z" style="fill:rgb(5,3,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,41,594)">
+                <path d="M0,0L2,0L1,4L-3,4L-19,10L-21,9L-20,3L-17,7L-17,2L-13,1L-13,4L0,0Z" style="fill:rgb(239,36,98);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,555)">
+                <path d="M0,0L4,0L4,11L3,7L-1,8L-1,6L-4,6L-4,4L-2,3L-6,2L-5,6L-11,6L-11,4L-14,3L0,0Z" style="fill:rgb(243,192,213);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,120,637)">
+                <path d="M0,0L4,1L5,5L4,12L3,13L1,22L0,24L-2,24L-1,13L0,11L0,0Z" style="fill:rgb(244,85,141);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,44,609)">
+                <path d="M0,0L5,0L5,2L12,2L11,6L8,5L8,3L5,3L6,13L3,15L0,6L0,0Z" style="fill:rgb(119,68,78);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,39,577)">
+                <path d="M0,0L2,0L5,4L4,9L-2,11L-5,11L-4,4L0,0Z" style="fill:rgb(247,29,90);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,518)">
+                <path d="M0,0L2,1L4,7L9,10L9,8L16,10L15,14L11,15L8,13L7,18L6,14L7,11L3,9L1,7L-3,7L-2,4L0,4L0,0Z" style="fill:rgb(142,16,47);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,172,511)">
+                <path d="M0,0L4,1L4,4L-9,9L-11,9L-11,7L-14,10L-16,10L-16,7L0,0Z" style="fill:rgb(253,214,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,113,675)">
+                <path d="M0,0L3,0L4,6L-1,14L-5,13L-5,9L-3,9L-2,4L0,0Z" style="fill:rgb(251,61,126);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,609)">
+                <path d="M0,0L5,0L5,12L4,12L3,3L1,2L0,5L-13,8L-19,8L-18,6L-1,1L0,0Z" style="fill:rgb(245,232,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,175,564)">
+                <path d="M0,0L1,0L3,8L7,12L9,13L9,11L7,11L4,6L4,4L7,5L10,10L12,11L12,13L10,15L10,17L5,17L5,15L3,15L0,7L-2,5L-1,1L0,0Z" style="fill:rgb(53,5,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,546)">
+                <path d="M0,0L2,0L3,6L2,8L5,8L4,11L2,11L2,13L5,12L4,15L-3,17L-2,6L0,0Z" style="fill:rgb(25,20,20);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,35,535)">
+                <path d="M0,0L2,0L0,5L9,2L14,2L12,4L8,6L13,9L11,10L6,7L3,7L2,13L-2,10L-2,7L-4,7L-2,2L0,0Z" style="fill:rgb(145,44,68);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,516)">
+                <path d="M0,0L4,2L4,4L9,5L12,6L11,9L8,11L4,10L1,7L-2,5L0,0Z" style="fill:rgb(110,15,35);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,486)">
+                <path d="M0,0L1,3L-1,3L-3,7L-6,14L-4,13L-6,18L-10,17L-10,11L-8,4L-3,2L0,2L0,0Z" style="fill:rgb(251,247,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129,505)">
+                <path d="M0,0L2,0L7,6L7,11L13,8L20,9L21,7L21,10L19,10L19,13L17,13L17,10L9,13L3,12L2,6L-1,4L0,0Z" style="fill:rgb(78,15,30);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,61,602)">
+                <path d="M0,0L1,0L1,11L4,12L1,12L1,14L-4,14L-5,19L-7,19L-7,14L-5,9L-12,9L-12,8L0,7L-1,4L0,0Z" style="fill:rgb(234,134,166);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,590)">
+                <path d="M0,0L8,8L9,14L8,18L13,26L12,28L7,21L7,19L3,20L4,14L4,11L6,13L5,8L-3,4L1,3L0,0Z" style="fill:rgb(161,51,76);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,172,556)">
+                <path d="M0,0L5,1L10,4L11,2L15,5L15,7L19,6L20,13L18,15L18,8L15,8L16,12L13,9L6,8L7,5L0,1L0,0Z" style="fill:rgb(165,99,117);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,473)">
+                <path d="M0,0L3,1L-2,17L-5,20L-12,21L-12,19L-6,16L-1,4L-3,3L0,0Z" style="fill:rgb(241,23,91);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,689)">
+                <path d="M0,0L2,0L3,3L5,3L5,11L3,21L1,22L0,0Z" style="fill:rgb(4,0,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,571)">
+                <path d="M0,0L1,0L0,7L5,9L3,12L-1,13L-8,5L-7,3L-3,3L0,2L0,0Z" style="fill:rgb(243,234,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,45,599)">
+                <path d="M0,0L3,1L3,11L-4,9L-4,13L-7,13L-6,8L-4,7L-1,1L0,0Z" style="fill:rgb(8,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,164,580)">
+                <path d="M0,0L5,5L8,9L5,10L6,14L-1,12L-3,8L2,8L-2,2L0,0Z" style="fill:rgb(32,30,30);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,44,539)">
+                <path d="M0,0L6,0L10,9L9,13L5,12L3,5L-2,2L0,0Z" style="fill:rgb(36,4,14);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,138,523)">
+                <path d="M0,0L6,0L4,4L0,6L-4,5L-4,8L-11,6L-7,1L0,0Z" style="fill:rgb(205,179,190);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,482)">
+                <path d="M0,0L1,4L-8,18L-12,19L-10,12L-6,7L-4,7L-2,2L0,0Z" style="fill:rgb(240,221,225);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,119,488)">
+                <path d="M0,0L5,4L9,10L9,13L7,11L5,17L3,17L0,7L0,0Z" style="fill:rgb(25,25,24);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,588)">
+                <path d="M0,0L7,5L14,6L14,8L12,8L11,10L6,9L4,20L-1,20L2,18L4,6L2,6L0,0Z" style="fill:rgb(69,1,20);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,50,566)">
+                <path d="M0,0L2,0L2,2L-8,6L-17,9L-18,12L-20,12L-20,10L-22,10L-21,5L-16,3L-15,5L-3,2L0,0Z" style="fill:rgb(251,106,159);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,131,519)">
+                <path d="M0,0L3,1L5,5L-1,7L-5,12L-5,17L-8,14L-7,10L-7,7L0,0Z" style="fill:rgb(20,15,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,101,678)">
+                <path d="M0,0L3,0L3,6L0,12L-6,11L-7,20L-9,16L-9,11L-3,8L-1,8L0,0Z" style="fill:rgb(23,4,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,574)">
+                <path d="M0,0L2,0L3,6L1,6L1,15L-5,15L-5,20L-8,19L-7,12L-2,11L-2,9L0,9L0,0Z" style="fill:rgb(89,24,39);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,530)">
+                <path d="M0,0L4,1L4,5L2,5L2,8L5,7L5,12L2,13L0,12L-2,5L-2,1L0,0Z" style="fill:rgb(240,232,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,182,523)">
+                <path d="M0,0L1,0L2,13L0,20L-4,19L-10,19L-10,17L-2,16L0,0Z" style="fill:rgb(252,51,126);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,55,628)">
+                <path d="M0,0L3,0L5,3L4,7L0,8L-1,13L-3,13L-4,6L-2,6L-2,3L0,3L0,0Z" style="fill:rgb(59,3,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,71,561)">
+                <path d="M0,0L4,2L0,7L0,10L-5,11L-8,14L-11,12L-5,7L-3,3L0,0Z" style="fill:rgb(45,28,33);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,553)">
+                <path d="M0,0L2,0L2,11L7,12L7,15L1,13L1,15L-8,15L-8,14L-1,13L0,2L-7,3L-6,1L0,0Z" style="fill:rgb(215,37,88);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,79,687)">
+                <path d="M0,0L4,2L5,5L6,25L4,30L2,29L3,21L3,9L0,4L0,0Z" style="fill:rgb(33,5,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,116,651)">
+                <path d="M0,0L2,0L-1,10L-3,22L-7,18L-6,13L-1,1L0,0Z" style="fill:rgb(229,27,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,638)">
+                <path d="M0,0L2,3L2,5L6,4L3,12L-2,9L-2,16L-4,15L-3,8L-5,7L-3,7L-2,2L0,0Z" style="fill:rgb(106,33,60);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,637)">
+                <path d="M0,0L10,0L10,5L8,5L6,9L5,6L-2,7L-4,5L4,5L4,2L0,2L0,0Z" style="fill:rgb(153,14,49);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,86,684)">
+                <path d="M0,0L2,3L3,6L4,1L6,1L6,13L3,24L2,20L4,8L1,9L1,5L-1,5L-2,7L-2,4L0,4L0,0Z" style="fill:rgb(104,52,65);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,41,608)">
+                <path d="M0,0L5,0L4,7L7,17L4,18L1,12L1,5L-3,4L0,4L0,0Z" style="fill:rgb(59,32,37);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,561)">
+                <path d="M0,0L6,5L4,9L6,9L7,12L3,13L-1,7L0,0Z" style="fill:rgb(23,15,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,135,552)">
+                <path d="M0,0L6,1L9,4L8,8L1,8L0,0Z" style="fill:rgb(23,15,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,545)">
+                <path d="M0,0L6,5L6,7L8,8L6,8L8,15L7,16L10,17L10,19L5,19L5,8L0,9L1,4L0,0Z" style="fill:rgb(32,7,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,536)">
+                <path d="M0,0L6,3L7,8L4,9L7,15L6,18L3,15L0,4L0,0Z" style="fill:rgb(240,232,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,137,530)">
+                <path d="M0,0L3,0L4,11L1,12L-3,6L-4,2L0,0Z" style="fill:rgb(21,7,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,83,651)">
+                <path d="M0,0L1,3L3,3L3,25L0,28L0,0Z" style="fill:rgb(189,163,167);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,104,597)">
+                <path d="M0,0L5,0L5,9L1,10L-1,9L-1,2L0,0Z" style="fill:rgb(2,0,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106,565)">
+                <path d="M0,0L3,1L1,6L-2,8L-6,8L-6,5L-11,4L-11,3L-6,3L-6,1L-1,1L0,0Z" style="fill:rgb(29,8,12);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,534)">
+                <path d="M0,0L2,0L4,8L1,7L0,10L-1,1L0,0ZM-4,4L-1,4L0,12L-4,13L-4,4Z" style="fill:rgb(19,15,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,108,644)">
+                <path d="M0,0L7,0L6,6L3,10L0,7L0,0Z" style="fill:rgb(17,4,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,176,604)">
+                <path d="M0,0L1,2L3,3L3,5L8,14L8,16L10,16L11,21L11,28L9,24L4,12L-1,4L0,0Z" style="fill:rgb(53,21,30);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,125,598)">
+                <path d="M0,0L2,4L-5,25L-9,24L-7,24L-6,19L0,0Z" style="fill:rgb(135,9,40);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,171,570)">
+                <path d="M0,0L5,1L7,5L7,9L4,9L4,11L0,9L0,5L2,4L0,0Z" style="fill:rgb(7,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,178,510)">
+                <path d="M0,0L2,0L2,3L0,5L-3,7L-16,12L-21,12L-21,14L-23,14L-23,11L-20,11L-19,8L-17,8L-17,10L-3,4L0,0Z" style="fill:rgb(252,78,140);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,503)">
+                <path d="M0,0L5,0L7,2L7,5L3,7L3,12L6,16L2,14L0,11L0,0Z" style="fill:rgb(180,108,140);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,114,502)">
+                <path d="M0,0L6,4L10,6L8,8L8,6L6,6L5,11L0,17L-2,16L1,13L2,10L0,9L2,8L3,5L1,5L0,0Z" style="fill:rgb(104,36,57);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,655)">
+                <path d="M0,0L2,2L2,25L-2,26L-1,22L-1,2L0,0Z" style="fill:rgb(50,10,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,146,540)">
+                <path d="M0,0L6,1L6,5L4,5L4,10L0,8L-2,4L-2,1L0,0Z" style="fill:rgb(250,247,248);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,103,457)">
+                <path d="M0,0L6,2L5,6L-3,7L-5,5L-5,2L0,0Z" style="fill:rgb(24,7,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,616)">
+                <path d="M0,0L7,6L7,8L12,10L15,11L13,6L14,2L17,9L17,15L6,9L0,2L0,0Z" style="fill:rgb(153,86,107);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,68,599)">
+                <path d="M0,0L2,4L2,6L4,6L4,16L-1,16L2,15L2,12L0,12L-1,8L-1,1L0,0Z" style="fill:rgb(28,5,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,63,513)">
+                <path d="M0,0L4,1L4,9L1,12L-5,14L-3,11L-4,9L-1,7L2,7L2,5L0,5L0,0Z" style="fill:rgb(52,16,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,61,593)">
+                <path d="M0,0L1,0L4,9L5,14L4,20L1,20L0,9L0,0Z" style="fill:rgb(92,13,28);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,598)">
+                <path d="M0,0L1,0L1,12L5,13L-2,15L-6,14L-2,13L-2,2L0,0Z" style="fill:rgb(204,67,112);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,522)">
+                <path d="M0,0L6,1L15,8L13,18L9,16L9,13L13,14L12,8L1,2L0,0Z" style="fill:rgb(208,150,167);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,73,519)">
+                <path d="M0,0L5,4L5,7L3,7L3,9L-1,8L-4,5L-4,2L0,0Z" style="fill:rgb(9,1,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,69,648)">
+                <path d="M0,0L4,0L4,7L3,12L-1,12L0,0Z" style="fill:rgb(253,218,234);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,689)">
+                <path d="M0,0L8,0L6,6L5,2L3,2L0,13L-2,15L-1,4L0,0Z" style="fill:rgb(232,30,101);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,559)">
+                <path d="M0,0L1,0L1,8L-2,10L-2,13L-5,13L-5,10L-7,9L-3,4L-5,5L-4,2L0,0Z" style="fill:rgb(243,234,236);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,132,480)">
+                <path d="M0,0L4,5L7,9L6,11L4,10L5,15L2,12L-2,5L0,0Z" style="fill:rgb(85,44,54);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,615)">
+                <path d="M0,0L6,0L3,2L1,21L0,21L-1,13L0,3L-2,2L0,0Z" style="fill:rgb(250,59,116);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,48,621)">
+                <path d="M0,0L4,0L4,10L-1,9L-2,4L0,4L0,0Z" style="fill:rgb(15,1,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,56,545)">
+                <path d="M0,0L10,0L11,2L9,2L9,7L6,13L5,9L4,3L0,2L0,0Z" style="fill:rgb(246,224,231);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,663)">
+                <path d="M0,0L3,0L2,7L0,10L-3,9L-3,2L0,0Z" style="fill:rgb(3,0,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,65,624)">
+                <path d="M0,0L1,0L1,12L-3,11L-5,10L-5,6L-2,6L-1,1L0,0Z" style="fill:rgb(254,247,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,59,574)">
+                <path d="M0,0L4,0L2,4L-2,8L-4,12L-6,12L-6,6L0,0Z" style="fill:rgb(38,10,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,73,570)">
+                <path d="M0,0L2,0L3,3L0,4L0,6L-4,6L-4,11L-6,11L-6,13L-9,13L-7,7L0,0Z" style="fill:rgb(30,15,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,58,565)">
+                <path d="M0,0L2,0L2,3L4,3L5,6L-1,13L-3,13L-3,8L-1,5L0,0Z" style="fill:rgb(251,248,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,56,562)">
+                <path d="M0,0L2,3L1,10L0,11L0,17L-2,17L-4,3L-6,3L-6,1L-2,1L-1,5L0,0Z" style="fill:rgb(251,217,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,152,503)">
+                <path d="M0,0L2,4L2,8L0,11L-8,11L-4,8L-5,2L0,5L0,0Z" style="fill:rgb(126,28,56);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,136,500)">
+                <path d="M0,0L2,1L2,10L7,11L10,13L3,16L0,16L-1,7L0,0Z" style="fill:rgb(25,3,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,186,612)">
+                <path d="M0,0L4,0L3,6L-2,7L-5,3L-5,1L0,0Z" style="fill:rgb(243,233,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,50,539)">
+                <path d="M0,0L2,0L3,5L5,3L6,12L4,14L-1,15L-3,19L-4,15L-1,12L3,12L2,7L0,0Z" style="fill:rgb(177,52,97);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,511)">
+                <path d="M0,0L3,3L2,8L-2,12L-7,13L-2,5L0,5L0,0Z" style="fill:rgb(103,71,79);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,673)">
+                <path d="M0,0L1,4L-2,10L-3,18L-5,17L-5,9L-2,1L0,0Z" style="fill:rgb(242,30,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,634)">
+                <path d="M0,0L5,1L5,5L0,6L-1,11L-2,11L-3,1L0,0Z" style="fill:rgb(7,1,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,74,601)">
+                <path d="M0,0L4,1L3,10L-1,11L-2,4L0,0Z" style="fill:rgb(243,226,233);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,25,581)">
+                <path d="M0,0L1,0L1,9L-1,19L1,20L-3,21L-3,11L0,0Z" style="fill:rgb(251,28,91);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,49,533)">
+                <path d="M0,0L2,0L2,3L-11,7L-15,8L-13,4L0,0Z" style="fill:rgb(95,21,35);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,154,517)">
+                <path d="M0,0L2,0L0,28L-1,28L-2,8L0,8L-1,1L0,0Z" style="fill:rgb(214,12,71);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,114,474)">
+                <path d="M0,0L4,1L3,4L1,4L4,10L3,12L-1,9L-5,9L-5,4L0,6L0,0Z" style="fill:rgb(88,13,34);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,121,465)">
+                <path d="M0,0L6,0L9,11L5,12L3,7L3,1L0,0Z" style="fill:rgb(113,13,41);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,651)">
+                <path d="M0,0L2,0L0,6L1,7L1,15L0,12L-4,11L-4,5L-2,5L-2,3L0,3L0,0Z" style="fill:rgb(29,9,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,633)">
+                <path d="M0,0L1,0L2,9L5,10L6,18L5,16L0,16L0,0Z" style="fill:rgb(26,4,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,153,591)">
+                <path d="M0,0L5,0L3,2L9,4L8,12L3,7L0,0Z" style="fill:rgb(92,18,42);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,145,524)">
+                <path d="M0,0L2,0L5,7L8,3L8,17L5,16L7,16L7,12L5,12L0,3L0,0Z" style="fill:rgb(90,12,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,460)">
+                <path d="M0,0L3,3L3,5L-6,12L-8,12L-7,8L-1,3L0,0Z" style="fill:rgb(22,18,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,463)">
+                <path d="M0,0L8,1L14,3L13,7L11,6L10,8L10,6L8,6L8,4L1,2L0,0Z" style="fill:rgb(9,9,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,142,594)">
+                <path d="M0,0L1,0L1,8L-2,17L-3,17L-4,3L-3,5L-2,2L0,2L0,0Z" style="fill:rgb(194,46,92);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,40,561)">
+                <path d="M0,0L5,1L5,3L-8,7L-12,6L-7,3L-2,1L0,0Z" style="fill:rgb(253,232,242);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,109,500)">
+                <path d="M0,0L4,1L4,7L3,8L-2,8L-1,1L0,0Z" style="fill:rgb(232,65,124);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,180,643)">
+                <path d="M0,0L2,1L-1,7L-3,7L-4,11L-7,12L-7,5L-5,5L-4,3L-2,4L0,0Z" style="fill:rgb(96,20,38);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,577)">
+                <path d="M0,0L2,0L4,6L3,10L2,5L0,5L-1,8L-4,8L-3,3L0,0Z" style="fill:rgb(2,0,0);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,180,551)">
+                <path d="M0,0L2,0L2,9L-3,7L-7,4L-6,2L0,3L0,0Z" style="fill:rgb(89,16,41);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,541)">
+                <path d="M0,0L5,2L4,8L3,10L-1,9L0,0Z" style="fill:rgb(195,150,160);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,163,617)">
+                <path d="M0,0L1,2L5,3L5,5L10,5L11,7L-2,7L-1,1L0,0Z" style="fill:rgb(13,1,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,495)">
+                <path d="M0,0L7,6L11,11L8,11L5,8L3,11L2,6L0,5L0,0Z" style="fill:rgb(76,29,41);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,65,678)">
+                <path d="M0,0L3,0L4,2L4,10L3,13L1,13L0,0Z" style="fill:rgb(251,104,161);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,580)">
+                <path d="M0,0L4,2L6,8L4,8L3,10L0,9L-1,4L0,0Z" style="fill:rgb(186,90,119);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,162,554)">
+                <path d="M0,0L4,1L7,4L6,9L4,9L5,4L3,4L3,8L-1,7L0,0Z" style="fill:rgb(183,70,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,541)">
+                <path d="M0,0L1,0L1,9L-2,13L-5,13L-2,2L0,0Z" style="fill:rgb(26,10,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,142,515)">
+                <path d="M0,0L4,1L2,6L1,8L-2,8L-2,5L-7,5L-4,2L0,0Z" style="fill:rgb(6,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,683)">
+                <path d="M0,0L2,3L4,0L3,9L-2,11L-2,5L0,5L0,0Z" style="fill:rgb(252,220,234);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,79,635)">
+                <path d="M0,0L2,0L2,10L-3,9L-2,1L0,0Z" style="fill:rgb(249,218,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,619)">
+                <path d="M0,0L5,0L1,7L-1,15L-3,14L-2,7L0,0Z" style="fill:rgb(234,45,115);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,101,621)">
+                <path d="M0,0L5,3L4,10L1,9L0,11L0,0Z" style="fill:rgb(4,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,62,588)">
+                <path d="M0,0L5,1L6,9L4,11L3,5L3,3L1,3L1,10L0,10L-1,1L0,0Z" style="fill:rgb(26,2,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,158,585)">
+                <path d="M0,0L5,2L3,3L7,8L-6,6L-2,5L-2,2L0,2L0,0Z" style="fill:rgb(227,216,218);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,167,565)">
+                <path d="M0,0L4,5L7,10L4,10L3,14L1,13L1,6L-2,2L0,2L0,0Z" style="fill:rgb(140,14,49);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,162,568)">
+                <path d="M0,0L6,2L6,5L1,8L1,6L-2,7L-1,2L0,0Z" style="fill:rgb(251,249,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,128,519)">
+                <path d="M0,0L3,1L-4,8L-2,10L-4,14L-3,17L-5,18L-7,9L0,0Z" style="fill:rgb(223,190,203);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,156,631)">
+                <path d="M0,0L3,1L0,11L-1,13L-5,12L-9,10L-2,10L0,0Z" style="fill:rgb(252,59,117);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,536)">
+                <path d="M0,0L1,0L2,11L3,14L1,18L-1,18L-2,10L0,10L0,0Z" style="fill:rgb(12,1,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,178,541)">
+                <path d="M0,0L3,1L3,3L-7,7L-8,2L0,0Z" style="fill:rgb(248,226,233);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,153,521)">
+                <path d="M0,0L1,4L-1,4L-1,10L-4,10L-6,5L-3,1L0,3L0,0Z" style="fill:rgb(46,8,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,118,526)">
+                <path d="M0,0L2,0L2,5L0,6L-2,10L-4,9L-3,7L-6,8L-8,6L-1,2L0,0Z" style="fill:rgb(1,1,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,68,638)">
+                <path d="M0,0L4,0L4,4L2,4L1,8L-1,11L-3,2L0,2L0,0Z" style="fill:rgb(252,219,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,122,629)">
+                <path d="M0,0L3,0L4,3L2,6L-4,7L-4,2L0,0Z" style="fill:rgb(251,235,242);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,615)">
+                <path d="M0,0L3,1L15,2L13,5L0,4L0,0Z" style="fill:rgb(238,30,113);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,38,541)">
+                <path d="M0,0L4,1L3,4L0,4L0,15L-2,16L-2,7L0,0Z" style="fill:rgb(37,16,22);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,489)">
+                <path d="M0,0L3,0L5,5L4,6L6,8L4,11L-1,5L0,0Z" style="fill:rgb(250,246,247);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129,625)">
+                <path d="M0,0L3,0L5,9L-1,9L0,0Z" style="fill:rgb(22,2,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,56,619)">
+                <path d="M0,0L2,0L2,9L-1,9L-2,12L-2,2L0,2L0,0Z" style="fill:rgb(37,10,15);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,588)">
+                <path d="M0,0L3,0L4,3L4,10L2,12L0,6L0,0Z" style="fill:rgb(25,2,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,119,569)">
+                <path d="M0,0L4,0L3,3L-5,7L-8,8L-14,6L-12,5L-6,5L0,0Z" style="fill:rgb(64,21,31);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,555)">
+                <path d="M0,0L4,1L1,2L-6,2L-5,6L-11,6L-11,4L-14,3L0,0Z" style="fill:rgb(246,193,216);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,35,535)">
+                <path d="M0,0L2,0L0,5L2,9L1,13L-2,10L-2,7L-4,7L-2,2L0,0Z" style="fill:rgb(113,26,54);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,136,542)">
+                <path d="M0,0L3,3L4,9L-3,9L-2,5L0,0Z" style="fill:rgb(12,7,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,60,532)">
+                <path d="M0,0L3,1L3,3L8,3L8,10L6,14L6,7L7,4L0,4L-1,8L-1,1L0,0Z" style="fill:rgb(220,78,119);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,61,485)">
+                <path d="M0,0L1,0L0,10L5,9L0,13L-3,13L-1,2L0,0Z" style="fill:rgb(249,51,108);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,473)">
+                <path d="M0,0L4,2L1,2L1,5L3,5L4,12L0,11L0,2L-3,1L0,0Z" style="fill:rgb(226,214,220);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,158,619)">
+                <path d="M0,0L1,4L0,10L-4,7L-4,5L-6,5L-5,2L0,0Z" style="fill:rgb(251,198,217);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,26,595)">
+                <path d="M0,0L2,0L2,7L-4,9L-6,8L-5,2L-2,6L-2,1L0,0Z" style="fill:rgb(251,90,141);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,73,594)">
+                <path d="M0,0L1,4L0,11L-3,11L-5,5L-4,1L-3,6L-1,6L0,0Z" style="fill:rgb(198,44,89);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,43,566)">
+                <path d="M0,0L2,3L-6,6L-9,5L-8,2L0,0Z" style="fill:rgb(254,230,242);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,53,559)">
+                <path d="M0,0L5,0L2,10L1,10L1,4L-6,5L-4,3L-1,2L0,0Z" style="fill:rgb(238,23,77);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,507)">
+                <path d="M0,0L1,0L1,6L-2,6L-3,9L-5,8L-5,3L0,0Z" style="fill:rgb(73,8,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129,505)">
+                <path d="M0,0L2,0L7,6L6,10L3,12L2,6L-1,4L0,0Z" style="fill:rgb(123,94,104);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,111,659)">
+                <path d="M0,0L1,3L-1,6L-1,14L-4,14L-5,9L-2,2L0,2L0,0Z" style="fill:rgb(21,3,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,632)">
+                <path d="M0,0L4,1L3,22L2,22L0,11L1,10L2,1L0,0Z" style="fill:rgb(174,9,51);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,186,617)">
+                <path d="M0,0L4,4L4,14L3,23L2,23L2,13L3,6L1,6L-2,2L0,2L0,0Z" style="fill:rgb(216,38,95);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,626)">
+                <path d="M0,0L5,3L5,8L1,10L1,7L-1,6L0,0Z" style="fill:rgb(252,169,199);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,473)">
+                <path d="M0,0L3,1L-1,13L-3,11L-2,6L-1,4L-3,3L0,0Z" style="fill:rgb(235,33,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,674)">
+                <path d="M0,0L1,3L9,2L9,4L6,4L6,10L4,12L5,4L1,6L-1,5L0,0Z" style="fill:rgb(173,13,64);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106,638)">
+                <path d="M0,0L8,1L8,4L-1,4L-3,2L0,0Z" style="fill:rgb(14,1,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,611)">
+                <path d="M0,0L3,1L0,4L-13,7L-17,6L-1,2L0,0Z" style="fill:rgb(137,60,77);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,95,608)">
+                <path d="M0,0L7,0L6,5L5,20L4,20L3,2L0,0Z" style="fill:rgb(226,11,71);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,590)">
+                <path d="M0,0L8,8L9,14L7,15L5,8L-3,4L1,3L0,0Z" style="fill:rgb(191,157,159);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,163,551)">
+                <path d="M0,0L2,1L2,4L-3,4L-4,8L-6,8L-6,3L-4,1L0,0Z" style="fill:rgb(27,3,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,113,675)">
+                <path d="M0,0L3,0L2,6L0,9L-2,9L-1,1L0,0Z" style="fill:rgb(252,222,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,655)">
+                <path d="M0,0L2,1L1,9L-1,12L-2,8L-5,7L-4,3L-4,5L0,5L0,0Z" style="fill:rgb(250,55,110);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,77,644)">
+                <path d="M0,0L2,0L2,2L4,2L3,10L1,13L0,0Z" style="fill:rgb(33,6,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,168,571)">
+                <path d="M0,0L1,0L1,5L-3,8L-7,6L-7,3L-3,3L0,2L0,0Z" style="fill:rgb(240,225,229);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,568)">
+                <path d="M0,0L6,0L4,1L3,9L0,9L1,3L-4,3L0,0Z" style="fill:rgb(136,23,58);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,546)">
+                <path d="M0,0L2,0L3,6L-1,13L-2,13L-2,6L0,0Z" style="fill:rgb(207,43,91);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,44,539)">
+                <path d="M0,0L6,0L6,6L1,4L-2,1L0,0Z" style="fill:rgb(15,1,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,65,530)">
+                <path d="M0,0L4,1L7,2L7,4L5,5L-2,5L0,0Z" style="fill:rgb(31,12,15);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,523)">
+                <path d="M0,0L2,2L0,7L-1,11L-2,13L-4,8L-3,6L-3,3L0,0Z" style="fill:rgb(58,29,37);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,514)">
+                <path d="M0,0L1,2L5,2L8,0L7,5L5,7L2,7L0,4L0,0Z" style="fill:rgb(52,7,15);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,145,516)">
+                <path d="M0,0L1,2L3,2L1,6L2,15L-1,14L-2,5L0,0Z" style="fill:rgb(28,14,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,503)">
+                <path d="M0,0L1,3L-3,11L-6,11L-4,5L-2,1L0,0Z" style="fill:rgb(21,18,18);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,119,488)">
+                <path d="M0,0L5,4L9,10L9,13L1,6L0,0Z" style="fill:rgb(91,16,35);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,133,475)">
+                <path d="M0,0L2,0L4,5L3,6L5,7L5,9L2,10L-2,2L0,2L0,0Z" style="fill:rgb(245,236,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,113,472)">
+                <path d="M0,0L4,1L2,2L1,8L-3,7L-6,4L-2,3L0,0Z" style="fill:rgb(19,7,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,108,462)">
+                <path d="M0,0L4,1L3,2L10,5L7,6L-7,2L-7,1L0,0Z" style="fill:rgb(95,75,72);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,667)">
+                <path d="M0,0L1,2L0,8L6,8L4,10L-2,10L-3,5L0,0Z" style="fill:rgb(41,0,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,45,599)">
+                <path d="M0,0L3,1L3,11L-2,9L-1,6L2,6L2,2L-2,4L0,0Z" style="fill:rgb(31,3,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,63,591)">
+                <path d="M0,0L2,0L3,6L3,14L1,11L0,9L0,0Z" style="fill:rgb(11,7,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,93,521)">
+                <path d="M0,0L4,1L3,4L0,6L-4,5L-5,2L0,2L0,0Z" style="fill:rgb(219,209,209);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,130,496)">
+                <path d="M0,0L6,0L6,4L1,4L-2,8L-2,3L-3,1L0,0Z" style="fill:rgb(30,1,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,86,481)">
+                <path d="M0,0L0,7L-6,10L-4,1L-1,1L0,0Z" style="fill:rgb(232,154,183);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,122,647)">
+                <path d="M0,0L1,3L-1,12L-2,14L-4,14L-2,4L0,0Z" style="fill:rgb(230,28,84);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,633)">
+                <path d="M0,0L8,0L4,2L1,2L1,10L0,10L0,2L-5,3L-6,1L0,0Z" style="fill:rgb(220,20,80);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,102,630)">
+                <path d="M0,0L3,1L2,9L0,9L-2,5L-1,1L0,0Z" style="fill:rgb(17,2,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,139,581)">
+                <path d="M0,0L3,0L3,9L1,7L-2,8L-2,3L0,1L0,0Z" style="fill:rgb(248,247,247);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,157,577)">
+                <path d="M0,0L3,3L1,7L-3,6L-4,1L0,2L0,0Z" style="fill:rgb(181,171,173);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,137,574)">
+                <path d="M0,0L2,3L3,9L0,10L-1,14L-2,6L0,6L0,0Z" style="fill:rgb(231,201,215);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,564)">
+                <path d="M0,0L7,2L7,3L-4,4L-6,3L-6,1L0,0Z" style="fill:rgb(248,226,234);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,166,539)">
+                <path d="M0,0L3,2L9,3L9,4L4,4L3,6L2,5L-7,6L-4,4L0,4L0,0Z" style="fill:rgb(231,55,114);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,114,505)">
+                <path d="M0,0L1,2L3,2L2,8L-1,8L-2,5L-6,3L-1,1L0,0Z" style="fill:rgb(28,1,6);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,118,497)">
+                <path d="M0,0L3,1L4,6L2,8L-2,4L0,0Z" style="fill:rgb(243,244,243);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,79,492)">
+                <path d="M0,0L2,1L0,10L-4,10L-3,5L0,0Z" style="fill:rgb(228,184,198);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,128,476)">
+                <path d="M0,0L3,0L4,2L4,8L0,6L-1,1L0,0Z" style="fill:rgb(48,18,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,680)">
+                <path d="M0,0L2,2L1,10L-1,11L-2,2L0,0Z" style="fill:rgb(239,212,217);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,103,641)">
+                <path d="M0,0L5,2L5,8L1,7L0,0Z" style="fill:rgb(1,1,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,634)">
+                <path d="M0,0L1,4L3,4L3,7L6,8L-2,8L-1,2L0,0Z" style="fill:rgb(253,216,233);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,620)">
+                <path d="M0,0L7,0L5,11L3,7L3,2L0,2L0,0Z" style="fill:rgb(228,40,100);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,57,615)">
+                <path d="M0,0L5,2L5,6L3,6L2,8L1,5L-1,4L0,0Z" style="fill:rgb(248,244,245);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,47,589)">
+                <path d="M0,0L6,0L5,5L0,5L0,0Z" style="fill:rgb(237,162,188);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,161,588)">
+                <path d="M0,0L7,1L9,6L2,4L0,0Z" style="fill:rgb(107,20,36);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,76,582)">
+                <path d="M0,0L1,0L1,11L-1,10L-3,11L-2,4L0,0Z" style="fill:rgb(24,9,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,184,561)">
+                <path d="M0,0L3,0L3,2L7,1L8,8L6,10L6,3L3,3L4,7L1,4L0,0Z" style="fill:rgb(148,58,87);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,559)">
+                <path d="M0,0L2,0L7,7L3,5L1,3L-3,4L-7,1L0,0Z" style="fill:rgb(147,112,118);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,128,553)">
+                <path d="M0,0L6,1L5,7L3,7L2,10L0,0Z" style="fill:rgb(216,174,190);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,175,539)">
+                <path d="M0,0L8,0L6,4L3,3L-3,3L-3,1L0,0Z" style="fill:rgb(251,33,103);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,157,525)">
+                <path d="M0,0L1,4L0,7L3,8L2,12L0,12L-1,15L-1,2L0,0Z" style="fill:rgb(251,248,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,519)">
+                <path d="M0,0L5,1L12,1L16,0L13,3L2,3L1,5L1,3L-2,2L0,0Z" style="fill:rgb(136,44,72);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,77,507)">
+                <path d="M0,0L1,3L-1,13L3,14L0,16L-3,13L-2,4L0,0Z" style="fill:rgb(220,134,162);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,115,478)">
+                <path d="M0,0L3,1L7,10L8,14L4,11L3,11L1,4L0,0Z" style="fill:rgb(215,86,131);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,475)">
+                <path d="M0,0L1,0L2,9L4,11L0,14L0,10L-2,9L-1,8L-1,1L0,0Z" style="fill:rgb(130,54,74);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,83,702)">
+                <path d="M0,0L1,0L2,10L0,15L-2,14L-1,6L0,0Z" style="fill:rgb(49,13,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,686)">
+                <path d="M0,0L1,2L-1,4L-3,3L-4,12L-6,8L-6,3L0,0Z" style="fill:rgb(46,5,18);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106,679)">
+                <path d="M0,0L3,0L2,7L0,7L-2,11L-2,8L0,0Z" style="fill:rgb(242,215,229);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,679)">
+                <path d="M0,0L4,0L1,9L-2,8L-1,6L-1,1L0,0Z" style="fill:rgb(14,9,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,41,608)">
+                <path d="M0,0L5,0L3,8L1,8L1,5L-3,4L0,4L0,0Z" style="fill:rgb(49,14,24);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,86,588)">
+                <path d="M0,0L4,0L2,6L1,6L0,12L-1,12L-1,3L0,0Z" style="fill:rgb(39,39,37);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,574)">
+                <path d="M0,0L2,0L3,6L1,6L1,13L-2,12L-2,9L0,9L0,0Z" style="fill:rgb(222,43,95);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,77,562)">
+                <path d="M0,0L2,1L-3,6L-2,8L-5,9L-6,7L-8,8L-7,5L-2,1L0,0Z" style="fill:rgb(194,181,184);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,131,524)">
+                <path d="M0,0L2,0L3,7L-4,5L0,0Z" style="fill:rgb(187,182,184);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,87,516)">
+                <path d="M0,0L5,0L10,5L4,6L4,4L2,4L0,0Z" style="fill:rgb(52,7,18);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,74,502)">
+                <path d="M0,0L8,1L9,3L-1,4L0,0Z" style="fill:rgb(243,243,243);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,494)">
+                <path d="M0,0L5,0L7,2L10,1L10,3L5,6L0,0Z" style="fill:rgb(242,218,223);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,478)">
+                <path d="M0,0L2,0L1,7L-1,11L-2,11L-2,4L0,0Z" style="fill:rgb(29,5,10);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,100,464)">
+                <path d="M0,0L2,0L1,3L-2,3L-3,8L-8,7L-3,2L0,0Z" style="fill:rgb(235,217,225);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,713)">
+                <path d="M0,0L3,4L9,4L7,9L3,7L0,4L0,0Z" style="fill:rgb(217,27,91);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,712)">
+                <path d="M0,0L5,2L6,5L-1,6L0,0Z" style="fill:rgb(29,4,12);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,86,662)">
+                <path d="M0,0L4,1L4,7L0,8L0,0Z" style="fill:rgb(0,3,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,658)">
+                <path d="M0,0L4,0L4,10L1,7L0,0Z" style="fill:rgb(230,72,117);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,118,642)">
+                <path d="M0,0L3,0L3,6L-2,7L-1,2L0,0Z" style="fill:rgb(25,2,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,186,633)">
+                <path d="M0,0L1,0L1,11L0,7L-5,10L0,0Z" style="fill:rgb(12,4,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,614)">
+                <path d="M0,0L6,1L6,4L0,5L-2,4L-2,2L0,2L0,0Z" style="fill:rgb(2,0,1);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,34,603)">
+                <path d="M0,0L2,0L1,7L3,8L0,8L-4,4L0,0Z" style="fill:rgb(250,232,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,39,579)">
+                <path d="M0,0L1,2L3,2L2,6L-2,7L-3,3L0,0Z" style="fill:rgb(253,179,212);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,179,568)">
+                <path d="M0,0L3,1L6,6L8,7L8,9L2,10L3,8L5,9L5,7L3,7L0,2L0,0Z" style="fill:rgb(215,122,150);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,114,568)">
+                <path d="M0,0L9,0L5,2L-1,6L-1,3L0,0Z" style="fill:rgb(9,4,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,525)">
+                <path d="M0,0L2,1L0,11L-2,12L-2,5L-3,2L0,0Z" style="fill:rgb(72,22,35);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,475)">
+                <path d="M0,0L8,1L9,3L2,4L0,3L0,0Z" style="fill:rgb(243,240,241);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,613)">
+                <path d="M0,0L1,0L1,8L-1,9L-1,4L-5,4L-5,2L0,0Z" style="fill:rgb(249,247,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,607)">
+                <path d="M0,0L2,4L10,5L6,7L0,8L0,0Z" style="fill:rgb(82,14,32);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,36,603)">
+                <path d="M0,0L3,1L2,3L5,4L3,5L1,9L1,7L-1,7L0,0Z" style="fill:rgb(124,26,50);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,41,596)">
+                <path d="M0,0L1,3L-2,6L-8,4L-5,2L0,0Z" style="fill:rgb(246,222,232);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,155,592)">
+                <path d="M0,0L7,0L10,2L10,4L7,5L7,3L1,2L0,0Z" style="fill:rgb(17,13,15);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,48,564)">
+                <path d="M0,0L5,0L4,4L4,2L-1,5L-4,4L-4,2L0,0Z" style="fill:rgb(254,242,249);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,157,551)">
+                <path d="M0,0L1,3L1,10L-1,10L0,13L-3,12L-2,3L0,0Z" style="fill:rgb(230,50,116);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,166,552)">
+                <path d="M0,0L4,0L6,6L4,7L4,5L0,4L0,0Z" style="fill:rgb(13,2,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,525)">
+                <path d="M0,0L1,4L3,4L1,9L-1,10L-1,8L-5,9L-4,7L-1,7L0,0Z" style="fill:rgb(134,64,79);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,519)">
+                <path d="M0,0L3,0L3,3L7,4L11,9L7,7L-1,2L0,0Z" style="fill:rgb(35,21,23);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,508)">
+                <path d="M0,0L1,4L1,7L3,8L1,10L-3,9L0,0Z" style="fill:rgb(31,26,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,59,634)">
+                <path d="M0,0L2,2L0,6L-5,7L-4,2L0,0Z" style="fill:rgb(248,223,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,35,626)">
+                <path d="M0,0L6,1L6,5L0,4L0,0Z" style="fill:rgb(254,247,250);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,177,596)">
+                <path d="M0,0L3,1L5,6L5,9L2,10L0,0Z" style="fill:rgb(209,37,90);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,577)">
+                <path d="M0,0L1,2L0,7L3,8L0,10L-3,11L-2,4L0,0Z" style="fill:rgb(171,155,158);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,162,545)">
+                <path d="M0,0L5,0L3,5L-1,4L0,0Z" style="fill:rgb(6,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,533)">
+                <path d="M0,0L2,3L1,7L-4,5L-4,2L0,0Z" style="fill:rgb(248,203,218);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,97,529)">
+                <path d="M0,0L1,2L6,3L5,5L0,4L-1,6L0,0ZM6,0L8,0L7,3L6,0Z" style="fill:rgb(12,5,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,172,517)">
+                <path d="M0,0L2,1L-1,5L-8,4L-5,2L0,0Z" style="fill:rgb(254,228,241);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,644)">
+                <path d="M0,0L2,0L2,5L-2,9L-2,2L0,2L0,0Z" style="fill:rgb(241,239,241);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,110,644)">
+                <path d="M0,0L5,0L5,3L3,3L1,7L1,4L-1,3L0,0Z" style="fill:rgb(6,2,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,112,623)">
+                <path d="M0,0L4,1L1,11L0,11L0,0Z" style="fill:rgb(226,22,95);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,180,619)">
+                <path d="M0,0L3,4L3,8L-1,7L-2,2L0,2L0,0Z" style="fill:rgb(4,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,183,619)">
+                <path d="M0,0L3,1L4,6L4,13L2,9L0,0Z" style="fill:rgb(5,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,609)">
+                <path d="M0,0L5,0L5,12L4,12L3,3L1,2L0,4L-1,1L0,0Z" style="fill:rgb(252,141,196);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,603)">
+                <path d="M0,0L1,0L1,9L-3,8L-3,2L-1,3L0,0Z" style="fill:rgb(7,8,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,59,587)">
+                <path d="M0,0L9,0L10,5L7,2L3,2L2,4L-2,3L0,2L0,0Z" style="fill:rgb(175,77,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,550)">
+                <path d="M0,0L4,1L4,6L2,7L0,5L1,3L-1,3L0,0Z" style="fill:rgb(243,227,236);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,59,547)">
+                <path d="M0,0L2,1L3,9L1,12L-1,12L0,0Z" style="fill:rgb(196,33,80);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,139,545)">
+                <path d="M0,0L2,2L3,9L-5,7L-5,6L0,5L0,0Z" style="fill:rgb(127,40,66);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,534)">
+                <path d="M0,0L2,1L3,7L2,12L-1,8L0,0Z" style="fill:rgb(36,30,34);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,531)">
+                <path d="M0,0L4,1L6,2L6,4L2,6L-1,3L0,0Z" style="fill:rgb(244,235,241);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,90,503)">
+                <path d="M0,0L5,0L7,3L1,5L0,0Z" style="fill:rgb(179,12,64);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,493)">
+                <path d="M0,0L8,0L6,3L2,5L2,2L-1,1L0,0Z" style="fill:rgb(248,216,229);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,113,665)">
+                <path d="M0,0L2,3L4,2L4,4L6,5L2,8L0,8L0,0Z" style="fill:rgb(252,221,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,649)">
+                <path d="M0,0L2,0L2,9L-3,10L1,2L-1,1L0,0Z" style="fill:rgb(203,28,83);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,174,640)">
+                <path d="M0,0L1,4L4,4L3,7L-2,9L-3,5L-1,6L0,0Z" style="fill:rgb(49,4,18);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,176,626)">
+                <path d="M0,0L8,4L4,6L4,4L-2,3L0,2L0,0Z" style="fill:rgb(50,16,24);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,137,613)">
+                <path d="M0,0L4,1L4,3L2,3L3,7L-1,7L0,0Z" style="fill:rgb(137,1,43);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,131,581)">
+                <path d="M0,0L4,0L4,4L-1,6L-1,1L0,0Z" style="fill:rgb(2,0,0);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,153,566)">
+                <path d="M0,0L3,4L2,8L-1,8L-2,3L0,0Z" style="fill:rgb(71,50,51);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,124,536)">
+                <path d="M0,0L6,3L7,8L5,9L5,4L3,4L3,6L1,6L0,0Z" style="fill:rgb(248,248,248);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,486)">
+                <path d="M0,0L2,3L1,8L-1,10L-1,8L-3,8L-1,4L0,0Z" style="fill:rgb(75,15,30);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,75,652)">
+                <path d="M0,0L1,0L3,6L4,8L0,9L-1,2L0,0Z" style="fill:rgb(251,234,242);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,186,612)">
+                <path d="M0,0L4,0L3,6L1,7L0,0Z" style="fill:rgb(253,183,212);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,62,614)">
+                <path d="M0,0L5,0L5,4L1,5L-1,2L0,0Z" style="fill:rgb(244,195,214);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,169,589)">
+                <path d="M0,0L4,1L6,8L1,3L0,0Z" style="fill:rgb(9,6,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,59,574)">
+                <path d="M0,0L4,0L2,4L-1,6L-2,2L0,0Z" style="fill:rgb(19,22,21);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,93,569)">
+                <path d="M0,0L4,2L3,3L8,6L8,8L5,8L5,6L1,4L0,0Z" style="fill:rgb(15,3,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,56,572)">
+                <path d="M0,0L5,0L1,6L-1,6L-1,1L0,0Z" style="fill:rgb(244,245,243);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,175,564)">
+                <path d="M0,0L1,0L3,11L-1,6L-2,2L0,0Z" style="fill:rgb(147,48,83);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,156,561)">
+                <path d="M0,0L3,1L3,3L7,4L6,6L2,6L0,0Z" style="fill:rgb(161,23,54);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,96,545)">
+                <path d="M0,0L4,4L5,8L0,9L1,4L0,0Z" style="fill:rgb(58,1,17);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,160,546)">
+                <path d="M0,0L2,3L2,6L-2,7L-3,2L0,2L0,0Z" style="fill:rgb(81,9,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,162,528)">
+                <path d="M0,0L1,0L3,8L-2,8L-1,1L0,0Z" style="fill:rgb(99,74,83);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,70,527)">
+                <path d="M0,0L4,2L3,6L-3,5L-1,4L0,0Z" style="fill:rgb(20,2,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,523)">
+                <path d="M0,0L9,4L9,5L0,4L0,0Z" style="fill:rgb(34,25,26);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,98,522)">
+                <path d="M0,0L4,0L5,5L-1,4L0,0Z" style="fill:rgb(9,3,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,102,516)">
+                <path d="M0,0L6,0L4,4L0,3L0,0Z" style="fill:rgb(229,226,226);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,145,622)">
+                <path d="M0,0L6,0L6,3L2,4L-1,4L0,0Z" style="fill:rgb(251,169,200);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,49,612)">
+                <path d="M0,0L3,0L3,2L6,2L5,5L1,4L0,0Z" style="fill:rgb(21,5,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,48,609)">
+                <path d="M0,0L1,2L8,2L7,6L4,5L4,3L0,4L0,0Z" style="fill:rgb(185,24,65);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,149,589)">
+                <path d="M0,0L4,2L4,6L2,6L-2,1L0,0Z" style="fill:rgb(24,18,20);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,68,585)">
+                <path d="M0,0L3,1L3,6L0,5L0,2L-4,1L0,0Z" style="fill:rgb(13,6,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,66,577)">
+                <path d="M0,0L3,0L3,4L1,4L1,6L-2,6L0,0Z" style="fill:rgb(41,8,18);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,40,561)">
+                <path d="M0,0L5,1L5,3L-1,4L-2,1L0,0Z" style="fill:rgb(248,200,223);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,49,556)">
+                <path d="M0,0L2,0L4,5L-1,6L0,0Z" style="fill:rgb(241,214,228);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,559)">
+                <path d="M0,0L3,0L2,7L0,8L0,0Z" style="fill:rgb(80,58,62);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,147,531)">
+                <path d="M0,0L3,3L3,5L5,5L5,9L2,9L0,0Z" style="fill:rgb(12,12,11);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,166,527)">
+                <path d="M0,0L3,1L3,3L5,4L2,6L2,3L-3,4L-2,1L0,0Z" style="fill:rgb(253,248,250);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,158,525)">
+                <path d="M0,0L2,0L3,8L-1,7L0,0Z" style="fill:rgb(228,184,195);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,63,513)">
+                <path d="M0,0L4,1L3,6L0,5L0,0Z" style="fill:rgb(151,31,54);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,134,487)">
+                <path d="M0,0L5,2L4,4L2,3L3,8L0,5L0,0Z" style="fill:rgb(94,50,62);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,88,473)">
+                <path d="M0,0L2,1L1,5L-3,6L-3,3L0,0Z" style="fill:rgb(163,153,150);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,120,465)">
+                <path d="M0,0L4,1L3,5L1,4L0,6L0,4L-2,4L-2,2L0,2L0,0Z" style="fill:rgb(31,19,21);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,702)">
+                <path d="M0,0L2,3L2,10L0,9L-1,2L0,0Z" style="fill:rgb(246,55,131);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,116,651)">
+                <path d="M0,0L2,0L-1,10L-2,10L-2,3L0,0Z" style="fill:rgb(220,109,148);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,72,637)">
+                <path d="M0,0L3,0L1,9L0,9L0,0Z" style="fill:rgb(252,240,246);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,182,633)">
+                <path d="M0,0L1,0L1,5L-3,6L-4,2L0,0Z" style="fill:rgb(20,6,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,57,628)">
+                <path d="M0,0L3,3L2,7L-2,8L0,0Z" style="fill:rgb(226,30,86);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,177,618)">
+                <path d="M0,0L2,1L0,4L2,4L1,8L-2,6L-1,1L0,0Z" style="fill:rgb(34,2,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,619)">
+                <path d="M0,0L5,0L1,6L-1,6L0,0Z" style="fill:rgb(243,25,107);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,139,601)">
+                <path d="M0,0L3,0L1,10L0,10L0,0Z" style="fill:rgb(219,71,145);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,44,582)">
+                <path d="M0,0L4,2L2,4L0,8L0,5L-3,4L-1,4L0,0Z" style="fill:rgb(241,205,214);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,47,561)">
+                <path d="M0,0L2,2L-1,5L-6,6L-5,3L-2,3L-2,1L0,0Z" style="fill:rgb(239,78,134);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,182,552)">
+                <path d="M0,0L1,3L4,3L3,8L0,6L0,0Z" style="fill:rgb(239,231,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,53,514)">
+                <path d="M0,0L2,0L1,9L-1,8L-1,2L0,0Z" style="fill:rgb(246,27,96);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,62,488)">
+                <path d="M0,0L1,2L4,3L3,6L-1,7L0,0Z" style="fill:rgb(253,232,242);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,99,486)">
+                <path d="M0,0L4,1L6,4L3,5L1,3L-2,3L0,0Z" style="fill:rgb(36,22,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94,482)">
+                <path d="M0,0L1,4L-1,7L-4,7L-2,2L0,0Z" style="fill:rgb(207,206,205);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,85,689)">
+                <path d="M0,0L2,0L3,3L5,3L4,6L1,5L0,7L0,0Z" style="fill:rgb(12,5,8);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,104,680)">
+                <path d="M0,0L2,4L-1,9L-3,10L-2,6L0,0Z" style="fill:rgb(115,15,42);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,80,682)">
+                <path d="M0,0L2,0L2,2L5,3L4,5L-1,4L0,0Z" style="fill:rgb(5,3,3);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,111,675)">
+                <path d="M0,0L2,1L-1,9L-2,9L-3,3L0,0Z" style="fill:rgb(247,26,105);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,74,659)">
+                <path d="M0,0L1,2L4,2L4,7L2,7L0,4L-1,1L0,0Z" style="fill:rgb(253,243,246);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,66,653)">
+                <path d="M0,0L1,0L1,9L4,10L0,12L0,0Z" style="fill:rgb(253,212,226);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,146,653)">
+                <path d="M0,0L3,1L1,6L-2,6L0,0Z" style="fill:rgb(254,215,235);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,638)">
+                <path d="M0,0L2,3L2,5L6,4L5,6L2,6L2,8L0,8L0,0Z" style="fill:rgb(205,183,175);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,82,635)">
+                <path d="M0,0L3,0L2,10L1,10L0,0Z" style="fill:rgb(44,23,27);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,126,629)">
+                <path d="M0,0L1,0L1,7L-7,7L-7,6L-2,5L0,0Z" style="fill:rgb(248,58,131);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,81,623)">
+                <path d="M0,0L2,2L1,7L-1,7L-2,3L0,0Z" style="fill:rgb(251,183,199);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,615)">
+                <path d="M0,0L11,2L11,3L0,4L0,0Z" style="fill:rgb(244,6,78);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,74,601)">
+                <path d="M0,0L4,1L3,10L2,10L1,3L-1,1L0,0Z" style="fill:rgb(219,200,204);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,138,591)">
+                <path d="M0,0L1,3L5,2L4,5L2,5L3,8L1,8L0,6L0,0Z" style="fill:rgb(245,227,238);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,151,575)">
+                <path d="M0,0L5,0L7,6L2,4L0,0Z" style="fill:rgb(37,31,34);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,120,573)">
+                <path d="M0,0L4,0L6,4L1,4L0,0Z" style="fill:rgb(11,3,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,559)">
+                <path d="M0,0L5,1L5,4L2,5L0,0Z" style="fill:rgb(81,32,43);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,71,553)">
+                <path d="M0,0L2,0L2,6L-2,6L-2,3L0,3L0,0Z" style="fill:rgb(248,245,245);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,52,555)">
+                <path d="M0,0L6,1L6,4L0,4L0,0Z" style="fill:rgb(25,5,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,43,553)">
+                <path d="M0,0L4,1L2,5L-1,4L0,0Z" style="fill:rgb(17,2,7);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,539)">
+                <path d="M0,0L2,0L1,4L-2,4L-3,6L-5,2L-3,1L-3,3L0,0Z" style="fill:rgb(48,17,24);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,36,537)">
+                <path d="M0,0L6,0L5,2L-1,4L-1,1L0,0Z" style="fill:rgb(35,2,9);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,117,538)">
+                <rect x="0" y="0" width="3" height="6" style="fill:rgb(53,3,13);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,135,531)">
+                <path d="M0,0L1,2L3,2L1,6L-2,4L-2,1L0,0Z" style="fill:rgb(32,22,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,54,531)">
+                <path d="M0,0L3,3L0,4L-1,7L-5,6L0,0Z" style="fill:rgb(8,3,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,76,526)">
+                <path d="M0,0L7,2L6,5L0,2L0,0Z" style="fill:rgb(239,188,203);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,101,527)">
+                <path d="M0,0L4,0L4,2L2,2L2,5L-2,4L-2,2L0,2L0,0Z" style="fill:rgb(84,53,60);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,128,519)">
+                <path d="M0,0L3,1L-4,8L-6,7L0,0Z" style="fill:rgb(222,197,198);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,78,522)">
+                <path d="M0,0L6,1L8,2L8,4L2,3L0,0Z" style="fill:rgb(218,219,217);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,93,487)">
+                <path d="M0,0L2,3L-1,9L-3,5L0,0Z" style="fill:rgb(30,23,25);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,89,486)">
+                <path d="M0,0L1,3L-1,3L-2,6L-7,5L-3,2L0,2L0,0Z" style="fill:rgb(252,252,252);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,65,482)">
+                <path d="M0,0L3,1L2,5L-2,5L-1,1L0,0Z" style="fill:rgb(251,206,223);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,113,482)">
+                <path d="M0,0L4,4L1,5L-3,3L-1,3L0,0Z" style="fill:rgb(246,246,247);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,109,478)">
+                <path d="M0,0L5,3L3,6L0,5L0,0Z" style="fill:rgb(149,90,104);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,91,471)">
+                <path d="M0,0L5,1L6,5L3,5L3,3L-1,2L0,0Z" style="fill:rgb(243,232,237);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,142,660)">
+                <path d="M0,0L5,0L3,4L0,4L0,0Z" style="fill:rgb(251,34,102);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,118,651)">
+                <path d="M0,0L2,0L1,7L-2,7L-1,2L0,0Z" style="fill:rgb(246,225,236);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,127,637)">
+                <path d="M0,0L3,0L2,4L-2,5L0,0Z" style="fill:rgb(251,217,230);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,117,636)">
+                <path d="M0,0L9,0L10,2L9,4L7,4L6,2L0,1L0,0Z" style="fill:rgb(246,30,88);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,156,631)">
+                <path d="M0,0L3,1L1,7L-1,9L0,0Z" style="fill:rgb(252,54,106);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,179,630)">
+                <path d="M0,0L5,1L5,3L-1,5L-2,3L0,3L0,0Z" style="fill:rgb(177,65,88);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,129,625)">
+                <path d="M0,0L3,0L4,6L1,6L0,5L0,0Z" style="fill:rgb(44,7,16);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,84,621)">
+                <path d="M0,0L1,2L3,3L3,5L-1,6L-2,2L0,0Z" style="fill:rgb(253,247,248);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,32,622)">
+                <path d="M0,0L3,0L2,8L0,5L0,0Z" style="fill:rgb(251,43,107);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,38,622)">
+                <path d="M0,0L1,2L3,2L3,5L-3,4L-3,2L0,2L0,0Z" style="fill:rgb(252,189,211);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,67,615)">
+                <path d="M0,0L6,0L3,2L1,5L-2,2L0,0Z" style="fill:rgb(235,23,85);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,54,587)">
+                <path d="M0,0L5,0L6,3L-1,3L0,0Z" style="fill:rgb(51,11,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,171,582)">
+                <path d="M0,0L3,2L3,4L-2,4L-3,1L0,0Z" style="fill:rgb(248,247,247);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,171,575)">
+                <path d="M0,0L4,1L4,6L0,4L0,0Z" style="fill:rgb(58,7,19);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,567)">
+                <path d="M0,0L3,1L4,6L1,5L1,3L-1,3L0,0Z" style="fill:rgb(2,1,2);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,106,556)">
+                <path d="M0,0L3,0L4,4L0,5L0,0Z" style="fill:rgb(106,3,32);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,135,552)">
+                <path d="M0,0L6,1L6,3L1,4L0,0Z" style="fill:rgb(5,5,4);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,176,550)">
+                <path d="M0,0L2,0L2,3L4,4L-2,4L-3,1L0,0Z" style="fill:rgb(242,226,232);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,137,535)">
+                <path d="M0,0L1,3L4,4L3,7L1,7L-1,1L0,0Z" style="fill:rgb(4,5,5);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,79,534)">
+                <path d="M0,0L1,2L3,2L2,9L0,6L0,0Z" style="fill:rgb(206,150,163);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,143,523)">
+                <path d="M0,0L0,3L-5,6L-4,1L0,0Z" style="fill:rgb(221,201,207);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,152,513)">
+                <path d="M0,0L4,3L0,5L-2,1L0,0Z" style="fill:rgb(230,213,220);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,141,494)">
+                <path d="M0,0L4,1L6,3L4,6L0,2L0,0Z" style="fill:rgb(243,219,228);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,148,488)">
+                <path d="M0,0L4,3L4,7L0,5L0,0Z" style="fill:rgb(253,50,113);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,103,457)">
+                <path d="M0,0L5,1L3,3L-5,3L-2,1L0,0Z" style="fill:rgb(217,51,98);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

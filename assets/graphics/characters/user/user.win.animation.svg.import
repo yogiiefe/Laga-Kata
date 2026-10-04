@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlptw7k5f7b8h"
-path="res://.godot/imported/idle.tga-57a769cb812efed00585c510c1c1488e.ctex"
+uid="uid://drwwigx38d3pm"
+path="res://.godot/imported/user.win.animation.svg-a273f37860d78369ae51a57907a78734.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/characters/player/idle.tga"
-dest_files=["res://.godot/imported/idle.tga-57a769cb812efed00585c510c1c1488e.ctex"]
+source_file="res://assets/graphics/characters/user/user.win.animation.svg"
+dest_files=["res://.godot/imported/user.win.animation.svg-a273f37860d78369ae51a57907a78734.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

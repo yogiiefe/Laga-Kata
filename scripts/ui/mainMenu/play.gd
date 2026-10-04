@@ -6,5 +6,4 @@ func _ready() -> void:
 func _on_pressed() -> void:
 	if AudioManager:
 		AudioManager.play_sfx("button_click")
-		
-	get_tree().change_scene_to_file("res://scenes/game/Battle.tscn")
+	get_tree().change_scene_to_file("res://scenes/game/MainGame.tscn")

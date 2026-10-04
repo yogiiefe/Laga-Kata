@@ -1,3 +1,34 @@
-[gd_scene format=3 uid="uid://c5wq643wmth1v"]
+[gd_scene load_steps=2 format=3 uid="uid://c5wq643wmth1v"]
 
-[node name="WordProgress" type="Node2D" unique_id=920053582]
+[ext_resource type="Script" path="res://scripts/ui/WordProgress.gd" id="1_word_progress"]
+
+[node name="WordProgress" type="Control" unique_id=920053582]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_word_progress")
+
+[node name="PlayerCountLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 0.0
+offset_right = 200.0
+offset_bottom = 25.0
+text = "PLAYER: 0 words"
+
+[node name="EnemyCountLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 0.0
+offset_right = 410.0
+offset_bottom = 25.0
+text = "ENEMY: 0 words"
+horizontal_alignment = 2
+
+[node name="StatusLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 25.0
+offset_right = 320.0
+offset_bottom = 50.0
+text = "TIED!"
+horizontal_alignment = 1

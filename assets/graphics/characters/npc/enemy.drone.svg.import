@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8d4bchel4p7v"
-path="res://.godot/imported/defeat.tga-63dc92662125386c570a7a922b48a8e8.ctex"
+uid="uid://e7f4l287rwy5"
+path="res://.godot/imported/enemy.drone.svg-571a0a64b59489894dfc10c1ecc32fc9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/graphics/characters/player/defeat.tga"
-dest_files=["res://.godot/imported/defeat.tga-63dc92662125386c570a7a922b48a8e8.ctex"]
+source_file="res://assets/graphics/characters/npc/enemy.drone.svg"
+dest_files=["res://.godot/imported/enemy.drone.svg-571a0a64b59489894dfc10c1ecc32fc9.ctex"]
 
 [params]
 
@@ -38,3 +38,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

@@ -1,3 +1,74 @@
-[gd_scene format=3 uid="uid://1jiv51q3ulop"]
+[gd_scene load_steps=2 format=3 uid="uid://1jiv51q3ulop"]
 
-[node name="StageClear" type="Node2D" unique_id=9416089]
+[ext_resource type="Script" path="res://scripts/menus/StageClear.gd" id="1_stageclear"]
+
+[node name="StageClear" type="Control" unique_id=9416089]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_stageclear")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0, 0.08, 0.04, 0.92)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -150.0
+offset_right = 250.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 72
+text = "STAGE CLEAR!"
+horizontal_alignment = 1
+modulate = Color(0.2, 1, 0.4, 1)
+
+[node name="SubLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 24
+text = "Musuh berhasil dikalahkan!"
+horizontal_alignment = 1
+modulate = Color(0.8, 0.8, 0.8, 1)
+
+[node name="Spacer" type="Control" parent="VBoxContainer"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 20)
+
+[node name="NextButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+custom_minimum_size = Vector2(300, 60)
+theme_override_font_sizes/font_size = 28
+text = "▶  STAGE BERIKUTNYA"
+
+[node name="MenuButton" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+custom_minimum_size = Vector2(300, 60)
+theme_override_font_sizes/font_size = 28
+text = "🏠  MENU UTAMA"
+
+[connection signal="pressed" from="VBoxContainer/NextButton" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="VBoxContainer/MenuButton" to="." method="_on_menu_pressed"]

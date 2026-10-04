@@ -298,18 +298,18 @@ Daftar semua kata bahasa Indonesia yang bisa dimainkan.
 ```json
 [
   {
-    "word": "KUCING",
-    "clue": "Hewan yang suka mengeong",
-    "difficulty": 1,
-    "category": "binatang",
-    "stageRequirement": 1
+	"word": "KUCING",
+	"clue": "Hewan yang suka mengeong",
+	"difficulty": 1,
+	"category": "binatang",
+	"stageRequirement": 1
   },
   {
-    "word": "KOMPUTER",
-    "clue": "Mesin untuk menghitung dan bekerja",
-    "difficulty": 2,
-    "category": "teknologi",
-    "stageRequirement": 3
+	"word": "KOMPUTER",
+	"clue": "Mesin untuk menghitung dan bekerja",
+	"difficulty": 2,
+	"category": "teknologi",
+	"stageRequirement": 3
   }
 ]
 ```
@@ -328,13 +328,13 @@ Data setiap tipe musuh yang dapat disesuaikan.
 ```json
 [
   {
-    "id": "enemy_01",
-    "name": "Goblin",
-    "hp": 20,
-    "wordSpeed": 1.5,
-    "damage": 3,
-    "difficulty": 1,
-    "sprite": "enemy_01.png"
+	"id": "enemy_01",
+	"name": "Goblin",
+	"hp": 20,
+	"wordSpeed": 1.5,
+	"damage": 3,
+	"difficulty": 1,
+	"sprite": "enemy_01.png"
   }
 ]
 ```
@@ -355,24 +355,24 @@ Data setiap level/stage yang dimainkan.
 ```json
 [
   {
-    "id": 1,
-    "name": "Stage 1: Mulai",
-    "enemyId": "enemy_01",
-    "background": "battle_bg.png",
-    "difficulty": 1,
-    "wordDifficulty": [1, 2],
-    "isBoss": false,
-    "battleCount": 1
+	"id": 1,
+	"name": "Stage 1: Mulai",
+	"enemyId": "enemy_01",
+	"background": "battle_bg.png",
+	"difficulty": 1,
+	"wordDifficulty": [1, 2],
+	"isBoss": false,
+	"battleCount": 1
   },
   {
-    "id": 2,
-    "name": "Stage 2: Tantangan",
-    "enemyId": "enemy_02",
-    "background": "battle_bg.png",
-    "difficulty": 2,
-    "wordDifficulty": [1, 2, 3],
-    "isBoss": false,
-    "battleCount": 2
+	"id": 2,
+	"name": "Stage 2: Tantangan",
+	"enemyId": "enemy_02",
+	"background": "battle_bg.png",
+	"difficulty": 2,
+	"wordDifficulty": [1, 2, 3],
+	"isBoss": false,
+	"battleCount": 2
   }
 ]
 ```
@@ -384,22 +384,22 @@ Definisi semua power-up yang tersedia.
 ```json
 [
   {
-    "id": "overclock",
-    "name": "Overclock",
-    "description": "Serangan berikutnya +50% damage",
-    "effectType": "damage_boost",
-    "effectValue": 1.5,
-    "duration": 1,
-    "icon": "powerup_attack.png"
+	"id": "overclock",
+	"name": "Overclock",
+	"description": "Serangan berikutnya +50% damage",
+	"effectType": "damage_boost",
+	"effectValue": 1.5,
+	"duration": 1,
+	"icon": "powerup_attack.png"
   },
   {
-    "id": "firewall",
-    "name": "Firewall",
-    "description": "Blokir serangan musuh berikutnya",
-    "effectType": "block_attack",
-    "effectValue": 100,
-    "duration": 1,
-    "icon": "powerup_shield.png"
+	"id": "firewall",
+	"name": "Firewall",
+	"description": "Blokir serangan musuh berikutnya",
+	"effectType": "block_attack",
+	"effectValue": 100,
+	"duration": 1,
+	"icon": "powerup_shield.png"
   }
 ]
 ```
@@ -453,22 +453,22 @@ Battle (root)
 **Alur pertarungan:**
 ```
 Battle Start
-    ↓
+	↓
 Select Word & Display Clue (WordManager)
-    ↓
+	↓
 Player Forms Word (WordInput)
-    ↓
+	↓
 Validate Word (WordValidator)
-    ├── Invalid → Feedback
-    └── Valid → Word Count +1
-           ↓
-           Compare Counts (Battle)
-           ↓
-           Leader Attacks (BattleManager/CombatManager)
-           ↓
-           Update HP
-           ├── Alive → Next Word
-           └── Defeated → End Battle
+	├── Invalid → Feedback
+	└── Valid → Word Count +1
+		   ↓
+		   Compare Counts (Battle)
+		   ↓
+		   Leader Attacks (BattleManager/CombatManager)
+		   ↓
+		   Update HP
+		   ├── Alive → Next Word
+		   └── Defeated → End Battle
 ```
 
 ---
@@ -479,10 +479,10 @@ Validate Word (WordValidator)
 **Tampilan:**
 ```
 ═════════════════════════════════
-      STAGE 2: TANTANGAN
-      vs Goblin Warrior
+	  STAGE 2: TANTANGAN
+	  vs Goblin Warrior
 ═════════════════════════════════
-          [Lanjut]
+		  [Lanjut]
 ```
 
 **Tanggung jawab `StageManager.gd`:**
@@ -587,17 +587,17 @@ Validate Word (WordValidator)
 **Flow:**
 ```
 Player Input (Keyboard atau Drag)
-    ↓
+	↓
 Add Letter to Current Word
-    ↓
+	↓
 Update Display (BattleUI)
-    ↓
+	↓
 Player Presses Enter / Submit Button
-    ↓
+	↓
 WordValidator.validate(current_word)
-    ├── Invalid → Play "wrong" sound, clear
-    └── Valid → Emit "word_completed" signal
-              → WordManager triggers next word
+	├── Invalid → Play "wrong" sound, clear
+	└── Valid → Emit "word_completed" signal
+			  → WordManager triggers next word
 ```
 
 ---
@@ -640,7 +640,7 @@ WordValidator.validate(current_word)
 ```
 PLAYER    ████████░░░░░░  8 words
 ENEMY     ███░░░░░░░░░░░  3 words
-          Player Winning!
+		  Player Winning!
 ```
 
 **Tanggung jawab:**
@@ -667,7 +667,7 @@ ENEMY     ███░░░░░░░░░░░  3 words
 
 **Contoh tampilan:**
 ```
-     -3
+	 -3
 ```
 atau
 ```
@@ -691,15 +691,15 @@ atau
 
 **Visual:**
 ```
-        3
-        
+		3
+		
 atau
 
-        2
-        
+		2
+		
 atau
 
-        GO!
+		GO!
 ```
 
 **Tanggung jawab:**
@@ -833,19 +833,19 @@ atau
 extends Node
 
 func _ready():
-    GameManager.reset_progress()
-    load_current_stage()
+	GameManager.reset_progress()
+	load_current_stage()
 
 func load_current_stage():
-    var stage_data = StageManager.get_current_stage()
-    # Load enemy, background, dll
+	var stage_data = StageManager.get_current_stage()
+	# Load enemy, background, dll
 
 func on_battle_won():
-    GameManager.next_stage()
-    load_current_stage()
+	GameManager.next_stage()
+	load_current_stage()
 
 func on_all_stages_completed():
-    # Show game complete screen
+	# Show game complete screen
 ```
 
 ---
@@ -856,26 +856,26 @@ func on_all_stages_completed():
 **Alur logika:**
 ```gdscript
 func start_battle():
-    # Initialize player, enemy, word
-    emit_signal("battle_started")
+	# Initialize player, enemy, word
+	emit_signal("battle_started")
 
 func on_word_completed():
-    var result = WordValidator.validate(current_word)
-    if result.valid:
-        update_word_count()
-        resolve_exchange()
+	var result = WordValidator.validate(current_word)
+	if result.valid:
+		update_word_count()
+		resolve_exchange()
 
 func resolve_exchange():
-    # Compare word counts
-    # Determine attacker
-    # Calculate damage
-    # Apply damage
-    # Check victory/defeat
+	# Compare word counts
+	# Determine attacker
+	# Calculate damage
+	# Apply damage
+	# Check victory/defeat
 
 func apply_damage(target: Node, damage: int):
-    target.take_damage(damage)
-    DamagePopup.show(damage)
-    AudioManager.play_sfx("hit")
+	target.take_damage(damage)
+	DamagePopup.show(damage)
+	AudioManager.play_sfx("hit")
 ```
 
 ---
@@ -893,16 +893,16 @@ func apply_damage(target: Node, damage: int):
 **Contoh:**
 ```gdscript
 func calculate_damage(attacker: Node, defender: Node, word_count_diff: int) -> int:
-    var base_damage = attacker.damage
-    var multiplier = 1.0 + (word_count_diff * 0.1)
-    var final_damage = int(base_damage * multiplier)
-    
-    # Check for critical
-    if randf() < 0.1:  # 10% crit chance
-        final_damage *= 2
-        emit_signal("critical_hit")
-    
-    return final_damage
+	var base_damage = attacker.damage
+	var multiplier = 1.0 + (word_count_diff * 0.1)
+	var final_damage = int(base_damage * multiplier)
+	
+	# Check for critical
+	if randf() < 0.1:  # 10% crit chance
+		final_damage *= 2
+		emit_signal("critical_hit")
+	
+	return final_damage
 ```
 
 ---
@@ -922,25 +922,25 @@ func calculate_damage(attacker: Node, defender: Node, word_count_diff: int) -> i
 
 ```gdscript
 func load_stage(stage_id: int):
-    var stage_data = load_json("res://data/stages.json")
-    var stage = stage_data[stage_id - 1]
-    
-    # Load enemy
-    var enemy_id = stage["enemyId"]
-    var enemy_data = load_enemy_data(enemy_id)
-    
-    # Load background
-    var bg_path = "res://assets/graphics/backgrounds/" + stage["background"]
-    load_background(bg_path)
-    
-    return stage
+	var stage_data = load_json("res://data/stages.json")
+	var stage = stage_data[stage_id - 1]
+	
+	# Load enemy
+	var enemy_id = stage["enemyId"]
+	var enemy_data = load_enemy_data(enemy_id)
+	
+	# Load background
+	var bg_path = "res://assets/graphics/backgrounds/" + stage["background"]
+	load_background(bg_path)
+	
+	return stage
 
 func unlock_next_stage():
-    var current = GameManager.current_stage
-    GameManager.highest_unlocked_stage = max(
-        GameManager.highest_unlocked_stage,
-        current + 1
-    )
+	var current = GameManager.current_stage
+	GameManager.highest_unlocked_stage = max(
+		GameManager.highest_unlocked_stage,
+		current + 1
+	)
 ```
 
 ---
@@ -963,18 +963,18 @@ func unlock_next_stage():
 
 ```gdscript
 func _ready():
-    load_words_from_json("res://data/words.json")
+	load_words_from_json("res://data/words.json")
 
 func get_random_word(difficulty: int) -> WordData:
-    var candidates = words.filter(func(w): return w.difficulty == difficulty)
-    return candidates[randi() % candidates.size()]
+	var candidates = words.filter(func(w): return w.difficulty == difficulty)
+	return candidates[randi() % candidates.size()]
 
 func get_clue_for_word(word: WordData) -> String:
-    return word.clue
+	return word.clue
 
 func get_available_letters(word: String) -> PackedStringArray:
-    # Return letters for WordInput
-    return word.split("")
+	# Return letters for WordInput
+	return word.split("")
 ```
 
 ---
@@ -984,16 +984,16 @@ func get_available_letters(word: String) -> PackedStringArray:
 
 ```gdscript
 func validate(player_input: String, correct_answer: String) -> ValidationResult:
-    var normalized_input = player_input.to_upper().strip_edges()
-    var normalized_answer = correct_answer.to_upper().strip_edges()
-    
-    var is_valid = normalized_input == normalized_answer
-    
-    return ValidationResult.new(
-        valid=is_valid,
-        input=player_input,
-        answer=correct_answer
-    )
+	var normalized_input = player_input.to_upper().strip_edges()
+	var normalized_answer = correct_answer.to_upper().strip_edges()
+	
+	var is_valid = normalized_input == normalized_answer
+	
+	return ValidationResult.new(
+		valid=is_valid,
+		input=player_input,
+		answer=correct_answer
+	)
 ```
 
 ---
@@ -1037,25 +1037,25 @@ var current_hp: int
 var state: String = "idle"  # idle, attacking, hurt, defeated
 
 func _ready():
-    current_hp = max_hp
-    play_animation("idle")
+	current_hp = max_hp
+	play_animation("idle")
 
 func take_damage(amount: int):
-    current_hp -= amount
-    if current_hp <= 0:
-        current_hp = 0
-        die()
-    else:
-        play_animation("hurt")
+	current_hp -= amount
+	if current_hp <= 0:
+		current_hp = 0
+		die()
+	else:
+		play_animation("hurt")
 
 func attack():
-    play_animation("attack")
-    AudioManager.play_sfx("attack")
+	play_animation("attack")
+	AudioManager.play_sfx("attack")
 
 func die():
-    state = "defeated"
-    play_animation("defeat")
-    emit_signal("player_defeated")
+	state = "defeated"
+	play_animation("defeat")
+	emit_signal("player_defeated")
 ```
 
 ---
@@ -1074,23 +1074,23 @@ var word_speed: float
 var enemy_data: Dictionary
 
 func _ready():
-    enemy_data = load_enemy_data(enemy_id)
-    hp = enemy_data["hp"]
-    damage = enemy_data["damage"]
-    word_speed = enemy_data["wordSpeed"]
-    
-    load_sprite(enemy_data["sprite"])
+	enemy_data = load_enemy_data(enemy_id)
+	hp = enemy_data["hp"]
+	damage = enemy_data["damage"]
+	word_speed = enemy_data["wordSpeed"]
+	
+	load_sprite(enemy_data["sprite"])
 
 func take_damage(amount: int):
-    hp -= amount
-    if hp <= 0:
-        die()
+	hp -= amount
+	if hp <= 0:
+		die()
 
 func generate_word():
-    # AI: bentuk kata dengan word_speed multiplier
-    var delay = 2.0 / word_speed
-    await get_tree().create_timer(delay).timeout
-    emit_signal("word_completed")
+	# AI: bentuk kata dengan word_speed multiplier
+	var delay = 2.0 / word_speed
+	await get_tree().create_timer(delay).timeout
+	emit_signal("word_completed")
 ```
 
 ---
@@ -1104,19 +1104,19 @@ func generate_word():
 var powerup_data: Dictionary
 
 func _ready():
-    powerup_data = load_powerup_data(powerup_id)
+	powerup_data = load_powerup_data(powerup_id)
 
 func activate():
-    AudioManager.play_sfx("powerup")
-    play_animation("activate")
-    
-    match powerup_data["effectType"]:
-        "damage_boost":
-            apply_damage_boost(powerup_data["effectValue"])
-        "block_attack":
-            apply_block(powerup_data["effectValue"])
-    
-    emit_signal("powerup_activated", powerup_id)
+	AudioManager.play_sfx("powerup")
+	play_animation("activate")
+	
+	match powerup_data["effectType"]:
+		"damage_boost":
+			apply_damage_boost(powerup_data["effectValue"])
+		"block_attack":
+			apply_block(powerup_data["effectValue"])
+	
+	emit_signal("powerup_activated", powerup_id)
 ```
 
 ---
@@ -1175,11 +1175,11 @@ Setiap scene di `scenes/ui/` memiliki skrip GDScript yang sesuai dengan nama yan
 **Visual:**
 ```
 Enemy menerima damage
-    ↓
+	↓
 hit_flash shader dijalankan
-    ↓
+	↓
 Enemy berkilat putih/terang singkat
-    ↓
+	↓
 Kembali ke sprite normal
 ```
 
@@ -1222,20 +1222,20 @@ Dokumen ini sendiri — penjelasan lengkap struktur proyek.
 │                      GameManager                            │
 │            (state global: score, stage, progress)          │
 └────────────────────┬─────────────────────────────────────┘
-                     │
-                     ▼
+					 │
+					 ▼
 ┌────────────────────────────────────────────────────────────┐
 │                    MainGame.gd                              │
 │          (mengatur alur gameplay keseluruhan)              │
 └────────────────────┬─────────────────────────────────────┘
-                     │
-                     ▼
+					 │
+					 ▼
 ┌────────────────────────────────────────────────────────────┐
 │                  StageManager.gd                            │
 │       (load stage, musuh, background dari JSON)            │
 └────────────────────┬─────────────────────────────────────┘
-                     │
-                     ▼
+					 │
+					 ▼
 ┌────────────────────────────────────────────────────────────┐
 │                    Battle.gd                                │
 │         (koordinasi pertarungan, logic pertukaran)         │
@@ -1249,25 +1249,25 @@ Dokumen ini sendiri — penjelasan lengkap struktur proyek.
 │  │   └─ ClueManager.gd (manage clue)                      │
 │  └─ WordValidator.gd (validasi input)                     │
 └──────────────────────┬──────────────────────────────────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-    Player         Enemy        BattleUI.gd
+					   │
+		┌──────────────┼──────────────┐
+		▼              ▼              ▼
+	Player         Enemy        BattleUI.gd
    (display)     (display)   (update tampilan)
-                             ├─ WordInput.gd
-                             ├─ LetterTile.gd
-                             ├─ HealthBar.gd
-                             ├─ WordProgress.gd
-                             ├─ PowerUpUI.gd
-                             ├─ DamagePopup.gd
-                             └─ Countdown.gd
-        │              │              │
-        └──────────────┼──────────────┘
-                       ▼
-        ┌──────────────────────────────┐
-        │    AudioManager (Autoload)   │
-        │   (BGM, SFX volume, buses)   │
-        └──────────────────────────────┘
+							 ├─ WordInput.gd
+							 ├─ LetterTile.gd
+							 ├─ HealthBar.gd
+							 ├─ WordProgress.gd
+							 ├─ PowerUpUI.gd
+							 ├─ DamagePopup.gd
+							 └─ Countdown.gd
+		│              │              │
+		└──────────────┼──────────────┘
+					   ▼
+		┌──────────────────────────────┐
+		│    AudioManager (Autoload)   │
+		│   (BGM, SFX volume, buses)   │
+		└──────────────────────────────┘
 ```
 
 ---
@@ -1276,8 +1276,8 @@ Dokumen ini sendiri — penjelasan lengkap struktur proyek.
 
 ```text
 START BATTLE
-     │
-     ▼
+	 │
+	 ▼
 ┌─────────────────────────┐
 │  Load Stage Data        │
 │ (dari stages.json)      │
@@ -1286,8 +1286,8 @@ START BATTLE
 │ - Background            │
 │ - Word Difficulty       │
 └────────┬────────────────┘
-         │
-         ▼
+		 │
+		 ▼
 ┌─────────────────────────┐
 │  Load Enemy Data        │
 │ (dari enemies.json)     │
@@ -1296,8 +1296,8 @@ START BATTLE
 │ - Damage                │
 │ - Word Speed            │
 └────────┬────────────────┘
-         │
-         ▼
+		 │
+		 ▼
 ┌─────────────────────────┐
 │  Select Word & Clue     │
 │ (dari words.json)       │
@@ -1305,12 +1305,12 @@ START BATTLE
 │ - Difficulty match      │
 │ - Stage requirement     │
 └────────┬────────────────┘
-         │
-         ▼
+		 │
+		 ▼
    ╔═════════════════════╗
    ║  DISPLAY CLUE       ║
    ╚──────────┬──────────┘
-              │
+			  │
    ┌──────────┴──────────┐
    │                     │
    ▼                     ▼
@@ -1319,80 +1319,80 @@ START BATTLE
    │                     │
    │  ┌─────────────────┐ │
    └─►│ Player Input    │◄┘
-      │ (Keyboard/Drag) │
-      └────────┬────────┘
-               │
-               ▼
-        ┌──────────────┐
-        │ Validate     │
-        │ WordValidator│
-        └─┬────────────┘
-          │
-       ┌──┴──┐
-       │     │
-    Wrong  Correct
-       │     │
-       ▼     ▼
-     ✗ ✓  +1 Word Count
-       │     │
-       │     ▼
-       │  ┌────────────────┐
-       │  │ Compare Counts │
-       │  │                │
-       │  │ Player vs Enemy│
-       │  └────────┬───────┘
-       │           │
-       │    ┌──────┴──────┐
-       │    │             │
-       │  Player       Enemy
-       │  Unggul       Unggul
-       │    │             │
-       └────┤             │
-            ▼             ▼
-      ┌──────────┐   ┌──────────┐
-      │ Player   │   │  Enemy   │
-      │ Attacks  │   │ Attacks  │
-      └────┬─────┘   └────┬─────┘
-           │              │
-           └──────┬───────┘
-                  ▼
-         ┌─────────────────┐
-         │ BattleManager   │
-         │ Calculate DMG   │
-         │                 │
-         │ base_dmg        │
-         │ × multiplier    │
-         │ × crit chance   │
-         └────────┬────────┘
-                  │
-                  ▼
-         ┌─────────────────┐
-         │ Apply Damage    │
-         │ - Update HP     │
-         │ - Play Sound    │
-         │ - Show Popup    │
-         │ - Play Effect   │
-         └────────┬────────┘
-                  │
-         ┌────────┴────────┐
-         │                 │
-        Alive           Defeated
-         │                 │
-         ▼                 ▼
+	  │ (Keyboard/Drag) │
+	  └────────┬────────┘
+			   │
+			   ▼
+		┌──────────────┐
+		│ Validate     │
+		│ WordValidator│
+		└─┬────────────┘
+		  │
+	   ┌──┴──┐
+	   │     │
+	Wrong  Correct
+	   │     │
+	   ▼     ▼
+	 ✗ ✓  +1 Word Count
+	   │     │
+	   │     ▼
+	   │  ┌────────────────┐
+	   │  │ Compare Counts │
+	   │  │                │
+	   │  │ Player vs Enemy│
+	   │  └────────┬───────┘
+	   │           │
+	   │    ┌──────┴──────┐
+	   │    │             │
+	   │  Player       Enemy
+	   │  Unggul       Unggul
+	   │    │             │
+	   └────┤             │
+			▼             ▼
+	  ┌──────────┐   ┌──────────┐
+	  │ Player   │   │  Enemy   │
+	  │ Attacks  │   │ Attacks  │
+	  └────┬─────┘   └────┬─────┘
+		   │              │
+		   └──────┬───────┘
+				  ▼
+		 ┌─────────────────┐
+		 │ BattleManager   │
+		 │ Calculate DMG   │
+		 │                 │
+		 │ base_dmg        │
+		 │ × multiplier    │
+		 │ × crit chance   │
+		 └────────┬────────┘
+				  │
+				  ▼
+		 ┌─────────────────┐
+		 │ Apply Damage    │
+		 │ - Update HP     │
+		 │ - Play Sound    │
+		 │ - Show Popup    │
+		 │ - Play Effect   │
+		 └────────┬────────┘
+				  │
+		 ┌────────┴────────┐
+		 │                 │
+		Alive           Defeated
+		 │                 │
+		 ▼                 ▼
    ┌─────────────┐  ┌──────────────┐
    │ Next Word   │  │ Battle End   │
    │ Loop        │  │              │
    └────────┬────┘  │ Show Result  │
-            │       │ (victory)    │
-            │       └──────┬───────┘
-            │              │
-            └──────┬───────┘
-                   ▼
-         ┌──────────────────┐
-         │  Next Round      │
-         │  or              │
-         │  Stage Complete  │
-         └──────────────────┘
+			│       │ (victory)    │
+			│       └──────┬───────┘
+			│              │
+			└──────┬───────┘
+				   ▼
+		 ┌──────────────────┐
+		 │  Next Round      │
+		 │  or              │
+		 │  Stage Complete  │
+		 └──────────────────┘
 ```
 
 ---
@@ -1465,53 +1465,53 @@ Setiap file/script punya **satu tanggung jawab utama** agar mudah di-maintain da
 
 ```text
 Data Layer
-    ↓
-    JSON files
-    ├─ words.json
-    ├─ enemies.json
-    ├─ stages.json
-    └─ powerups.json
-    ↓
+	↓
+	JSON files
+	├─ words.json
+	├─ enemies.json
+	├─ stages.json
+	└─ powerups.json
+	↓
 Manager Layer
-    ↓
-    WordManager, StageManager, GameManager, AudioManager
-    ↓
+	↓
+	WordManager, StageManager, GameManager, AudioManager
+	↓
 Gameplay Layer
-    ↓
-    Battle, Player, Enemy
-    ↓
+	↓
+	Battle, Player, Enemy
+	↓
 Entity Layer
-    ↓
-    Individual entities (sprites, animations)
-    ↓
+	↓
+	Individual entities (sprites, animations)
+	↓
 UI Layer
-    ↓
-    BattleUI, WordInput, LetterTile, HealthBar, etc
-    ↓
+	↓
+	BattleUI, WordInput, LetterTile, HealthBar, etc
+	↓
 Visual/Audio Assets
-    ↓
-    assets/ folder (sprites, sounds, fonts)
+	↓
+	assets/ folder (sprites, sounds, fonts)
 ```
 
 ### Contoh Flow Nyata: Membentuk Kata
 
 ```
 words.json
-    ↓ (WordManager loads)
+	↓ (WordManager loads)
 WordManager.gd
-    ↓ (Battle requests word)
+	↓ (Battle requests word)
 Battle.gd
-    ↓ (passes to UI)
+	↓ (passes to UI)
 BattleUI.tscn → menampilkan clue
 WordInput.tscn → pemain ketik
-    ↓ (emit signal)
+	↓ (emit signal)
 WordValidator.gd → validasi
-    ↓ (if correct)
+	↓ (if correct)
 Battle.gd → update word count
 BattleUI.gd → update progress bar
 DamagePopup.tscn → tampilkan angka damage
 AudioManager.gd → play sound effect
-    ↓
+	↓
 Efek visual (via shader) → efek hit
 ```
 

@@ -1,3 +1,14 @@
-[gd_scene format=3 uid="uid://ywivoes1a0fh"]
+[gd_scene load_steps=3 format=3 uid="uid://ywivoes1a0fh"]
 
-[node name="MainGame" type="Node2D" unique_id=864761791]
+[ext_resource type="Script" path="res://scripts/game/MainGame.gd" id="1_main_game"]
+[ext_resource type="Script" path="res://scripts/game/StageManager.gd" id="2_stage_manager"]
+
+[node name="MainGame" type="Node" unique_id=560727830]
+script = ExtResource("1_main_game")
+
+[node name="StageManager" type="Node" parent="." unique_id=2083958118]
+script = ExtResource("2_stage_manager")
+
+[node name="BattleManager" type="Node" parent="." unique_id=1309507636]
+
+[node name="OverlayMenuLayer" type="CanvasLayer" parent="." unique_id=1946465195]

@@ -6,8 +6,10 @@ signal stage_changed(new_stage_id: String)
 
 # Global State Variables
 var current_stage_id: String = "stage_01"
+var current_stage_index: int = 0
 var is_game_paused: bool = false
 var player_high_score: int = 0
+
 
 func _ready() -> void:
 	# Load data saat game pertama kali jalan
