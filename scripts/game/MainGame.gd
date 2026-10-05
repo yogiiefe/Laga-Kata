@@ -1,11 +1,122 @@
 extends Node
+class_name MainGame
+
+const BATTLE_SCENE_PATH    := "res://scenes/game/Battle.tscn"
+const STAGE_CLEAR_SCENE    := "res://scenes/menus/StageClear.tscn"
+const GAME_OVER_SCENE      := "res://scenes/menus/GameOver.tscn"
+const MAIN_MENU_SCENE      := "res://scenes/menus/MainMenu.tscn"
+
+@onready var stage_manager: StageManager = $StageManager if has_node("StageManager") else null
+@onready var overlay_layer: CanvasLayer  = $OverlayMenuLayer if has_node("OverlayMenuLayer") else null
+
+var current_battle_node: Node2D = null
+var current_stage_index: int = 0
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass # Replace with function body.
+	if stage_manager == null:
+		stage_manager = StageManager.new()
+		stage_manager.name = "StageManager"
+		add_child(stage_manager)
+
+	# Ambil stage index dari GameManager jika ada
+	if GameManager and "current_stage_index" in GameManager:
+		current_stage_index = GameManager.current_stage_index
+
+	start_stage(current_stage_index)
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+func start_stage(stage_index: int) -> void:
+	var stage_data: Dictionary = stage_manager.load_stage_by_index(stage_index)
+	if stage_data.is_empty():
+		push_warning("MainGame: Stage data kosong untuk index %d" % stage_index)
+		return
+	load_battle_scene(stage_data)
+
+
+func load_battle_scene(stage_data: Dictionary) -> void:
+	# Bersihkan battle sebelumnya jika ada
+	if current_battle_node:
+		current_battle_node.queue_free()
+		current_battle_node = null
+
+	var battle_packed := load(BATTLE_SCENE_PATH) as PackedScene
+	if battle_packed == null:
+		push_error("MainGame: Gagal load Battle.tscn")
+		return
+
+	current_battle_node = battle_packed.instantiate() as Node2D
+	add_child(current_battle_node)
+
+	# Konfigurasikan enemy berdasarkan data stage
+	var enemy_id: String = str(stage_data.get("enemy_id", "enemy_01"))
+	var word_diff: int   = int(stage_data.get("word_difficulty", 1))
+	var enemy_node       = current_battle_node.get_node_or_null("Enemy") as Enemy
+
+	if enemy_node:
+		enemy_node.load_enemy_data(enemy_id)
+
+	# Kesulitan kata mengikuti stage
+	if "max_word_difficulty" in current_battle_node:
+		current_battle_node.max_word_difficulty = word_diff
+
+	# Simpan stage info ke GameManager
+	if GameManager and "current_stage_index" in GameManager:
+		GameManager.current_stage_index = current_stage_index
+
+	# Connect signals pertempuran
+	if current_battle_node.has_signal("battle_won"):
+		current_battle_node.battle_won.connect(_on_battle_won)
+	if current_battle_node.has_signal("battle_lost"):
+		current_battle_node.battle_lost.connect(_on_battle_lost)
+
+
+func _on_battle_won() -> void:
+	if AudioManager:
+		AudioManager.play_sfx("stage_clear")
+
+	var is_final: bool = current_stage_index + 1 >= stage_manager.stages.size()
+
+	if not is_final:
+		# Simpan progres supaya MainGame berikutnya memuat stage selanjutnya
+		current_stage_index += 1
+		GameManager.current_stage_index = current_stage_index
+	else:
+		print("MainGame: Semua stage selesai! TAMAT!")
+		GameManager.current_stage_index = 0
+
+	var overlay := _show_overlay(STAGE_CLEAR_SCENE)
+	if overlay and overlay.has_method("setup"):
+		overlay.call("setup", is_final)
+
+
+func _on_battle_lost() -> void:
+	if AudioManager:
+		AudioManager.play_sfx("game_over")
+	_show_overlay(GAME_OVER_SCENE)
+
+
+## Tampilkan scene sebagai overlay di CanvasLayer (tidak menghapus battle di bawah)
+func _show_overlay(scene_path: String) -> Node:
+	if overlay_layer == null:
+		# Fallback: ganti scene langsung
+		_change_scene(scene_path)
+		return null
+
+	# Bersihkan overlay lama
+	for child in overlay_layer.get_children():
+		child.queue_free()
+
+	var packed := load(scene_path) as PackedScene
+	if packed == null:
+		push_error("MainGame: Gagal load overlay scene: " + scene_path)
+		_change_scene(scene_path)
+		return null
+
+	var overlay := packed.instantiate()
+	overlay_layer.add_child(overlay)
+	return overlay
+
+
+func _change_scene(scene_path: String) -> void:
+	get_tree().change_scene_to_file(scene_path)

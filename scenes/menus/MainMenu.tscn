@@ -1,3 +1,117 @@
 [gd_scene format=3 uid="uid://c80ctb5vjjh2k"]
 
-[node name="MainMenu" type="Node2D" unique_id=880391386]
+[ext_resource type="Script" path="res://scripts/ui/MainMenuUI.gd" id="0_menu"]
+[ext_resource type="Texture2D" uid="uid://dhrtg2vfibs83" path="res://assets/graphics/backgrounds/MainMenuBg.png" id="1_wlpbi"]
+[ext_resource type="Texture2D" uid="uid://c3arokxjupcp2" path="res://assets/graphics/LAGA KATA.png" id="2_bqojv"]
+[ext_resource type="FontFile" uid="uid://burja7c7j67p5" path="res://assets/fonts/handmade-alphabet/Handmade Alphabet.otf" id="3_il8nq"]
+[ext_resource type="Texture2D" uid="uid://co816470xbobd" path="res://assets/graphics/ui/starts.menu.button.png" id="4_cty7a"]
+[ext_resource type="Texture2D" uid="uid://2cuswuui3de8" path="res://assets/graphics/ui/settings.menu.button.png" id="5_41ciy"]
+[ext_resource type="Texture2D" uid="uid://wlbtvxm3cvw" path="res://assets/graphics/ui/credits.menu.button.png" id="5_147xw"]
+[ext_resource type="Script" uid="uid://dn148t1ovxpl7" path="res://scripts/ui/mainMenu/play.gd" id="5_il8nq"]
+[ext_resource type="Texture2D" uid="uid://ct2kmhesuglu5" path="res://assets/graphics/ui/quit.menu.button.png" id="6_41ciy"]
+[ext_resource type="Script" uid="uid://d03icrn6xjc72" path="res://scripts/ui/mainMenu/settings.gd" id="7_p4qar"]
+[ext_resource type="Script" uid="uid://eett67bxv764" path="res://scripts/ui/mainMenu/credits.gd" id="9_yihd2"]
+[ext_resource type="Script" uid="uid://dkocondvfycmn" path="res://scripts/ui/mainMenu/exit.gd" id="11_ukshc"]
+
+[node name="MainMenu" type="Control" unique_id=1808464390]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("0_menu")
+
+[node name="Background" type="TextureRect" parent="." unique_id=275979643]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_wlpbi")
+stretch_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=143117339]
+layout_mode = 0
+offset_left = 320.0
+offset_right = 1600.0
+offset_bottom = 1440.0
+scale = Vector2(0.5, 0.5)
+theme_override_constants/separation = 150
+alignment = 1
+
+[node name="Title" type="TextureRect" parent="VBoxContainer" unique_id=9372138]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("2_bqojv")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer" unique_id=1457321551]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 25
+alignment = 1
+
+[node name="Play" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1489883515]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.96862745, 0.31764707, 0.5568628, 1)
+theme_override_colors/font_pressed_color = Color(0.8509804, 0.101960786, 0.33333334, 1)
+theme_override_colors/font_hover_color = Color(0.9843137, 0.61960787, 0.65882355, 1)
+theme_override_constants/h_separation = 30
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_il8nq")
+theme_override_font_sizes/font_size = 95
+text = "MULAI"
+icon = ExtResource("4_cty7a")
+flat = true
+script = ExtResource("5_il8nq")
+
+[node name="Settings" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=565060694]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.7254902, 0.7254902, 0.72156864, 1)
+theme_override_colors/font_pressed_color = Color(0.51211816, 0.55997753, 0.52419645, 1)
+theme_override_colors/font_hover_color = Color(0.64382476, 0.67679375, 0.73900384, 1)
+theme_override_constants/h_separation = 30
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_il8nq")
+theme_override_font_sizes/font_size = 95
+text = "PENGATURAN"
+icon = ExtResource("5_41ciy")
+flat = true
+script = ExtResource("7_p4qar")
+
+[node name="Credits" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1206100422]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+size_flags_stretch_ratio = 0.0
+theme_override_colors/font_color = Color(0.7254902, 0.7254902, 0.72156864, 1)
+theme_override_colors/font_pressed_color = Color(0.51211816, 0.55997753, 0.52419645, 1)
+theme_override_colors/font_hover_color = Color(0.64382476, 0.67679375, 0.73900384, 1)
+theme_override_constants/h_separation = 30
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_il8nq")
+theme_override_font_sizes/font_size = 95
+text = "KREDIT"
+icon = ExtResource("5_147xw")
+flat = true
+script = ExtResource("9_yihd2")
+
+[node name="Exit" type="Button" parent="VBoxContainer/VBoxContainer" unique_id=1591883146]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_colors/font_color = Color(0.7254902, 0.7254902, 0.72156864, 1)
+theme_override_colors/font_pressed_color = Color(0.51211816, 0.55997753, 0.52419645, 1)
+theme_override_colors/font_hover_color = Color(0.64382476, 0.67679375, 0.73900384, 1)
+theme_override_constants/h_separation = 30
+theme_override_constants/align_to_largest_stylebox = 0
+theme_override_fonts/font = ExtResource("3_il8nq")
+theme_override_font_sizes/font_size = 95
+text = "KELUAR"
+icon = ExtResource("6_41ciy")
+flat = true
+script = ExtResource("11_ukshc")

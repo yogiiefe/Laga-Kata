@@ -2,6 +2,7 @@
   "enemies": [
 	{
 	  "id": "enemy_01",
+	  "sprite": "res://assets/graphics/characters/npc/enemy.crawler.svg",
 	  "name": "Si Coret",
 	  "hp": 50,
 	  "word_speed": 8.0,
@@ -11,6 +12,7 @@
 	},
 	{
 	  "id": "enemy_02",
+	  "sprite": "res://assets/graphics/characters/npc/enemy.terminal.svg",
 	  "name": "Typo",
 	  "hp": 80,
 	  "word_speed": 6.5,
@@ -20,6 +22,7 @@
 	},
 	{
 	  "id": "enemy_03",
+	  "sprite": "res://assets/graphics/characters/npc/enemy.drone.svg",
 	  "name": "Glitch",
 	  "hp": 120,
 	  "word_speed": 5.0,
@@ -29,6 +32,7 @@
 	},
 	{
 	  "id": "enemy_04",
+	  "sprite": "res://assets/graphics/characters/npc/enemy.coremodule.svg",
 	  "name": "Raja Keyboard",
 	  "hp": 200,
 	  "word_speed": 4.0,
